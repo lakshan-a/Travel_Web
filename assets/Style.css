@@ -125,3 +125,18 @@ section{
     text-decoration: none;
     border-radius: 2px;
 }
+
+.home .media-icons{
+    z-index: 888;
+    position: absolute;
+    right: 30px;
+    display: flex;
+    flex-direction: column;
+    transition: 0.5s ease;
+}
+
+.home .media-icons a{
+    color: #ffffff;
+    font-size: 1.6em;
+    transition: 0.3s ease;
+}
