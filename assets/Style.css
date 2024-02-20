@@ -158,3 +158,13 @@ section{
     height: 100%;
     object-fit: cover;
 }
+
+.slider-navigation{
+    z-index: 888;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(80px);
+    margin-bottom: 12px;
+}
