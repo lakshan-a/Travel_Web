@@ -10,6 +10,7 @@ menuBtn.addEventListener("click",() =>{
 // Javacript for video slider navigation
 const btns = document.querySelectorAll(".nav-btn");
 const slides = document.querySelectorAll(".video-slide");
+const contents = document.querySelectorAll(".content");
 
 var sliderNav = function (manul){
     btns.forEach((btn) => {
@@ -20,8 +21,13 @@ var sliderNav = function (manul){
         slider.classList.remove("active")
     });
 
+    contents.forEach((content) => {
+        content.classList.remove("active")
+    });
+
     btns[manul].classList.add("active");
     slides[manul].classList.add("active");
+    contents[manul].classList.add("active");
 
 }
 
