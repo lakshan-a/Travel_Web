@@ -89,3 +89,16 @@ section{
     margin-top: 50px;
     display: none;
 }
+
+.home .content.active{
+    display: block;
+}
+
+.home .content h1{
+    font-size: 4em;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 75px;
+    margin-bottom: 15px;
+}
