@@ -19,3 +19,15 @@ header{
     padding: 15px 200px;
     transition: 0.5s ease;
 }
+
+header .brand{
+    color: #ffffff;
+    font-size: 1.5em;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+header .navigation{
+    position: relative;
+}
