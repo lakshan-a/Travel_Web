@@ -140,3 +140,11 @@ section{
     font-size: 1.6em;
     transition: 0.3s ease;
 }
+
+.home .media-icons a:not(:last-child){
+    margin-bottom: 20px;
+}
+
+.home .media-icons a:hover{
+    transform: scale(1.3);
+}
