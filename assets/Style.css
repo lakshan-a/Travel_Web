@@ -238,5 +238,10 @@ section{
         margin: 20px;
     }
 
+    header .navigation .navigation-items a:before{
+        background: #222;
+        height: 5px;
+    }
+
 
 }
