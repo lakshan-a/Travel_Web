@@ -266,5 +266,19 @@ section{
         transition: 0.3s ease;
     }
 
+    .menu-btn.active{
+        z-index: 999;
+        background: url(../assets/icon/close.png)no-repeat;
+        background-size: 25px;
+        background-position: center;
+        transition: 0.3s ease;
+    }
+
+    @media (max-width: 540px){
+        .home .content h1 {
+            font-size: 2.5em;
+        }
+    }
+
 
 }
