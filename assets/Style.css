@@ -256,5 +256,15 @@ section{
         box-shadow: 0 5px 25px rgb(1 1 1);
     }
 
+    .menu-btn{
+        background: url(../assets/icon/menu.png)no-repeat;
+        background-size: 30px;
+        background-position: center;
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+        transition: 0.3s ease;
+    }
+
 
 }
