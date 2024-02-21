@@ -212,4 +212,13 @@ section{
         padding: 100px 20px;
     }
 
+    .home .media-icons {
+        right: 30px;
+    }
+
+    header .navigation{
+        display: none;
+    }
+
+
 }
