@@ -36,3 +36,12 @@ btns.forEach((btn,i) => {
         sliderNav(i);
     });
 });
+
+$(window).load(function(){
+    $('.flexslider').flexslider({
+        animation: "slide",
+        start: function(slider){
+            $('body').removeClass('loading');
+        }
+    });
+});
