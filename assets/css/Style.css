@@ -342,3 +342,16 @@ section{
     margin-right: 1em;
     color: #da9d40;
 }
+.testimonials i.fa.fa-quote-right {
+    margin-left: 1em;
+    color: #da9d40;
+}
+.testimonials h4 {
+    font-size: 22px;
+    color: #000;
+    text-transform: uppercase;
+    color: #da9d40;
+}
+.flexslider .slides > li {
+    display: block;
+}
