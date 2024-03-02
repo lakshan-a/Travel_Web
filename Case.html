@@ -3,6 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+
+    <link rel="stylesheet" href="assets/css/bootstrap.css"> <!-- Bootstrap-Core-CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+<!--    <link rel="stylesheet" href="assets/css/font-awesome.css"> &lt;!&ndash; Font-Awesome-Icons-CSS &ndash;&gt;-->
+    <!-- //css files -->
+
+<!--    &lt;!&ndash; web-fonts &ndash;&gt;-->
+<!--    <link href="//fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=cyrillic,cyrillic-ext,latin-ext,vietnamese" rel="stylesheet">-->
+
+<!--    <link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">-->
+
+<!--    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css'>-->
+
+<!--    &lt;!&ndash; //web-fonts &ndash;&gt;-->
+
+    <link rel="stylesheet" href="assets/new/owl.carousel.min.css">
+        <link rel="stylesheet" href="assets/new/linericon/style.css">
+        <link rel="stylesheet" href="assets/font-awesome-all.css">
+
 </head>
 <body>
 
@@ -159,5 +178,38 @@
 <!-- js-scripts -->
 <script src="assets/js/js.js"></script>
 
+
+<script type="text/javascript">
+
+    $('.active-gallery-carousel').owlCarousel({
+        items: 2,
+        // autoplay: 2500,
+        loop: true,
+        margin: 30,
+        nav: true,
+        navText: [ "<img src='assets/images/icon/cprev.png'>", "<img src='assets/images/icon/cnext.png'>" ],
+        dots: false,
+        responsive: {
+            0: {
+                items: 1
+            },
+            420: {
+                items: 1
+            },
+            575: {
+                items: 1
+            },
+            768: {
+                items: 2
+            },
+            1200: {
+                items: 2
+            },
+            1680: {
+                items: 2
+            }
+        }
+    });
+</script>
 </body>
 </html>
