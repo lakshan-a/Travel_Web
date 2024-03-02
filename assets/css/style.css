@@ -457,6 +457,18 @@ header .navigation .navigation-items a:hover:before{
     transition: all 0.3s ease 0s;
     opacity: 1;
 }
+.active-gallery-carousel .owl-nav .owl-prev:hover, .active-gallery-carousel .owl-nav .owl-next:hover {
+    opacity: .5;
+}
+
+.single-gallery {
+    position: relative;
+    display: inline-block;
+    text-align: left;
+}
+.single-gallery img {
+    width: 100%;
+}
 
 
 
