@@ -611,6 +611,22 @@ header .navigation .navigation-items a:hover:before{
     right: -38px;
 }
 
+@media (max-width: 991px) {
+    .active-gallery-carousel .owl-nav {
+        left: 0;
+        bottom: -60px;
+        transform: rotate(0deg);
+    }
+}
+@media (max-width: 480px) {
+    .active-gallery-carousel .owl-nav {
+        display: none;
+    }
+    .package-area .main_title h2 {
+        font-weight: 700;
+    }
+}
+
 
 
 
