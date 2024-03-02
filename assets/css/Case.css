@@ -349,12 +349,6 @@ header .navigation .navigation-items a:hover:before{
     display: block;
 }
 
-/*
-/////////////////////////////////////////////////////////////////////////////////////
-*/
-/* //testimonials */
-
-
 @media(max-width: 1280px){
 
     .about, .w3-services, .team-section, .packages, .testimonials, .special, .contact {
@@ -363,19 +357,19 @@ header .navigation .navigation-items a:hover:before{
 
 }
 
-    @media(max-width: 991px){
+@media(max-width: 991px){
 
-        .testimonials-grid-1 {
+    .testimonials-grid-1 {
             width: 200px;
             float: left;
-        }
-        .testimonials-grid-2 {
+    }
+    .testimonials-grid-2 {
             float: left;
             width: 72%;
             padding: 0;
-        }
-
     }
+
+}
 
 @media(max-width: 768px){
     .callbacks_nav.next {
@@ -393,29 +387,28 @@ header .navigation .navigation-items a:hover:before{
     }
 
 }
-    @media(max-width: 736px){
+@media(max-width: 736px){
 
-        .testimonials-grid-2 {
+    .testimonials-grid-2 {
             float: left;
             width: 70%;
             padding: 0;
-        }
-
     }
-    @media(max-width: 667px){
 
-        .testimonials-grid-2 {
+}
+@media(max-width: 667px){
+
+    .testimonials-grid-2 {
             float: none;
             width: 100%;
             padding: 0 15px;
-        }
-        .testimonials-grid-1 {
+    }
+    .testimonials-grid-1 {
             width: 200px;
             float: none;
             margin-bottom: 20px;
-        }
-
     }
+}
 
 @media(max-width: 480px){
 
