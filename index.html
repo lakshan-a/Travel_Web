@@ -1,24 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Road Travel Travel Category Flat Bootstrap Responsive Website Template | Home :: W3layouts</title>
+    <!-- Meta tag Keywords -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SL Travel</title>
-<!--    <link rel="stylesheet" href="Css.css">-->
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/Style.css">
-        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css'>
 
+    <!-- Testimonials -->
+    <link rel="stylesheet" href="assets/css/flexslider.css" type="text/css" media="screen" />
+    <!-- //Testimonials -->
+
+    <!-- css files -->
+    <link rel="stylesheet" href="assets/css/bootstrap.css"> <!-- Bootstrap-Core-CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.css"> <!-- Font-Awesome-Icons-CSS -->
+    <!-- //css files -->
+
+    <!-- web-fonts -->
     <link href="//fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=cyrillic,cyrillic-ext,latin-ext,vietnamese" rel="stylesheet">
 
     <link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
 
-    <link rel="stylesheet" href="assets/css/flexslider.css">
-    <link rel="stylesheet" href="assets/css/font-awesome.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css'>
 
-
+    <!-- //web-fonts -->
 
 </head>
+
 <body>
 
 <header>
@@ -85,7 +93,8 @@
 </section>
 
 
-
+<!--////////////////////////////////////////////////////////////////-->
+<!-- testimonials -->
 <section class="testimonials" id="testimonials">
     <div class="container">
         <h3 class="heading">Testimonials</h3>
@@ -134,7 +143,7 @@
                         <li>
                             <div class="w3l-info1">
                                 <div class="col-md-3 testimonials-grid-1">
-                                    <img src="images/test2.jpg" alt=""  />
+                                    <img src="assets/images/test2.jpg" alt=""  />
                                 </div>
                                 <div class="col-md-9 testimonials-grid-2">
                                     <h4>Michael</h4>
@@ -156,12 +165,31 @@
         </div>
     </div>
 </section>
-
-<script src="assets/js/jquery.flexslider.js"></script>
-<script src="assets/js/jquery-2.1.4.min.js"></script>
-<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<!-- //testimonials -->
 
 
+<!-- js-scripts -->
 <script src="assets/js/js.js"></script>
+
+
+<!-- js -->
+<script type="text/javascript" src="assets/js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap.js"></script> <!-- Necessary-JavaScript-File-For-Bootstrap -->
+<!-- //js -->
+
+<!--  Testimonials js-->
+<script defer src="assets/js/jquery.flexslider.js"></script>
+<!--Start-slider-script-->
+<script type="text/javascript">
+
+    $(window).load(function(){
+        $('.flexslider').flexslider({
+            animation: "slide",
+            start: function(slider){
+                $('body').removeClass('loading');
+            }
+        });
+    });
+</script>
 </body>
 </html>
