@@ -514,7 +514,17 @@ header .navigation .navigation-items a:hover:before{
     color: #1abc9c;
     margin: 0;
 }
-
+.single-gallery .gallery-content .title h4 {
+    font-size: 24px;
+    margin: 15px;
+}
+.single-gallery .gallery-content .review-title p {
+    color: #fff;
+    margin: 0;
+}
+.single-gallery .gallery-content .review-title .review i.fa {
+    color: #1abc9c;
+}
 
 
 
