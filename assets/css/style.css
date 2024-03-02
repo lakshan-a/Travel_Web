@@ -162,12 +162,15 @@ header .navigation .navigation-items a:hover:before{
     -moz-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
+
 }
 
 .main_read:hover {
     background: #1abc9c;
     color: #222222;
     border: 1px solid #1abc9c;
+    text-decoration: none;
+
 
 }
 .main_read:hover img {
