@@ -68,14 +68,14 @@ header .navigation .navigation-items a:hover:before{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background: #2696E9;
+    background: #1abc9c;
 }
 
 .home:before{
     z-index: 777;
     content: '';
     position: absolute;
-    background: rgba(3,96,251,0.3);
+    background: rgba(26, 188, 156, 0.2);
     width: 100%;
     height: 100%;
     top: 0;
@@ -119,7 +119,7 @@ header .navigation .navigation-items a:hover:before{
 .home .content a{
     background: #fff;
     padding: 15px 35px;
-    color: #1680AC;
+    color: #1abc9c;
     font-size: 1.1em;
     font-weight: 500;
     text-decoration: none;
@@ -180,7 +180,7 @@ header .navigation .navigation-items a:hover:before{
 }
 
 .slider-navigation .nav-btn.active{
-    background: #2696E9;
+    background: #1abc9c;
 }
 
 .slider-navigation .nav-btn:not(:last-child){
@@ -333,20 +333,24 @@ header .navigation .navigation-items a:hover:before{
 }
 .testimonials i.fa.fa-quote-left {
     margin-right: 1em;
-    color: #da9d40;
+    color: #1abc9c;
 }
 .testimonials i.fa.fa-quote-right {
     margin-left: 1em;
-    color: #da9d40;
+    color: #1abc9c;
 }
 .testimonials h4 {
     font-size: 22px;
     color: #000;
     text-transform: uppercase;
-    color: #da9d40;
+    color: #1abc9c;
 }
 .flexslider .slides > li {
     display: block;
+}
+
+.special-star{
+    color: #fff;
 }
 
 @media(max-width: 1280px){

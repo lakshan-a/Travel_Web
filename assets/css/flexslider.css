@@ -20,7 +20,7 @@
 /* FlexSlider Necessary Styles
 *********************************/ 
 .flexslider .slides > li {display: none; -webkit-backface-visibility: hidden;} /* Hide the slides before the JS is loaded. Avoids image jumping */
-.flexslider .slides img {width: 100%; display: block; border: 2px dotted #da9d40; padding: 10px;}
+.flexslider .slides img {width: 100%; display: block; border: 2px dotted #1abc9c; padding: 10px;}
 
 .flex-pauseplay span {text-transform: capitalize;}
 
