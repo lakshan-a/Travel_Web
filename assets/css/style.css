@@ -116,7 +116,7 @@ header .navigation .navigation-items a:hover:before{
     margin-bottom: 40px;
 }
 
-.home .content a{
+/*.home .content a{
     background: #fff;
     padding: 15px 35px;
     color: #1abc9c;
@@ -124,6 +124,29 @@ header .navigation .navigation-items a:hover:before{
     font-weight: 500;
     text-decoration: none;
     border-radius: 2px;
+}*/
+
+.main_read {
+    padding: 0px 25px;
+    background: transparent;
+    z-index: 222;
+    display: inline-block;
+    text-align: center;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 48px;
+    border: 1px solid #1abc9c;
+    border-radius: 0px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 .home .media-icons{
