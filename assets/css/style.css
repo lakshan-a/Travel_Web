@@ -408,6 +408,22 @@ header .navigation .navigation-items a:hover:before{
 .section-title.text-end::after {
     display: none;
 }
+.package-area .main_title h1,h3 {
+    font-family: 'Pacifico', cursive;
+    font-weight: 700;
+    color: #1abc9c;
+    font-size: 20px;
+    margin-top: 60px;
+}
+
+.package-area .main_title h2{
+    font-family: "Nunito", sans-serif;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 800;
+    line-height: 1.2;
+    color: #0F172B;
+}
 
 
 
