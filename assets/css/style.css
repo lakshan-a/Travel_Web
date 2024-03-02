@@ -431,13 +431,32 @@ header .navigation .navigation-items a:hover:before{
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     color: #777777;
-    padding-bottom: 15px; }
+    padding-bottom: 15px;
+}
 .package-area .main_title .main_btn {
     margin-top: 20px;
 }
 
 .active-gallery-carousel {
-    text-align: center; }
+    text-align: center;
+}
+.active-gallery-carousel .owl-nav {
+    left: -52%;
+    position: absolute;
+    right: 56%;
+    bottom: 10%;
+    transform: rotate(-90deg);
+}
+
+.active-gallery-carousel .owl-nav .owl-prev, .active-gallery-carousel .owl-nav .owl-next {
+    display: inline-block;
+    margin: 20px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    opacity: 1;
+}
 
 
 
