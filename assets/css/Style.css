@@ -316,3 +316,16 @@ section{
     letter-spacing:0.2em;
     font-weight: 900;
 }
+.w3l-info1 p {
+    font-size: 15px;
+    color: #ccc;
+    letter-spacing: 1px;
+    line-height: 1.8em;
+    margin-top: 20px;
+    margin-bottom:15px;
+    padding-right: 60px;
+}
+.w3l-info1 h3 {
+    font-size: 3em;
+    color:#999;
+}
