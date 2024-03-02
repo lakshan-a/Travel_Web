@@ -263,6 +263,10 @@ header .navigation .navigation-items a:hover:before{
         padding: 100px 20px;
     }
 
+    .package-area{
+        padding: 20px 10px;
+    }
+
     .home .media-icons {
         right: 30px;
     }
@@ -308,7 +312,7 @@ header .navigation .navigation-items a:hover:before{
     }
 
     .menu-btn{
-        background: url(../images/icon/menu.png)no-repeat;
+        background: url(/assets/images/icon/menu.png)no-repeat;
         background-size: 30px;
         background-position: center;
         width: 40px;
@@ -319,18 +323,48 @@ header .navigation .navigation-items a:hover:before{
 
     .menu-btn.active{
         z-index: 999;
-        background: url(../images/icon/close.png)no-repeat;
+        background: url(/assets/images/icon/close.png)no-repeat;
         background-size: 25px;
         background-position: center;
         transition: 0.3s ease;
     }
 
+    @media (max-width: 768px) {
+        .home .content h1 {
+            font-size: 3em;
+            letter-spacing: 3px;
+            line-height: 55px;
+            margin-bottom: 10px;
+        }
+
+        .home .content h1 span {
+            font-size: 40px;
+        }
+
+    }
+
     @media (max-width: 540px){
         .home .content h1 {
-            font-size: 2.5em;
+            font-size: 33px;
+            width: 80%;
+        }
+
+        .home .content h1 {
+            letter-spacing: 2px;
+            line-height: 54px;
+            margin-bottom: 11px;
+        }
+
+        .home .content h1 span {
+            font-size: 30px;
+            font-weight: 100;
+        }
+        .home .content {
+            width: 80%;
         }
     }
 }
+
 
 
 
