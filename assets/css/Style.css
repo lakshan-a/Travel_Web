@@ -329,3 +329,16 @@ section{
     font-size: 3em;
     color:#999;
 }
+
+.testimonials h5 {
+    font-size: 16px;
+    color: #eee;
+    margin-top: 10px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+.testimonials i.fa.fa-quote-left {
+    margin-right: 1em;
+    color: #da9d40;
+}
