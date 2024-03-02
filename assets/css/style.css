@@ -498,6 +498,22 @@ header .navigation .navigation-items a:hover:before{
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
 }
+.single-gallery .gallery-content h4 {
+    color: #1abc9c;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.single-gallery .gallery-content .title {
+    margin-bottom: 15px;
+}
+.single-gallery .gallery-content .title p {
+    line-height: 27px;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #1abc9c;
+    margin: 0;
+}
 
 
 
