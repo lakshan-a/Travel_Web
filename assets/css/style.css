@@ -149,6 +149,31 @@ header .navigation .navigation-items a:hover:before{
     text-decoration: none;
 }
 
+.main_read img {
+    position: absolute;
+    top: 50%;
+    right: -30px;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.main_read:hover {
+    background: #1abc9c;
+    color: #222222;
+    border: 1px solid #1abc9c;
+
+}
+.main_read:hover img {
+    right: -38px;
+}
+
 .home .media-icons{
     z-index: 888;
     position: absolute;
