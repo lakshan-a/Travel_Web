@@ -549,6 +549,20 @@ header .navigation .navigation-items a:hover:before{
     visibility: visible;
 }
 
+.single-gallery:hover .gallery-content {
+    opacity: 1;
+    visibility: visible;
+    bottom: 0;
+    left: 0;
+}
+.single-gallery:hover .light-box {
+    right: 30px;
+    top: 30px;
+    opacity: 1;
+    visibility: visible;
+}
+
+
 
 
 
