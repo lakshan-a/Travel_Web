@@ -393,6 +393,22 @@ header .navigation .navigation-items a:hover:before{
     background: #1abc9c;
 }
 
+.section-title::after {
+    position: absolute;
+    content: "";
+    width: 45px;
+    height: 2px;
+    top: 50%;
+    right: -55px;
+    margin-top: -1px;
+    background: #1abc9c;
+}
+
+.section-title.text-start::before,
+.section-title.text-end::after {
+    display: none;
+}
+
 
 
 
