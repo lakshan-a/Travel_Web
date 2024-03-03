@@ -852,7 +852,7 @@ header .navigation .navigation-items a:hover:before{
 }
 
 .bg-1 {
-    background: url(/assets/images/about/1.png) fixed no-repeat;
+    background: url(../images/pexels-malinda-bandara-16508252.jpg) fixed no-repeat;
     background-size: cover;
 }
 
@@ -899,7 +899,29 @@ header .navigation .navigation-items a:hover:before{
     transition: all 200ms;
 }
 
+.btn-play span {
+    display: block;
+    position: relative;
+    z-index: 3;
+    width: 0;
+    height: 0;
+    left: -1px;
+    border-left: 16px solid #1abc9c;
+    border-top: 13px solid transparent;
+    border-bottom: 13px solid transparent;
+}
 
+@keyframes pulse-border {
+    0% {
+        transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateX(-50%) translateY(-50%) translateZ(0) scale(2);
+        opacity: 0;
+    }
+}
 
 
 
