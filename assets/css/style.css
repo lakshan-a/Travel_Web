@@ -644,6 +644,21 @@ header .navigation .navigation-items a:hover:before{
     position: relative;
     display: block;
 }
+.service-style-three{
+    position: relative;
+    /*padding-top: 60px;*/
+    padding: 60px 0px 0px 0px;
+}
+
+.service-style-three .image-layer{
+    position: absolute;
+    width: 345px;
+    height: 880px;
+    left: 0px;
+    bottom: -220px;
+    background-repeat: no-repeat;
+}
+
 
 
 
