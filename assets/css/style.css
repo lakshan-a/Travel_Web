@@ -688,6 +688,25 @@ header .navigation .navigation-items a:hover:before{
     transition: all 500ms ease;
 }
 
+.service-block-three:hover .inner-box{
+    transform: translateY(-15px);
+    box-shadow: 0 0px 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+.service-block-three .inner-box .icon-box{
+    position: relative;
+    display: inline-block;
+    font-size: 60px;
+    color: #fff;
+    width: 170px;
+    height: 160px;
+    line-height: 160px;
+    text-align: center;
+    margin-top: -75px;
+    z-index: 1;
+    margin-bottom: 32px;
+}
+
 
 
 
