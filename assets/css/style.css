@@ -833,6 +833,16 @@ header .navigation .navigation-items a:hover:before{
     text-align: center;
 }
 
+.video-promo .content-block h2 {
+    font-size: 30px;
+    color: #fff;
+}
+
+.video-promo .content-block p {
+    margin-bottom: 30px;
+    color: #fff;
+}
+
 
 
 
