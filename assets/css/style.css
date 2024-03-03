@@ -735,6 +735,25 @@ header .navigation .navigation-items a:hover:before{
     transform: rotateY(180deg);
 }
 
+.service-style-three .inner-container{
+    position: relative;
+    margin: 0px -10px;
+}
+
+.service-style-three .single-column{
+    padding: 0px 25px;
+}
+
+.service-block-three .inner-box h3{
+    position: relative;
+    display: block;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 500;
+    color: #222;
+    margin-bottom: 17px;
+}
+
 
 
 
