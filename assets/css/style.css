@@ -754,6 +754,22 @@ header .navigation .navigation-items a:hover:before{
     margin-bottom: 17px;
 }
 
+.service-block-three .inner-box h3 a{
+    display: inline-block;
+    color: #222;
+    text-decoration: none;
+}
+
+.service-block-three .inner-box h3 a:hover{
+    color: #4527a4;
+}
+
+.service-block-three .inner-box .text{
+    position: relative;
+    display: block;
+    font-size: 16px;
+    margin-bottom: 34px;
+}
 
 
 
