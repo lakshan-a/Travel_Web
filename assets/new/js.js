@@ -44,7 +44,7 @@ $('.active-gallery-carousel').owlCarousel({
     loop: true,
     margin: 30,
     nav: true,
-    navText: [ "<img src='./assets/img/cprev.png'>", "<img src='./assets/img/cnext.png'>" ],
+    navText: [ "<img src='/assets/images/icon/cprev.png'>", "<img src='/assets/images/icon/cnext.png'>" ],
     dots: false,
     responsive: {
         0: {
