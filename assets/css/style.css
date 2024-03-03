@@ -659,6 +659,20 @@ header .navigation .navigation-items a:hover:before{
     background-repeat: no-repeat;
 }
 
+.service-style-three .sec-title h1{
+    line-height: 40px;
+    margin-bottom: 115px;
+    margin-top: 5px;
+}
+
+.service-style-three .sec-title h2{
+    font-family: 'Pacifico', cursive;
+    font-weight: 700;
+    color: #1abc9c;
+    font-size: 20px;
+    margin-top: 60px;
+}
+
 
 
 
