@@ -843,6 +843,19 @@ header .navigation .navigation-items a:hover:before{
     color: #fff;
 }
 
+.video-promo .content-block a:focus {
+    outline: 0;
+}
+
+.testimonial .testimonial-slider .item {
+    padding-bottom: 10px;
+}
+
+.bg-1 {
+    background: url(/assets/images/pexels-malinda-bandara-16508252.jpg) fixed no-repeat;
+    background-size: cover;
+}
+
 
 
 
