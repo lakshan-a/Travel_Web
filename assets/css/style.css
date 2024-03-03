@@ -856,6 +856,19 @@ header .navigation .navigation-items a:hover:before{
     background-size: cover;
 }
 
+.btn-play {
+    position: relative;
+    display: inline-block;
+    box-sizing: content-box;
+    width: 16px;
+    height: 26px;
+    border-radius: 100%;
+    border: none;
+    outline: none !important;
+    padding: 18px 20px 20px 28px;
+    background: #FFFFFF;
+}
+
 
 
 
