@@ -786,7 +786,23 @@ header .navigation .navigation-items a:hover:before{
 .service-style-three .single-column:nth-child(2){
     padding-top: 190px;
 }
+.service-style-three .single-column:last-child{
+    padding-top: 90px;
+}
 
+@media (max-width: 1200px) {
+    .service-style-three .single-column{
+        padding: 0px 15px;
+    }
+
+    .service-style-three .inner-container{
+        margin: 0px;
+    }
+
+    .service-style-three .image-layer{
+        display: none;
+    }
+}
 
 
 
