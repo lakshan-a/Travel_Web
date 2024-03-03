@@ -607,6 +607,13 @@ header .navigation .navigation-items a:hover:before{
     right: -38px;
 }
 
+@media (max-width: 2560px) {
+    .package-area {
+        padding: 20px 120px;
+    }
+    
+}
+
 @media (max-width: 1040px) {
     .package-area {
         padding: 20px 10px;
