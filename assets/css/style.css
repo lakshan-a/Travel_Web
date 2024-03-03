@@ -821,6 +821,18 @@ header .navigation .navigation-items a:hover:before{
     }
 }
 
+/*<!--====  Video Page  ====-->*/
+
+.video-promo {
+    padding: 150px 0;
+}
+
+.video-promo .content-block {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
 
 
 
