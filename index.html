@@ -13,7 +13,7 @@
     <!-- css files -->
     <link rel="stylesheet" href="assets/css/bootstrap.css"> <!-- Bootstrap-Core-CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/font-awesome.css"> <!-- Font-Awesome-Icons-CSS -->
+<!--    <link rel="stylesheet" href="assets/css/font-awesome.css"> &lt;!&ndash; Font-Awesome-Icons-CSS &ndash;&gt;-->
     <!-- //css files -->
 
     <!-- web-fonts -->
@@ -21,12 +21,23 @@
 
     <link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
 
-    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css'>
-    <link rel="stylesheet" href="assets/css/flaticon.css">
-    <link rel="stylesheet" href="assets/css/font-awesome-all.css">
-    <link rel="stylesheet" href="assets/css/jquery.fancybox.min.css">
-    <script src="assets/css/jquery.fancybox.min.js"></script>
-    <script src="assets/css/jquery.min.js"></script>
+<!--    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css'>-->
+<!--    <link rel="stylesheet" href="assets/css/flaticon.css">-->
+<!--    <link rel="stylesheet" href="assets/css/font-awesome-all.css">-->
+<!--    <link rel="stylesheet" href="assets/css/jquery.fancybox.min.css">-->
+<!--    <script src="assets/css/jquery.fancybox.min.js"></script>-->
+<!--    <script src="assets/css/jquery.min.js"></script>-->
+
+    <script src="assets/new/popup/jquery.magnific-popup.min.js"></script>
+    <link rel="stylesheet" href="assets/new/popup/magnific-popup.css">
+    <script src="assets/new/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="assets/new/bootstrap.css">
+    <script src="assets/new/jquery.nicescroll.min.js"></script>
+    <script src="assets/new/jquery-3.2.1.min.js"></script>
+    <link rel="stylesheet" href="assets/new/owl.carousel.min.css">
+    <script src="assets/new/owl.carousel.min.js"></script>
+    <script src="assets/new/swiper.min.js"></script>
+    <link rel="stylesheet" href="assets/new/linericon/style.css">
 
     <!-- //web-fonts -->
 
@@ -459,10 +470,10 @@
 <script src="assets/js/js.js"></script>
 
 
-<!-- js -->
-<script type="text/javascript" src="assets/js/jquery-2.1.4.min.js"></script>
-<script type="text/javascript" src="assets/js/bootstrap.js"></script> <!-- Necessary-JavaScript-File-For-Bootstrap -->
-<!-- //js -->
+<!--&lt;!&ndash; js &ndash;&gt;-->
+<!--<script type="text/javascript" src="assets/js/jquery-2.1.4.min.js"></script>-->
+<!--<script type="text/javascript" src="assets/js/bootstrap.js"></script> &lt;!&ndash; Necessary-JavaScript-File-For-Bootstrap &ndash;&gt;-->
+<!--&lt;!&ndash; //js &ndash;&gt;-->
 
 <!--  Testimonials js-->
 <script defer src="assets/js/jquery.flexslider.js"></script>
@@ -476,6 +487,36 @@
                 $('body').removeClass('loading');
             }
         });
+    });
+
+    $('.active-gallery-carousel').owlCarousel({
+        items: 2,
+        // autoplay: 2500,
+        loop: true,
+        margin: 30,
+        nav: true,
+        navText: [ "<img src='./assets/img/cprev.png'>", "<img src='./assets/img/cnext.png'>" ],
+        dots: false,
+        responsive: {
+            0: {
+                items: 1
+            },
+            420: {
+                items: 1
+            },
+            575: {
+                items: 1
+            },
+            768: {
+                items: 2
+            },
+            1200: {
+                items: 2
+            },
+            1680: {
+                items: 2
+            }
+        }
     });
 
 </script>
