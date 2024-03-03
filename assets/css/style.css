@@ -804,6 +804,23 @@ header .navigation .navigation-items a:hover:before{
     }
 }
 
+@media (max-width: 991px) {
+    .service-style-three .single-column:nth-child(2),
+    .service-style-three .single-column:last-child{
+        padding-top: 0px;
+    }
+}
+
+@media (max-width: 767px) {
+    .service-style-three{
+        padding-top: 70px;
+    }
+
+    .service-style-three:before{
+        display: none;
+    }
+}
+
 
 
 
