@@ -636,6 +636,15 @@ header .navigation .navigation-items a:hover:before{
     }
 }
 
+/*<!--====  Services Page  ====-->*/
+.sec-title.center {
+    text-align: center;
+}
+.sec-title {
+    position: relative;
+    display: block;
+}
+
 
 
 
