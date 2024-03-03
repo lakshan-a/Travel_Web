@@ -273,10 +273,6 @@ header .navigation .navigation-items a:hover:before{
         padding: 100px 20px;
     }
 
-    .package-area{
-        padding: 20px 10px;
-    }
-
     .home .media-icons {
         right: 30px;
     }
@@ -609,6 +605,12 @@ header .navigation .navigation-items a:hover:before{
 }
 .main_btn:hover img {
     right: -38px;
+}
+
+@media (max-width: 1040px) {
+    .package-area {
+        padding: 20px 10px;
+    }
 }
 
 @media (max-width: 991px) {
