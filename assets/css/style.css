@@ -672,6 +672,21 @@ header .navigation .navigation-items a:hover:before{
     font-size: 20px;
     margin-top: 60px;
 }
+.service-block-three{
+    position: relative;
+    margin-bottom: 140px;
+}
+
+.service-block-three .inner-box{
+    position: relative;
+    display: block;
+    background: #fff;
+    border-radius: 20px;
+    text-align: center;
+    padding: 0px 40px 55px 40px;
+    box-shadow: 0 0px 20px 0px rgba(0, 0, 0, 0.1);
+    transition: all 500ms ease;
+}
 
 
 
