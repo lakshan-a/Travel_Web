@@ -864,6 +864,19 @@ header .navigation .navigation-items a:hover:before{
     width: 100%;
 }
 
+.card{
+    list-style: none;
+    position: relative;
+    border-radius: 26px;
+}
+
+.card:before{
+    content: '';
+    display: block;
+    padding-bottom: 150%;
+    width: 100%;
+}
+
 /*<!--====  Video Page  ====-->*/
 
 .video-promo {
