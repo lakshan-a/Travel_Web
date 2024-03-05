@@ -373,6 +373,22 @@ header .navigation .navigation-items a:hover:before{
 
 /*<!--====  About Page  ====-->*/
 
+.boxed_wrapper{
+    position: relative;
+    overflow-x: hidden;
+    margin: 0 auto;
+    width: 100%;
+    min-width: 300px;
+}
+
+
+@media (min-width:1200px) {
+    .container {
+        max-width: 1200px;
+        padding: 0px 15px;
+    }
+}
+
 
 /*<!--====  Services Page  ====-->*/
 
