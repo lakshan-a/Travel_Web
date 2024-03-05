@@ -482,6 +482,28 @@ header .navigation .navigation-items a:hover:before{
     width: 100%;
 }
 
+#image_block_17 .image-box .image-1{
+    border-radius: 0px;
+}
+
+#image_block_17 .image-box .image-2{
+    position: absolute;
+    left: 0px;
+    top: 130px;
+}
+
+#image_block_17 .image-box .image-3{
+    position: absolute;
+    left: 55px;
+    bottom: 40px;
+}
+
+#image_block_17 .image-box .image-4{
+    position: absolute;
+    right: -25px;
+    bottom: 70px;
+}
+
 /*<!--====  Services Page  ====-->*/
 
 .sec-title.center {
