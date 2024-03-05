@@ -383,7 +383,7 @@ header .navigation .navigation-items a:hover:before{
     display: inline-block;
 }
 
-.section-title::before {
+.section-title:before {
     position: absolute;
     content: '';
     width: 45px;
