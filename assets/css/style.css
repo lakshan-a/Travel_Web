@@ -435,6 +435,21 @@ header .navigation .navigation-items a:hover:before{
     padding-left: 45px;
 }
 
+#content_block_17 .content-box .list-item li:before{
+    position: absolute;
+    content: "\f14a";
+    font-family: 'Font Awesome 5 Free';
+    font-size: 18px;
+    line-height: 30px;
+    color: #1abc9c;
+    font-weight: 700;
+    left: 0px;
+    top: 2px;
+}
+
+#content_block_17 .content-box .list-item li:last-chld{
+    margin-bottom: 0px;
+}
 
 /*<!--====  Services Page  ====-->*/
 
