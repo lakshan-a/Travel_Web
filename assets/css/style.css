@@ -843,6 +843,27 @@ header .navigation .navigation-items a:hover:before{
     height: 100%;
 }
 
+.img-box{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    height: 100%;
+    align-items: flex-start;
+    /*background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);*/
+    display: flex;
+    min-height: 100%;
+    justify-content: center;
+    padding: 64px 24px;
+}
+
+.card-grid{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+    max-width: 1200px;
+    width: 100%;
+}
+
 /*<!--====  Video Page  ====-->*/
 
 .video-promo {
