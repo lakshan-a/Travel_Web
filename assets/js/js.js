@@ -46,32 +46,15 @@ $(window).load(function(){
     });
 });
 
-$('.active-gallery-carousel').owlCarousel({
-    items: 2,
-    // autoplay: 2500,
-    loop: true,
-    margin: 30,
-    nav: true,
-    navText: [ "<img src='/assets/images/icon/cprev.png'>", "<img src='/assets/images/icon/cnext.png'>" ],
-    dots: false,
-    responsive: {
-        0: {
-            items: 1
-        },
-        420: {
-            items: 1
-        },
-        575: {
-            items: 1
-        },
-        768: {
-            items: 2
-        },
-        1200: {
-            items: 2
-        },
-        1680: {
-            items: 2
-        }
+
+(function($) {
+
+    // Elements Animation
+    if($('.wow').length){
+        var wow = new WOW({
+            mobile:       false
+        });
+        wow.init();
     }
-});
+
+})(window.jQuery);
