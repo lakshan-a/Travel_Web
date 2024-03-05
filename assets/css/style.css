@@ -902,6 +902,28 @@ header .navigation .navigation-items a:hover:before{
     filter: brightness(0.5) saturate(0) contrast(1.2) blur(20px);
 }
 
+.card__content{
+    left: 0;
+    padding: 24px;
+    position: absolute;
+    top: 0;
+}
+
+.card__category{
+    color: rgba(255,255,255,0.6);
+    font-size: 0.9rem;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+
+.card__heading{
+    color: rgba(255,255,255,0.9);
+    font-size: 1.9rem;
+    text-shadow: 2px 2px 20px rgba(0,0,0,0.2);
+    line-height: 1.4;
+
+}
+
 /*<!--====  Video Page  ====-->*/
 
 .video-promo {
