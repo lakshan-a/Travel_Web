@@ -451,6 +451,22 @@ header .navigation .navigation-items a:hover:before{
     margin-bottom: 0px;
 }
 
+#content_block_17 .content-box .sec-title h2{
+    line-height: 45px;
+    margin-bottom: 8px;
+}
+
+#content_block_17 .content-box{
+    position: relative;
+    padding: 40px 0px;
+}
+
+#image_block_17 .image-box{
+    position: relative;
+    display: block;
+    padding: 0px 60px 0px 140px;
+}
+
 /*<!--====  Services Page  ====-->*/
 
 .sec-title.center {
