@@ -389,6 +389,20 @@ header .navigation .navigation-items a:hover:before{
     }
 }
 
+.optimization-application{
+    position: relative;
+    padding: 95px 0px 100px 0px;
+}
+
+#content_block_17 .content-box h3{
+    position: relative;
+    display: block;
+    font-size: 22px;
+    line-height: 36px;
+    color: #4527a4;
+    font-weight: 500;
+    margin-bottom: 28px;
+}
 
 /*<!--====  Services Page  ====-->*/
 
