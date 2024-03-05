@@ -818,7 +818,6 @@ header .navigation .navigation-items a:hover:before{
     padding: 10px 0px 41px;
 }
 
-
 .best-section .main-header h2 {
     font-family: 'Pacifico', cursive;
     font-weight: 700;
@@ -826,6 +825,22 @@ header .navigation .navigation-items a:hover:before{
     font-size: 20px;
     margin-top: 60px;
     text-align: center;
+}
+
+.best-section .main-header p {
+    margin-bottom: 30px;
+    color: #000000;
+    text-align: center;
+}
+
+.img-box{
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+.img-box{
+    height: 100%;
 }
 
 /*<!--====  Video Page  ====-->*/
