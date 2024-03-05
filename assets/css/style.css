@@ -504,6 +504,23 @@ header .navigation .navigation-items a:hover:before{
     bottom: 70px;
 }
 
+@media (max-width: 1200px) {
+    .optimization-application .content-box{
+        padding-top: 0px;
+    }
+}
+
+@media (max-width: 767px) {
+    .optimization-application.elements #content_block_17 .content-box{
+        padding-top: 0px;
+    }
+
+    .optimization-application{
+        padding: 65px 0px 70px 0px;
+    }
+
+}
+
 /*<!--====  Services Page  ====-->*/
 
 .sec-title.center {
