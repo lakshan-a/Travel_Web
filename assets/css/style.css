@@ -467,6 +467,21 @@ header .navigation .navigation-items a:hover:before{
     padding: 0px 60px 0px 140px;
 }
 
+#image_block_17 .image-box .image{
+    position: relative;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 0 0px 15px 0px rgba(0, 0, 0, 0.1);
+}
+
+#image_block_17 .image-box .image img{
+    border-radius: 5px;
+}
+
+#image_block_17 .image-box .image-1 img{
+    width: 100%;
+}
+
 /*<!--====  Services Page  ====-->*/
 
 .sec-title.center {
