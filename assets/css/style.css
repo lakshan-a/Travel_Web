@@ -382,12 +382,12 @@ header .navigation .navigation-items a:hover:before{
 }
 
 
-@media (min-width:1200px) {
+/*@media (min-width:1200px) {
     .container {
         max-width: 1200px;
         padding: 0px 15px;
     }
-}
+}*/
 
 .optimization-application{
     position: relative;
@@ -536,6 +536,23 @@ header .navigation .navigation-items a:hover:before{
 
     .optimization-application .image-box{
         padding: 0px;
+    }
+
+}
+
+@media only screen and (max-width: 499px) {
+    #image_block_17 .image-box{
+        padding: 0px;
+    }
+
+    #image_block_17 .image-box .image{
+        display: block;
+    }
+
+    #image_block_17 .image-box .image-2,
+    #image_block_17 .image-box .image-3,
+    #image_block_17 .image-box .image-4 {
+        display: none;
     }
 
 }
