@@ -464,33 +464,6 @@ header .navigation .navigation-items a:hover:before{
     font-size: 20px;
 }
 
-.section-title::before {
-    position: absolute;
-    content: '';
-    width: 45px;
-    height: 2px;
-    top: 50%;
-    left: -55px;
-    margin-top: -1px;
-    background: #1abc9c;
-}
-
-.section-title::after {
-    position: absolute;
-    content: "";
-    width: 45px;
-    height: 2px;
-    top: 50%;
-    right: -55px;
-    margin-top: -1px;
-    background: #1abc9c;
-}
-
-.section-title.text-start::before,
-.section-title.text-end::after {
-    display: none;
-}
-
 
 #content_block_17 .content-box .sec-title h2:before {
 
