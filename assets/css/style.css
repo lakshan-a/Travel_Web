@@ -404,6 +404,21 @@ header .navigation .navigation-items a:hover:before{
     margin-bottom: 28px;
 }
 
+#content_block_17 .content-box .text{
+    position: relative;
+    padding-bottom: 49px;
+}
+
+#content_block_17 .content-box .text p{
+    position: relative;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+#content_block_17 .content-box .text p:last-child{
+    margin-bottom: 0px;
+}
+
 /*<!--====  Services Page  ====-->*/
 
 .sec-title.center {
