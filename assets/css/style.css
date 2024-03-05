@@ -419,6 +419,23 @@ header .navigation .navigation-items a:hover:before{
     margin-bottom: 0px;
 }
 
+#content_block_17 .content-box .list-item{
+    display: block;
+    margin-bottom: 56px;
+}
+
+#content_block_17 .content-box .list-item li{
+    position: relative;
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    color: #222;
+    line-height: 30px;
+    margin-bottom: 18px;
+    padding-left: 45px;
+}
+
+
 /*<!--====  Services Page  ====-->*/
 
 .sec-title.center {
