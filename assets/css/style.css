@@ -809,6 +809,25 @@ header .navigation .navigation-items a:hover:before{
     }
 }
 
+/*<!--====  Best Place Page  ====-->*/
+
+.best-section{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 10px 0px 41px;
+}
+
+
+.best-section .main-header h2 {
+    font-family: 'Pacifico', cursive;
+    font-weight: 700;
+    color: #1abc9c;
+    font-size: 20px;
+    margin-top: 60px;
+    text-align: center;
+}
+
 /*<!--====  Video Page  ====-->*/
 
 .video-promo {
