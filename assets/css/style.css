@@ -521,6 +521,25 @@ header .navigation .navigation-items a:hover:before{
 
 }
 
+@media (max-width: 599px) {
+    .optimization-application .image-box .image{
+        display: none;
+    }
+
+    .optimization-application .image-box .image-1{
+        display: block;
+    }
+
+    .optimization-application .image-box .image-1 img{
+        width: 100%;
+    }
+
+    .optimization-application .image-box{
+        padding: 0px;
+    }
+
+}
+
 /*<!--====  Services Page  ====-->*/
 
 .sec-title.center {
