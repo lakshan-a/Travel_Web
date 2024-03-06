@@ -824,6 +824,20 @@ header .navigation .navigation-items a:hover:before{
     opacity:0.9;
 }
 
+.overlay:before{
+    position:absolute;
+    content:"";
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    background:#000;
+}
+
+.call-action .call-content{
+    text-align:center;
+}
+
 
 /*<!--====  Best Place Page  ====-->*/
 
