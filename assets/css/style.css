@@ -871,7 +871,7 @@ header .navigation .navigation-items a:hover:before{
     color:#333;
 }
 
-.main_btn {
+.call_btn {
     padding: 0px 25px;
     background: transparent;
     z-index: 222;
@@ -895,7 +895,7 @@ header .navigation .navigation-items a:hover:before{
 
 
 }
-.main_btn .next img {
+.call_btn .next img {
     position: absolute;
     top: 50%;
     right: -30px;
@@ -911,7 +911,7 @@ header .navigation .navigation-items a:hover:before{
 
 }
 
-.main_btn .prev img {
+.call_btn .prev img {
     position: absolute;
     top: 50%;
     right: -30px;
@@ -927,14 +927,14 @@ header .navigation .navigation-items a:hover:before{
 
 }
 
-.main_btn:hover {
+.call_btn:hover {
     background: #38d39f;
     color: #222222;
     border: 1px solid #38d39f;
     text-decoration: none;
 
 }
-.main_btn:hover img {
+.call_btn:hover img {
     right: -38px;
 }
 
