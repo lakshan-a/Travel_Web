@@ -1260,12 +1260,20 @@ header .navigation .navigation-items a:hover:before{
 /*<!--====  Subscribe Page  ====-->*/
 
 .subscribe-section{
-    position: relative;
-    padding-bottom: 60px;
+    padding: 70px 0px 20px;
+}
+
+.subscribe-section img{
+    max-width: 100%;
+    filter: drop-shadow(0px 1px 0px black);
 }
 
 #content_block_06 .content-box .sec-title h2{
     margin-bottom: 54px;
+    font-family: 'Pacifico', cursive;
+    font-weight: 700;
+    color: #1abc9c;
+    font-size: 20px;
 }
 
 #content_block_06 .content-box .text{
@@ -1291,7 +1299,7 @@ header .navigation .navigation-items a:hover:before{
 }
 
 #content_block_06 .content-box .subscribe-form .form-group input:focus{
-    border-color: #4527a4;
+    border-color: #1abc9c;
 }
 
 #content_block_06 .content-box .subscribe-form .form-group button{
@@ -1324,7 +1332,7 @@ textarea:focus{
     font-size: 16px;
     font-weight: 500;
     color: #fff;
-    background: #4527a4;
+    background: #1abc9c;
     border-radius: 30px;
     text-align: center;
     padding: 10px 30px;
@@ -1358,9 +1366,31 @@ textarea:focus{
 }
 
 .theme-btn-two:hover{
-    color: #4527a4;
+    color: #1abc9c;
     background: #fff;
-    box-shadow: 0 0 15px rgba(69, 39, 164, 0.5);
+    box-shadow: 0 0 15px rgba(26, 188, 156, 0.5);
 }
 
+.float-bob-y {
+    animation-name: float-bob-y;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    -webkit-animation-name: float-bob-y;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: float-bob-y;
+    -moz-animation-duration: 2s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: float-bob-y;
+    -ms-animation-duration: 2s;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+    -o-animation-name: float-bob-y;
+    -o-animation-duration: 2s;
+    -o-animation-iteration-count: infinite;
+    -o-animation-timing-function: linear;
+}
 
