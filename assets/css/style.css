@@ -838,6 +838,25 @@ header .navigation .navigation-items a:hover:before{
     text-align:center;
 }
 
+.call-action .call-content h3 {
+    font-family: 'Montserrat', sans-serif;
+    margin:0;
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 34px;
+    font-weight: 700;
+    padding-top: 6px;
+}
+.call-action .call-content h3 .span2{
+    font-family: 'Montserrat', sans-serif;
+    color:#fff;
+    font-weight:500;
+    font-size:14px;
+    display:block;
+    padding:0;
+    margin:15px 0px 20px 0px;
+}
+
 
 /*<!--====  Best Place Page  ====-->*/
 
