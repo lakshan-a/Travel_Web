@@ -895,7 +895,22 @@ header .navigation .navigation-items a:hover:before{
 
 
 }
-.call_btn .next img {
+ .next img {
+    position: absolute;
+    top: 50%;
+    right: -30px;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+
+}
+ .prev img {
     position: absolute;
     top: 50%;
     right: -30px;
@@ -911,30 +926,18 @@ header .navigation .navigation-items a:hover:before{
 
 }
 
-.call_btn .prev img {
-    position: absolute;
-    top: 50%;
-    right: -30px;
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-    transform: translateY(-50%);
-    -webkit-transition: all 0.3s ease 0s;
-    -moz-transition: all 0.3s ease 0s;
-    -o-transition: all 0.3s ease 0s;
-    transition: all 0.3s ease 0s;
-
-}
-
-.call_btn:hover {
+.main_btn:hover {
     background: #38d39f;
     color: #222222;
     border: 1px solid #38d39f;
     text-decoration: none;
 
 }
-.call_btn:hover img {
+.call_btn:hover.next img {
+    right: -38px;
+}
+
+.call_btn:hover.prev img {
     right: -38px;
 }
 
