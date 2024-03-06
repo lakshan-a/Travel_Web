@@ -820,7 +820,7 @@ header .navigation .navigation-items a:hover:before{
     position:relative;
 }
 .call-action.overlay:before{
-    background:#3353ea;
+    background: rgba(26, 188, 156, 0.8);
     opacity:0.9;
 }
 
