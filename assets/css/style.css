@@ -809,6 +809,22 @@ header .navigation .navigation-items a:hover:before{
     }
 }
 
+
+/*<!--====  Call To Action Area   ====-->*/
+.call-action {
+    padding: 50px 0px;
+    background-image:url('../images/pexels-malinda-bandara-16508252.jpg');
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    position:relative;
+}
+.call-action.overlay:before{
+    background:#3353ea;
+    opacity:0.9;
+}
+
+
 /*<!--====  Best Place Page  ====-->*/
 
 .best-section{
