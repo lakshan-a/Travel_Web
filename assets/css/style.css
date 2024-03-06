@@ -871,7 +871,7 @@ header .navigation .navigation-items a:hover:before{
     color:#333;
 }
 
-.call_btn {
+.main_btn {
     padding: 0px 25px;
     background: transparent;
     z-index: 222;
@@ -895,7 +895,7 @@ header .navigation .navigation-items a:hover:before{
 
 
 }
-.call_btn .next img {
+.main_btn.next img {
     position: absolute;
     top: 50%;
     right: -30px;
@@ -911,20 +911,40 @@ header .navigation .navigation-items a:hover:before{
 
 }
 
-.call_btn:hover {
+.main_btn.next img {
+    position: absolute;
+    top: 50%;
+    right: -30px;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+
+}
+
+.main_btn:hover {
     background: #38d39f;
     color: #222222;
     border: 1px solid #38d39f;
     text-decoration: none;
 
 }
-.call_btn:hover.next img {
+.main_btn .next:hover  img {
     right: -38px;
 }
 
-.call_btn:hover.prev img {
-    right: -38px;
+.main_btn .prev:hover  img {
+    right: 8px;
 }
+
+/*.main_btn:hover.prev img {*/
+/*    right: -50px;*/
+/*}*/
 
 
 /*<!--====  Best Place Page  ====-->*/
