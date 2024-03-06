@@ -857,6 +857,20 @@ header .navigation .navigation-items a:hover:before{
     margin:15px 0px 20px 0px;
 }
 
+.call-action .call-content{}
+.call-action .call-content .button{}
+.call-action .call-content .button .btn{
+    background:#fff;
+    color:#333;
+}
+.call-action .call-content .button .btn:before{
+    display:none;
+}
+.call-action .call-content .button .btn:hover{
+    background:#fff;
+    color:#333;
+}
+
 
 /*<!--====  Best Place Page  ====-->*/
 
