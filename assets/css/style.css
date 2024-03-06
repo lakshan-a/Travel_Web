@@ -1351,3 +1351,16 @@ textarea:focus{
     z-index: -1;
 }
 
+.theme-btn-two:hover::before {
+    opacity: 1;
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+}
+
+.theme-btn-two:hover{
+    color: #4527a4;
+    background: #fff;
+    box-shadow: 0 0 15px rgba(69, 39, 164, 0.5);
+}
+
+
