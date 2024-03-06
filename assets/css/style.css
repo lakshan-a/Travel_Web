@@ -1290,3 +1290,15 @@ header .navigation .navigation-items a:hover:before{
     padding: 10px 40px;
 }
 
+#content_block_06 .content-box .subscribe-form .form-group input:focus{
+    border-color: #4527a4;
+}
+
+#content_block_06 .content-box .subscribe-form .form-group button{
+    padding: 15px 44px;
+}
+
+#content_block_06 .content-box{
+    position: relative;
+    padding-top: 68px;
+}
