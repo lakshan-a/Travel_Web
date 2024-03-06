@@ -1302,3 +1302,17 @@ header .navigation .navigation-items a:hover:before{
     position: relative;
     padding-top: 68px;
 }
+
+input,textarea{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+input:focus,
+textarea:focus{
+    outline: none;
+    box-shadow: none;
+    transition: all 500ms ease;
+}
+
