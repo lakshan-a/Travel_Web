@@ -1851,6 +1851,21 @@ ul.list-2 li {
     background-color: #55acef;
 }
 
+.heart {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    background: url("../images/like.png");
+    cursor: pointer;
+    margin: -25px -15px;
+}
+
+.heart-blast {
+    background-position: -1680px 0;
+    transition: background 1s steps(28);
+}
+
+
 
 
 
