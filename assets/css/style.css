@@ -1756,6 +1756,24 @@ ul.list-2 li {
     margin-bottom: 0;
 }
 
+.recent-posts-entry .widget-post-bx .widget-post .dz-meta ul {
+    line-height: 1;
+}
+
+.recent-posts-entry .widget-post-bx .widget-post .dz-meta ul li {
+    color: #1abc9c;
+    font-family: Rubik, sans-serif;
+    position: relative;
+}
+
+.recent-posts-entry .widget-post-bx .widget-post .title {
+    font-weight: 500;
+    font-size: 15px;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+
 
 
 
