@@ -1839,6 +1839,18 @@ ul.list-2 li {
     box-shadow: 0 5px 15px -10px #1abc9c;
 }
 
+.facebook {
+    background-color: #3b5999;
+}
+
+.instagram {
+    background-color: #ff1d7d;
+}
+
+.twitter {
+    background-color: #55acef;
+}
+
 
 
 
