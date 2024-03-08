@@ -1484,3 +1484,26 @@ textarea:focus{
 .site-footer.style-1 .footer-bottom ul li {
     display: inline-block;
 }
+
+.site-footer.style-1 .footer-bottom ul li a {
+    -webkit-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+.site-footer.style-1 .footer-bottom ul li a:hover {
+    color: #1abc9c;
+}
+
+.site-footer.style-1 .footer-bottom ul li:before {
+    color: #1abc9c;
+}
+
+.site-footer.style-1 .footer-bottom ul li:last-child {
+    padding-right: 0;
+}
+
+.site-footer.style-1 .footer-title {
+    padding-bottom: 0;
+    margin-bottom: 10px;
+}
