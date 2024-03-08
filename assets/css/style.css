@@ -1400,9 +1400,13 @@ textarea:focus{
 .footer-link li {
     display: inline-block;
     position: relative;
-    padding: 0 25px 0 20px; }
+    padding: 0 25px 0 20px;
+}
+
 .footer-link li a {
-    color: inherit; }
+    color: inherit;
+}
+
 .footer-link li:before {
     content: "";
     height: 8px;
@@ -1412,4 +1416,20 @@ textarea:focus{
     top: 50%;
     left: 0;
     border-radius: 4px;
-    transform: translateY(-50%); }
+    transform: translateY(-50%);
+}
+
+.site-footer .recent-posts-entry .widget-post-bx .widget-post .dz-media {
+    width: 80px;
+    min-width: 80px;
+    border-radius:  8px;
+}
+
+.site-footer .recent-posts-entry .widget-post-bx .widget-post .title {
+    font-family: Roboto, sans-serif;
+}
+
+.site-footer .recent-posts-entry .widget-post-bx .widget-post .title a {
+    color: #fff;
+    text-decoration: none;
+}
