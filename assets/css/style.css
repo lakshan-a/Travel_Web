@@ -1624,6 +1624,7 @@ strong,
 .widget ul.list-2 li,
 ul.list-2 li {
     width: 50%;
+    margin-top: 10px;
     /*float: left;*/
 }
 
@@ -1698,8 +1699,8 @@ ul.list-2 li {
     font-family: "Font Awesome 5 Free";
     position: absolute;
     display: block;
-    left: -1.5rem;
-    top: 0.063rem;
+    left: -1.95rem;
+    top: 0.5rem;
     font-size: 12px;
     font-weight: 900;
     color: #1abc9c;
