@@ -1469,3 +1469,18 @@ textarea:focus{
     color: #fff;
 }
 
+.site-footer.style-1 .footer-bottom {
+    background-color: rgba(0, 0, 0, 0.3);
+    background-position: center;
+    background-size: cover;
+    padding: 0;
+}
+
+.site-footer.style-1 .footer-bottom .fb-inner {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.site-footer.style-1 .footer-bottom ul li {
+    display: inline-block;
+}
