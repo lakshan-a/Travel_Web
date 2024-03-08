@@ -1796,6 +1796,28 @@ ul.list-2 li {
     border-radius: 5px;
 }
 
+.social-list li a:after {
+    left: -55%;
+}
+
+.social-list li a:hover {
+    color: #fff;
+}
+
+.social-list li a:hover:after {
+    left: 120%;
+}
+
+.social-list.style-1 li a {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.social-list.style-1 li a:hover {
+    background-color: #fff;
+    color: #1abc9c;
+}
+
+
 
 
 
