@@ -1817,6 +1817,30 @@ ul.list-2 li {
     color: #1abc9c;
 }
 
+.social-list.style-2 {
+    margin: 0 -5px;
+    display: flex;
+}
+
+.social-list.style-2 li {
+    display: inline-block;
+    padding: 0 5px;
+}
+
+.social-list.style-2 li a {
+    height: 40px;
+    width: 40px;
+    background-color: #1abc9c;
+    display: block;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 4px;
+    color: #fff;
+    box-shadow: 0 5px 15px -10px #1abc9c;
+}
+
+
+
 
 
 
