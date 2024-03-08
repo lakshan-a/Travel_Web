@@ -1734,6 +1734,28 @@ ul.list-2 li {
     transform: rotate(45deg);
 }
 
+.recent-posts-entry .widget-post-bx .widget-post {
+    display: flex;
+    align-items: center;
+    border-radius: 0.25rem;
+    margin-bottom: 20px;
+    transition: all 0.5s;
+}
+
+.recent-posts-entry .widget-post-bx .widget-post .dz-media {
+    width: 110px;
+    min-width: 110px;
+    border-radius: 8px;
+}
+
+.recent-posts-entry .widget-post-bx .widget-post .dz-info {
+    padding-left: 20px;
+}
+
+.recent-posts-entry .widget-post-bx .widget-post .dz-meta {
+    margin-bottom: 0;
+}
+
 
 
 
