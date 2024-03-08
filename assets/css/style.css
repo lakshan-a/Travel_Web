@@ -1507,3 +1507,34 @@ textarea:focus{
     padding-bottom: 0;
     margin-bottom: 10px;
 }
+
+.widget_getintuch ul li {
+    position: relative;
+    margin-bottom: 20px;
+    padding-left: 52px;
+    min-height: 45px;
+}
+
+.widget_getintuch ul li h5, .widget_getintuch ul li .h5 {
+    font-size: 20px;
+    line-height: 1.33;
+    margin-bottom: 5px;
+}
+
+.widget_getintuch ul li i {
+    position: absolute;
+    left: 0;
+    top: 4px;
+    height: 40px;
+    width: 40px;
+    min-width: 40px;
+    line-height: 40px;
+    margin-right: 10px;
+    text-align: center;
+    background-color: #1abc9c;
+    display: block;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 30px;
+}
+
