@@ -1587,5 +1587,27 @@ strong,
     font-weight: 500;
 }
 
+.dz-separator.style-1 {
+    height: 8px;
+    display: block;
+    width: 82px;
+    position: relative;
+    margin: 0;
+}
+.dz-separator.style-1:before, .dz-separator.style-1:after {
+    content: "";
+    height: 1px;
+    width: 80px;
+    position: absolute;
+    background: #1abc9c;
+    left: 0;
+}
+
+.dz-separator.style-1:after {
+    width: 80%;
+    bottom: 0;
+}
+
+
 
 
