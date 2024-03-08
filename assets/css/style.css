@@ -1608,6 +1608,40 @@ strong,
     bottom: 0;
 }
 
+.dz-separator.style-1:before {
+    width: 100%;
+    top: 0;
+}
+
+.dz-separator.style-2 {
+    width: 45px;
+    height: 2px;
+    background-color: #000;
+}
+
+.widget ul.list-2 li,
+ul.list-2 li {
+    width: 50%;
+    /*float: left;*/
+}
+
+/* widget listing*/
+.wp-block-latest-posts,
+.wp-block-categories-list,
+.wp-block-archives-list,
+.widget_categories ul,
+.widget_archive ul,
+.widget_meta ul,
+.widget_pages ul,
+.widget_recent_comments ul,
+.widget_nav_menu ul,
+.widget_recent_entries ul,
+.widget_services ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
 
 
 
