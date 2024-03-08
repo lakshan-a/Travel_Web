@@ -1433,3 +1433,22 @@ textarea:focus{
     color: #fff;
     text-decoration: none;
 }
+
+.site-footer .recent-posts-entry .widget-post-bx .widget-post .dz-info {
+    padding-left: 15px;
+}
+
+.site-footer.style-1 {
+    color: #9d9aaa;
+    background-color: #1E1D23FF;
+    background-position: center;
+    background-size: cover;
+}
+
+.site-footer.style-1 .footer-top {
+    padding: 120px 0 80px;
+}
+
+.site-footer.style-1 .footer-top .text {
+    margin: 0 50px 45px;
+}
