@@ -1440,6 +1440,7 @@ textarea:focus{
 
 .site-footer.style-1 {
     color: #9d9aaa;
+    font-size: 1.5rem;
     background-color: #1E1D23FF;
     background-position: center;
     background-size: cover;
@@ -1467,6 +1468,7 @@ textarea:focus{
 
 .site-footer.style-1 .widget-title .title {
     color: #fff;
+    font-size: 2rem;
 }
 
 .site-footer.style-1 .footer-bottom {
