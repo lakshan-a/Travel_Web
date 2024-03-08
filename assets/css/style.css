@@ -735,7 +735,7 @@ header .navigation .navigation-items a:hover:before{
 .service-block-three .inner-box h3{
     position: relative;
     display: block;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 32px;
     font-weight: 500;
     color: #222;
@@ -1621,11 +1621,15 @@ strong,
     background-color: #000;
 }
 
+.dz-media img{
+    width: 100%;
+}
+
 .widget ul.list-2 li,
 ul.list-2 li {
     width: 50%;
     margin-top: 10px;
-    /*float: left;*/
+    float: left;
 }
 
 /* widget listing*/
