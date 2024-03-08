@@ -1452,3 +1452,20 @@ textarea:focus{
 .site-footer.style-1 .footer-top .text {
     margin: 0 50px 45px;
 }
+
+.site-footer.style-1 .footer-top .footer-logo {
+    margin-bottom: 25px;
+}
+
+.site-footer.style-1 .footer-top .footer-logo img {
+    height: 60px;
+}
+
+.site-footer.style-1 .widget-title {
+    margin-bottom: 25px;
+}
+
+.site-footer.style-1 .widget-title .title {
+    color: #fff;
+}
+
