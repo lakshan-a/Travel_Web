@@ -1558,15 +1558,34 @@ textarea:focus{
     top: 0.063rem;
     font-size: 12px;
     font-weight: 900;
-    color: var(--primary);
+    color: #007BFFFF;
     -webkit-transition: all 0.8s;
     -ms-transition: all 0.8s;
     transition: all 0.8s;
 }
 
-
 .text-center {
     text-align: center !important;
 }
+
+li {
+    list-style: none;
+}
+
+.text-link{
+    color: #1abc9c !important;
+    text-decoration: none;
+}
+
+.bg-primary {
+    background-color: #1abc9c !important;
+}
+
+b,
+strong,
+.strong {
+    font-weight: 500;
+}
+
 
 
