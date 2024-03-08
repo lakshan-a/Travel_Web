@@ -1625,6 +1625,10 @@ strong,
     width: 100%;
 }
 
+.widget_about p {
+    margin-top: -13px;
+}
+
 .widget ul.list-2 li,
 ul.list-2 li {
     width: 50%;
