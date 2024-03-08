@@ -1773,6 +1773,28 @@ ul.list-2 li {
     line-height: 1.5;
 }
 
+.social-list {
+    display: inline-block;
+}
+
+.social-list li {
+    margin-left: 2px;
+    margin-right: 2px;
+    display: inline-block;
+}
+
+.social-list li a {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    color: #fff;
+    display: block;
+    text-align: center;
+    padding: 0;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+}
 
 
 
