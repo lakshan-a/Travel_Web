@@ -194,6 +194,25 @@ a {
 }
 
 
+.nav__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2.5rem;
+    text-align: center;
+}
+
+.nav__link {
+    color: #0A1343FF;
+    font-weight: 600;
+    transition: color .4s;
+}
+
+.nav__close {
+    position: absolute;
+    top: 1.15rem;
+    right: 1.5rem;
+}
+
 
 
 .home{
