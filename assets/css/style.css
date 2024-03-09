@@ -257,6 +257,23 @@ a {
     transform: translateY(0);
 }
 
+/*=============== LOGIN ===============*/
+.login__form,
+.login__group {
+    display: grid;
+}
+
+.login__form {
+    background-color: #F0F2FFFF;
+    padding: 2rem 1.5rem 2.5rem;
+    box-shadow: 0 8px 32px hsla(230, 75%, 15%, .2);
+    border-radius: 1rem;
+    row-gap: 1.25rem;
+    text-align: center;
+    transform: translateY(-1rem);
+    transition: transform .4s;
+}
+
 
 
 .home{
