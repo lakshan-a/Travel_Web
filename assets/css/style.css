@@ -1112,7 +1112,7 @@ a {
     position:relative;
 }
 .call-action.overlay:before{
-    background: rgba(26, 188, 156, 0.8);
+    background: rgba(26, 188, 156, 0.25);
     opacity:0.9;
 }
 
@@ -1162,6 +1162,8 @@ a {
     background:#fff;
     color:#333;
 }
+
+
 
 
 /*.main_btn:hover.prev img {*/
@@ -1315,6 +1317,7 @@ a {
 }
 
 .video-promo .content-block p {
+    font-size: 18px;
     margin-bottom: 30px;
     color: #fff;
 }
