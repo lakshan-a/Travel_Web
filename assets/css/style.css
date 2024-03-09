@@ -16,6 +16,7 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
+/*
 
 header{
     z-index: 999;
@@ -66,6 +67,7 @@ header .navigation .navigation-items a:before{
 header .navigation .navigation-items a:hover:before{
     width: 100%;
 }
+*/
 
 .home{
     padding: 100px 120px;
@@ -267,9 +269,9 @@ header .navigation .navigation-items a:hover:before{
 }
 
 @media (max-width: 1040px){
-    header{
-        padding: 12px 20px;
-    }
+    /*header{*/
+    /*    padding: 12px 20px;*/
+    /*}*/
 
     .home{
         padding: 100px 20px;
@@ -279,7 +281,7 @@ header .navigation .navigation-items a:hover:before{
         right: 30px;
     }
 
-    header .navigation{
+   /* header .navigation{
         display: none;
     }
 
@@ -335,7 +337,7 @@ header .navigation .navigation-items a:hover:before{
         background-size: 25px;
         background-position: center;
         transition: 0.3s ease;
-    }
+    }*/
 
     @media (max-width: 768px) {
         .home .content h1 {
