@@ -132,6 +132,31 @@ a {
     cursor: pointer;
 }
 
+/*=============== HEADER & NAV ===============*/
+.header{
+    padding: 0px 20px 0px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /*background-color:#F5F7FFFF;*/
+    box-shadow: 0 2px 16px hsla(230, 75%, 32%, .15);
+    z-index: 1000;
+    transition: all .50s ease;
+
+}
+
+.nav {
+    height:  3.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
 .home{
     padding: 100px 120px;
 }
