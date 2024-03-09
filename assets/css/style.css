@@ -135,6 +135,7 @@ a {
 /*=============== HEADER & NAV ===============*/
 .header{
     padding: 0px 20px 0px;
+    font-size: ;
     position: fixed;
     top: 0;
     left: 0;
@@ -216,6 +217,13 @@ a {
 /* Show menu */
 .show-menu {
     top: 0;
+}
+
+header.sticky{
+    /*padding: 15px 115px;*/
+    background: transparent;
+    backdrop-filter: blur(35px);
+    background-color: #2c3034;
 }
 
 /*=============== SEARCH ===============*/
