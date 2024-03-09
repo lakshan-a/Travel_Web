@@ -247,6 +247,15 @@ a {
     color:#5A5E72FF;
 }
 
+/* Show search */
+.show-search {
+    opacity: 1;
+    pointer-events: initial;
+}
+
+.show-search .search__form {
+    transform: translateY(0);
+}
 
 
 
