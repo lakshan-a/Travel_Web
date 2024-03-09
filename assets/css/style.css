@@ -343,6 +343,36 @@ a {
     transform: translateY(0);
 }
 
+/*=============== BREAKPOINTS ===============*/
+/* For medium devices */
+@media screen and (min-width: 576px) {
+    .search,
+    .login {
+        padding-top: 5rem;
+    }
+
+    .search__form {
+        max-width: 450px;
+        margin-inline: auto;
+    }
+
+    .search__close,
+    .login__close {
+        width: max-content;
+        top: 2rem;
+        left: 0;
+        right: 0;
+        margin-inline: auto;
+        font-size: 2rem;
+    }
+
+    .login__form {
+        max-width: 400px;
+        margin-inline: auto;
+    }
+}
+
+
 
 
 .home{
