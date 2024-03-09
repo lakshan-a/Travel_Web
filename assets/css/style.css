@@ -153,6 +153,27 @@ a {
     align-items: center;
 }
 
+.nav__logo {
+    color: #0A1343FF;
+    font-weight: 600;
+    transition: color .4s;
+}
+
+.nav__actions {
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+.nav__search,
+.nav__login,
+.nav__toggle,
+.nav__close {
+    font-size: 1.25rem;
+    color: #0A1343FF;
+    cursor: pointer;
+    transition: color .4s;
+}
 
 
 
