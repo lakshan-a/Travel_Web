@@ -18,16 +18,26 @@
 }
 
 header{
-    z-index: 10001;
-    position: absolute;
+    padding: 15px 120px ;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
+    /*background-color:#F5F7FFFF;*/
+    /*box-shadow: 0 2px 16px hsla(230, 75%, 32%, .15);*/
+    z-index: 1000;
+    transition: all .50s ease;
+
+    /*z-index: 10001;*/
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    /*width: 100%;*/
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 120px;
-    transition: 0.5s ease;
+    /*padding: 15px 120px;*/
+    /*transition: 0.5s ease;*/
 }
 
 header .brand{
