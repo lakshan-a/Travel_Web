@@ -135,7 +135,7 @@ a {
 /*=============== HEADER & NAV ===============*/
 .header{
     padding: 0px 20px 0px;
-    font-size: ;
+    font-size: 2.5em;
     position: fixed;
     top: 0;
     left: 0;
@@ -195,12 +195,12 @@ a {
 }
 
 
-.nav__list {
-    display: flex;
-    flex-direction: column;
-    row-gap: 2.5rem;
-    text-align: center;
-}
+/*.nav__list {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    row-gap: 2.5rem;*/
+/*    text-align: center;*/
+/*}*/
 
 .nav__link {
     color: #0A1343FF;
@@ -393,10 +393,10 @@ header.sticky{
     .nav__menu {
         margin-left: auto;
     }
-    .nav__list {
-        flex-direction: row;
-        column-gap: 3rem;
-    }
+    /*.nav__list {*/
+    /*    flex-direction: row;*/
+    /*    column-gap: 3rem;*/
+    /*}*/
 
     .login__form {
         padding: 3rem 2rem 3.5rem;
