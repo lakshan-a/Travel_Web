@@ -329,6 +329,20 @@ a {
     transition: box-shadow .4s;
 }
 
+.login__button:hover {
+    box-shadow: 0 4px 24px hsla(230, 75%, 40%, .4);
+}
+
+/* Show login */
+.show-login {
+    opacity: 1;
+    pointer-events: initial;
+}
+
+.show-login .login__form {
+    transform: translateY(0);
+}
+
 
 
 .home{
