@@ -372,6 +372,35 @@ a {
     }
 }
 
+/* For large devices */
+@media screen and (min-width: 1023px) {
+    .nav {
+        height: calc( 2.5rem + 2rem);
+        column-gap: 3rem;
+    }
+    .nav__close,
+    .nav__toggle {
+        display: none;
+    }
+    .nav__menu {
+        margin-left: auto;
+    }
+    .nav__list {
+        flex-direction: row;
+        column-gap: 3rem;
+    }
+
+    .login__form {
+        padding: 3rem 2rem 3.5rem;
+    }
+}
+
+@media screen and (min-width: 1150px) {
+    .container {
+        margin-inline: auto;
+    }
+}
+
 
 
 
