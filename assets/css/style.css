@@ -84,12 +84,16 @@ header.sticky{
     background-color: #2c3034;
 }
 
+.header-icon{
+    display: flex;
+}
+
 .search-btn{
     background: url(../images/icon/Search.png)no-repeat;
-    background-size: 30px;
+    background-size: 26px;
     background-position: center;
     width: 40px;
-    height: 40px;
+    height: 41px;
     cursor: pointer;
     transition: 0.3s ease;
 }
