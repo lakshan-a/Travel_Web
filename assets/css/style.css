@@ -231,6 +231,23 @@ a {
     transition: transform .4s;
 }
 
+.search__icon {
+    font-size: 1.25rem;
+    color: #0A1343FF;
+}
+
+.search__input {
+    width: 100%;
+    padding-block: 1rem;
+    background-color: #F0F2FFFF;
+    color: #5A5E72FF;
+}
+
+.search__input::placeholder {
+    color:#5A5E72FF;
+}
+
+
 
 
 .home{
