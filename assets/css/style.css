@@ -274,6 +274,39 @@ a {
     transition: transform .4s;
 }
 
+.login__title {
+    font-size: 1.25rem;
+    color: #0A1343FF;
+}
+
+.login__group {
+    row-gap: 1rem;
+}
+
+.login__label {
+    display: block;
+    text-align: initial;
+    color: #0A1343FF;
+    font-weight: 500;
+    margin-bottom: .25rem;
+}
+.login__input {
+    width: 100%;
+    background-color: #F0F2FFFF;
+    border: 2px solid #F0F2FFFF;
+    padding: 1rem;
+    border-radius: .5rem;
+    color:#5A5E72FF;
+}
+
+.login__input::placeholder {
+    color: #5A5E72FF;
+}
+
+.login__signup {
+    margin-bottom: .5rem;
+}
+
 
 
 .home{
