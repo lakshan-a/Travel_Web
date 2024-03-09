@@ -84,6 +84,26 @@ header.sticky{
     background-color: #2c3034;
 }
 
+.search-btn{
+    background: url(../images/icon/Search.png)no-repeat;
+    background-size: 30px;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.login-btn{
+    background: url(../images/icon/user.png)no-repeat;
+    background-size: 30px;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
 
 
 .home{
