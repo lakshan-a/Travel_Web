@@ -109,6 +109,99 @@ header.sticky{
 }
 
 
+.search,
+.login {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    background-color: hsla(230, 75%, 15%, .1);
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px); /* For safari */
+    padding: 8rem 1.5rem 0;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .4s;
+}
+
+.search__close,
+.login__close {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    font-size: 1.5rem;
+    color: #0A1343FF;
+    cursor: pointer;
+}
+
+
+/*=============== SEARCH ===============*/
+.search__form {
+    display: flex;
+    align-items: center;
+    column-gap: .5rem;
+    background-color: #F0F2FFFF;
+    box-shadow: 0 8px 32px hsla(230, 75%, 15%, .2);
+    padding-inline: 1rem;
+    border-radius: .5rem;
+    transform: translateY(-1rem);
+    transition: transform .4s;
+}
+
+.search__icon {
+    font-size: 1.25rem;
+    color: #0A1343FF;
+}
+
+.search__input {
+    width: 100%;
+    padding-block: 1rem;
+    background-color: #F0F2FFFF;
+    color: #5A5E72FF;
+}
+
+.search__input::placeholder {
+    color:#5A5E72FF;
+}
+
+/* Show search */
+.show-search {
+    opacity: 1;
+    pointer-events: initial;
+}
+
+.show-search .search__form {
+    transform: translateY(0);
+}
+/*=============== BREAKPOINTS ===============*/
+/* For medium devices */
+@media screen and (min-width: 576px) {
+    .search,
+    .login {
+        padding-top: 5rem;
+    }
+
+    .search__form {
+        max-width: 450px;
+        margin-inline: auto;
+    }
+
+    .search__close,
+    .login__close {
+        width: max-content;
+        top: 2rem;
+        left: 0;
+        right: 0;
+        margin-inline: auto;
+        font-size: 2rem;
+    }
+
+}
+
+
+
 
 .home{
     padding: 100px 120px;
