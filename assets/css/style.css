@@ -132,6 +132,14 @@ button {
     outline: none;
 }
 
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
 .nav__search,
 .nav__login,
 .nav__close {
@@ -213,6 +221,94 @@ button {
 .show-search .search__form {
     transform: translateY(0);
 }
+/*=============== LOGIN ===============*/
+.login__form,
+.login__group {
+    display: grid;
+}
+
+.login__form {
+    background-color: #F0F2FFFF;
+    padding: 2rem 1.5rem 2.5rem;
+    box-shadow: 0 8px 32px hsla(230, 75%, 15%, .2);
+    border-radius: 1rem;
+    row-gap: 1.25rem;
+    text-align: center;
+    transform: translateY(-1rem);
+    transition: transform .4s;
+}
+
+.login__title {
+    font-size: 1.25rem;
+    color: #1abc9c;
+}
+
+.login__group {
+    row-gap: 1rem;
+}
+
+.login__label {
+    display: block;
+    text-align: initial;
+    color: #1abc9c;
+    font-weight: 500;
+    margin-bottom: .25rem;
+}
+
+.login__input {
+    width: 100%;
+    background-color: #F0F2FFFF;
+    border: 2px solid #F0F2FFFF;
+    padding: 1rem;
+    border-radius: .5rem;
+    color:#5A5E72FF;
+}
+
+.login__input::placeholder {
+    color: #5A5E72FF;
+}
+
+.login__signup {
+    margin-bottom: .5rem;
+}
+
+.login__signup a {
+    color: #1abc9c;
+}
+
+.login__forgot {
+    display: inline-block;
+    color: #1abc9c;
+    margin-bottom: 1.25rem;
+}
+
+.login__button {
+    display: inline-block;
+    background-color: #1abc9c;
+    width: 100%;
+    color: #fff;
+    font-weight: 600;
+    padding: 1rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    transition: box-shadow .4s;
+}
+
+.login__button:hover {
+    box-shadow: 0 4px 24px hsl(168, 76%, 42%);
+}
+
+/* Show login */
+.show-login {
+    opacity: 1;
+    pointer-events: initial;
+}
+
+.show-login .login__form {
+    transform: translateY(0);
+}
+
+
 
 /*=============== BREAKPOINTS ===============*/
 /* For medium devices */
@@ -237,7 +333,18 @@ button {
         font-size: 2rem;
     }
 
+    .login__form {
+        max-width: 400px;
+        margin-inline: auto;
+    }
+}
 
+/* For large devices */
+@media screen and (min-width: 1023px) {
+
+    .login__form {
+        padding: 3rem 2rem 3.5rem;
+    }
 }
 
 
