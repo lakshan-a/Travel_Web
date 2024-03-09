@@ -51,22 +51,36 @@ window.addEventListener("scroll",function (){
 
 
 
+/*=============== SEARCH ===============*/
+const search = document.getElementById('search'),
+    searchBtn = document.getElementById('search-btn'),
+    searchClose = document.getElementById('search-close')
+
+/* Search show */
+searchBtn.addEventListener('click', () =>{
+    search.classList.add('show-search')
+})
+
+/* Search hidden */
+searchClose.addEventListener('click', () =>{
+    search.classList.remove('show-search')
+})
+
+
+
+
 
 
 
 // Javacript of responsive navigation menu
 const menuBtn = document.querySelector(".menu-btn");
 const navigation = document.querySelector(".navigation");
-const search = document.querySelector(".search");
 
 menuBtn.addEventListener("click",() =>{
     menuBtn.classList.toggle("active");
     navigation.classList.toggle("active");
 });
 
-search.addEventListener("click", () =>{
-   search.classList.toggle("active")
-});
 
 // Javacript for video slider navigation
 const btns = document.querySelectorAll(".nav-btn");

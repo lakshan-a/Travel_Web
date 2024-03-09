@@ -125,43 +125,127 @@ header .search.active .navigation-items {
     box-shadow: 0 5px 25px rgb(1 1 1);
 }
 
-.search-btn{
-    background: url(../images/icon/Search.png)no-repeat;
-    background-size: 26px;
-    background-position: center;
-    width: 40px;
-    height: 41px;
+
+input,
+button {
+    border: none;
+    outline: none;
+}
+
+.nav__search,
+.nav__login,
+.nav__close {
+    font-size: 26px;
+    margin-left: 7px;
+    color: #ffffff;
     cursor: pointer;
-    transition: 0.3s ease;
+    transition: color .4s;
 }
 
-.search-btn.active{
-    z-index: 999;
-    background: url(../images/icon/close.png)no-repeat;
-    background-size: 25px;
-    background-position: center;
-    transition: 0.3s ease;
+:is( .nav__search, .nav__login):hover {
+    color: #1abc9c;
+}
+.search,
+.login {
+    border: none;
+    outline: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    background-color: hsla(230, 75%, 15%, .1);
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px); /* For safari */
+    padding: 8rem 1.5rem 0;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .4s;
 }
 
-
-
-.login-btn{
-    background: url(../images/icon/user.png)no-repeat;
-    background-size: 30px;
-    background-position: center;
-    width: 40px;
-    height: 40px;
+.search__close,
+.login__close {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    font-size: 1.5rem;
+    color: #1abc9c;
     cursor: pointer;
-    transition: 0.3s ease;
 }
 
-.login-btn.active{
-    z-index: 999;
-    background: url(../images/icon/close.png)no-repeat;
-    background-size: 25px;
-    background-position: center;
-    transition: 0.3s ease;
+
+/*=============== SEARCH ===============*/
+.search__form {
+    display: flex;
+    align-items: center;
+    column-gap: .5rem;
+    background-color: #F0F2FFFF;
+    box-shadow: 0 8px 32px hsla(230, 75%, 15%, .2);
+    padding-inline: 1rem;
+    border-radius: .5rem;
+    transform: translateY(-1rem);
+    transition: transform .4s;
 }
+
+.search__icon {
+    font-size: 1.25rem;
+    color: #1abc9c;
+}
+
+.search__input {
+    width: 100%;
+    padding-block: 1rem;
+    background-color: #F0F2FFFF;
+    color: #5A5E72FF;
+}
+
+.search__input::placeholder {
+    color:#5A5E72FF;
+}
+
+/* Show search */
+.show-search {
+    opacity: 1;
+    pointer-events: initial;
+}
+
+.show-search .search__form {
+    transform: translateY(0);
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For medium devices */
+@media screen and (min-width: 576px) {
+    .search,
+    .login {
+        padding-top: 5rem;
+    }
+
+    .search__form {
+        max-width: 450px;
+        margin-inline: auto;
+    }
+
+    .search__close,
+    .login__close {
+        width: max-content;
+        top: 2rem;
+        left: 0;
+        right: 0;
+        margin-inline: auto;
+        font-size: 2rem;
+    }
+
+
+}
+
+
+
+
+
+
+
 
 
 
