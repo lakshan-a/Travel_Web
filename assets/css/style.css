@@ -307,6 +307,28 @@ a {
     margin-bottom: .5rem;
 }
 
+.login__signup a {
+    color: #3B57E3FF;
+}
+
+.login__forgot {
+    display: inline-block;
+    color: #3B57E3FF;
+    margin-bottom: 1.25rem;
+}
+
+.login__button {
+    display: inline-block;
+    background-color: #3B57E3FF;
+    width: 100%;
+    color: #fff;
+    font-weight: 600;
+    padding: 1rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    transition: box-shadow .4s;
+}
+
 
 
 .home{
