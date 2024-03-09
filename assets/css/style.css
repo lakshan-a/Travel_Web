@@ -17,6 +17,12 @@
     font-family: "Poppins", sans-serif;
 }
 
+.brand{
+    background: url(../images/Logo2.png)no-repeat;
+
+
+}
+
 header{
     padding: 15px 120px ;
     position: fixed;
