@@ -57,10 +57,15 @@ window.addEventListener("scroll",function (){
 // Javacript of responsive navigation menu
 const menuBtn = document.querySelector(".menu-btn");
 const navigation = document.querySelector(".navigation");
+const search = document.querySelector(".search");
 
 menuBtn.addEventListener("click",() =>{
     menuBtn.classList.toggle("active");
     navigation.classList.toggle("active");
+});
+
+search.addEventListener("click", () =>{
+   search.classList.toggle("active")
 });
 
 // Javacript for video slider navigation

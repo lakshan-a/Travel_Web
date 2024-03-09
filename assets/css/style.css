@@ -88,6 +88,43 @@ header.sticky{
     display: flex;
 }
 
+
+header .search.active{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(1,1,1,0.5);
+}
+
+header .search .navigation-items a{
+    color: #222;
+    font-size: 1.2em;
+    margin: 20px;
+}
+
+header .search .navigation-items a:before{
+    background: #222;
+    height: 5px;
+}
+
+header .search.active .navigation-items {
+    background: #fff;
+    width: 600px;
+    max-width: 600px;
+    margin: 20px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0 5px 25px rgb(1 1 1);
+}
+
 .search-btn{
     background: url(../images/icon/Search.png)no-repeat;
     background-size: 26px;
@@ -98,6 +135,16 @@ header.sticky{
     transition: 0.3s ease;
 }
 
+.search-btn.active{
+    z-index: 999;
+    background: url(../images/icon/close.png)no-repeat;
+    background-size: 25px;
+    background-position: center;
+    transition: 0.3s ease;
+}
+
+
+
 .login-btn{
     background: url(../images/icon/user.png)no-repeat;
     background-size: 30px;
@@ -105,6 +152,14 @@ header.sticky{
     width: 40px;
     height: 40px;
     cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.login-btn.active{
+    z-index: 999;
+    background: url(../images/icon/close.png)no-repeat;
+    background-size: 25px;
+    background-position: center;
     transition: 0.3s ease;
 }
 
