@@ -2457,6 +2457,31 @@ ul.list-2 li {
     top: 0px;
 }
 
+#content_block_48 .inner-box .single-item{
+    position: relative;
+    background: #fff;
+    box-shadow: 0 0px 15px 0px rgba(0, 0, 0, 0.1);
+    padding: 40px 40px 44px 40px;
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    overflow: hidden;
+    transition: all 500ms ease;
+}
+
+#content_block_48 .inner-box .single-item:hover{
+    background: #1abc9c;
+    transform: translateY(-5px);
+    box-shadow: 0 0px 25px 0px rgba(0, 0, 0, 0.2);
+}
+
+#content_block_48 .inner-box .single-item .icon-box{
+    position: relative;
+    display: inline-block;
+    min-height: 125px;
+    margin-bottom: 28px;
+}
+
 
 
 
