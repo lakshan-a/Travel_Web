@@ -2482,6 +2482,30 @@ ul.list-2 li {
     margin-bottom: 28px;
 }
 
+#content_block_48 .inner-box .single-item h3{
+    position: relative;
+    display: block;
+    font-size: 24px;
+    line-height: 30px;
+    color: #222;
+    font-weight: 500;
+    margin-bottom: 19px;
+    transition: all 500ms ease;
+}
+
+#content_block_48 .inner-box .single-item h3 a{
+    display: inline-block;
+    color: #222;
+    text-decoration: none;
+}
+
+#content_block_48 .inner-box .single-item .text{
+    position: relative;
+    font-size: 16px;
+    line-height: 28px;
+    transition: all 500ms ease;
+}
+
 
 
 
