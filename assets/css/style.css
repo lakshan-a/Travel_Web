@@ -2351,6 +2351,25 @@ ul.list-2 li {
     text-transform: capitalize;
 }
 
+.page-breadcrumb li:after {
+    position: absolute;
+    content: "/";
+    right: -2px;
+    top: 1px;
+    color: #ffffff;
+    font-size: 18px;
+    font-family: 'FontAwesome';
+}
+
+.page-breadcrumb li:last-child::after {
+    display: none;
+}
+
+.page-breadcrumb li:last-child {
+    padding-right: 0px;
+    margin-right: 0px;
+}
+
 
 
 
