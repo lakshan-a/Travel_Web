@@ -877,7 +877,7 @@ a {
     }
 
     .optimization-application{
-        padding: 65px 0px 70px 0px;
+        padding: 65px 10px 70px;
     }
 
 }
@@ -1109,7 +1109,7 @@ a {
 
 /*<!--====  Call To Action Area   ====-->*/
 .call-action {
-    padding: 50px 0px;
+    padding: 50px 10px;
     background-image:url('../images/pexels-malinda-bandara-16508252.jpg');
     background-size:cover;
     background-position:center;
@@ -1560,7 +1560,7 @@ a {
 /*<!--====  Subscribe Page  ====-->*/
 
 .subscribe-section{
-    padding: 70px 0px 20px;
+    padding: 70px 10px 20px;
 }
 
 .subscribe-section img{
@@ -2262,7 +2262,7 @@ ul.list-2 li {
 
 @media only screen and (max-width: 575px) {
     .site-footer.style-1 .footer-top {
-        padding: 50px 0 10px;
+        padding: 50px 10px 10px;
     }
 
     .site-footer.style-1 .footer-top .text {
