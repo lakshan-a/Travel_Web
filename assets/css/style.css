@@ -2296,7 +2296,8 @@ ul.list-2 li {
 
 .page-title {
     position: relative;
-    padding: 320px 0px 160px;
+    /*padding: 320px 0px 160px;*/
+    padding: 406px 0px 160px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -2310,7 +2311,7 @@ ul.list-2 li {
     top: 0px;
     right: 0px;
     bottom: 0px;
-    background-color: rgba(0,0,0,0.85);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .page-title .auto-container {
@@ -2345,7 +2346,7 @@ ul.list-2 li {
     display: inline-block;
     margin-right: 10px;
     padding-right: 15px;
-    color: #ff0000;
+    color: #1abc9c;
     font-size: 16px;
     font-weight: 400;
     text-transform: capitalize;
@@ -2382,7 +2383,8 @@ ul.list-2 li {
 }
 
 .page-breadcrumb li a:hover {
-    color: #ff0000;
+    color: #1abc9c;
+    text-decoration: none;
 }
 
 @media only screen and (max-width: 599px){
