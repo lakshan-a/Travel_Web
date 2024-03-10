@@ -190,3 +190,34 @@ jQuery(document).ready(function() {
     });
 
 });
+
+
+(function($) {
+    function onHoverthreeDmovement() {
+        var tiltBlock = $('.js-tilt');
+        if(tiltBlock.length) {
+            $('.js-tilt').tilt({
+                maxTilt: 20,
+                perspective:700,
+                glare: true,
+                maxGlare: 0
+            })
+        }
+    }
+
+
+    /*	=========================================================================
+    When document is Scrollig, do
+    ========================================================================== */
+
+    jQuery(document).on('ready', function () {
+        (function ($) {
+            onHoverthreeDmovement();
+        })(jQuery);
+    });
+
+})(window.jQuery);
+
+
+
+
