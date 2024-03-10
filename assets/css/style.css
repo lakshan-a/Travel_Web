@@ -2427,6 +2427,36 @@ ul.list-2 li {
     margin-bottom: 77px;
 }
 
+#content_block_47 .content-box .counter-inner .single-counter-box .count-outer span{
+    position: relative;
+    display: inline-block;
+    font-size: 36px;
+    line-height: 45px;
+    font-weight: 500;
+    color: #222;
+    margin-bottom: 12px;
+}
+
+#content_block_47 .content-box .counter-inner .single-counter-box h3{
+    position: relative;
+    display: block;
+    font-size: 24px;
+    line-height: 32px;
+    color: #1abc9c;
+    font-weight: 500;
+    padding-top: 14px;
+}
+
+#content_block_47 .content-box .counter-inner .single-counter-box h3:before{
+    position: absolute;
+    content: '';
+    background: #afafaf;
+    width: 30px;
+    height: 1px;
+    left: 0px;
+    top: 0px;
+}
+
 
 
 
