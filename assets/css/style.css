@@ -2401,6 +2401,15 @@ ul.list-2 li {
     overflow-x: hidden;
 }
 
+.weworks-section .section-title {
+    line-height: 45px;
+    margin-bottom: 8px;
+    font-family: 'Pacifico', cursive;
+    font-weight: 700;
+    color: #1abc9c;
+    font-size: 20px;
+}
+
 #content_block_47 .content-box .sec-title h2{
     margin-bottom: 43px;
 }
