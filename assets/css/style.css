@@ -2397,7 +2397,7 @@ ul.list-2 li {
 
 .weworks-section{
     position: relative;
-    padding: 120px 0px 50px 0px;
+    padding: 0px 0px 50px 0px;
     overflow-x: hidden;
 }
 
@@ -2531,6 +2531,41 @@ ul.list-2 li {
     opacity: 0;
 }
 
+
+#content_block_48 .inner-box .single-item:after{
+    content: '';
+    width: 493px;
+    height: 493px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    position: absolute;
+    top: -230px;
+    left: -60px;
+    z-index: -1;
+    transform: translate(-50% , -50%);
+    opacity: 0;
+}
+
+#content_block_48 .inner-box .single-item:hover:before,
+#content_block_48 .inner-box .single-item:hover:after{
+    opacity: 1;
+    transform: translate(0% , 0%);
+    transition: all 0.9s linear;
+}
+
+#content_block_48 .inner-box{
+    position: relative;
+}
+
+#content_block_48 .inner-box .bg-layer{
+    position: absolute;
+    width: 805px;
+    height: 730px;
+    top: 50px;
+    right: 0px;
+    background-repeat: no-repeat;
+
+}
 
 
 
