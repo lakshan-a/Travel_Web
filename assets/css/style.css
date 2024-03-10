@@ -2393,6 +2393,23 @@ ul.list-2 li {
     }
 }
 
+/** weworks-section **/
+
+.weworks-section{
+    position: relative;
+    padding: 120px 0px 50px 0px;
+    overflow-x: hidden;
+}
+
+#content_block_47 .content-box .sec-title h2{
+    margin-bottom: 43px;
+}
+
+#content_block_47 .content-box .text{
+    position: relative;
+    font-size: 16px;
+    margin-bottom: 45px;
+}
 
 
 
