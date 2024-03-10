@@ -2303,6 +2303,27 @@ ul.list-2 li {
     background-attachment: fixed;
 }
 
+.page-title:before {
+    position: absolute;
+    content: '';
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgba(0,0,0,0.85);
+}
+
+.page-title .auto-container {
+    position: relative;
+}
+
+.page-title .text {
+    position: relative;
+    color: #ffffff;
+    font-size: 16px;
+    margin-top: 12px;
+    font-family: 'Roboto', sans-serif;
+}
 
 
 
