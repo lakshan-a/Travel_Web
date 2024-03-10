@@ -1,10 +1,669 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>SL Travels</title>
+    <!-- Meta tag Keywords -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+    <link rel="icon" type="image/png" href="./assets/images/Logo.png">
 
+    <!-- Testimonials -->
+    <link rel="stylesheet" href="assets/css/flexslider.css" type="text/css" media="screen" />
+    <!-- //Testimonials -->
+
+    <!-- css files -->
+    <link rel="stylesheet" href="assets/css/bootstrap.css"> <!-- Bootstrap-Core-CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.css"> <!-- Font-Awesome-Icons-CSS -->
+    <!-- //css files -->
+
+    <!-- web-fonts -->
+    <link href="//fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=cyrillic,cyrillic-ext,latin-ext,vietnamese" rel="stylesheet">
+
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
+
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css'>
+    <link rel="stylesheet" href="assets/css/flaticon.css">
+    <!--    <link rel="stylesheet" href="assets/css/font-awesome-all.css">-->
+    <link rel="stylesheet" href="assets/css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="assets/animate/animate.css">
+
+    <script src="assets/css/jquery.fancybox.min.js"></script>
+    <script src="assets/css/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/animate/jquery.js"></script>
+    <script src="assets/animate/wow.js"></script>
+
+    <!-- //web-fonts -->
+
+</head>
+
+<body>
+<header>
+    <a href="#" class="brand" >SL<span> Travel</span> </a>
+
+    <div class="navigation">
+        <div class="navigation-items">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Explore</a>
+            <a href="#">Gallery</a>
+            <a href="#">Contact</a>
+        </div>
+    </div>
+    <div class="header-icon">
+        <!--        <div class="search-btn"></div>-->
+        <!--        <div class="login-btn"></div>-->
+
+        <i class="ri-search-line nav__search" id="search-btn"></i>
+
+        <!-- Login button -->
+        <i class="ri-user-line nav__login" id="login-btn"></i>
+        <div class="menu-btn"></div>
+    </div>
+</header>
+
+
+<!--==================== SEARCH ====================-->
+<div class="search" id="search">
+    <form action="" class="search__form">
+        <i class="ri-search-line search__icon"></i>
+        <input type="search" placeholder="What are you looking for?" class="search__input">
+    </form>
+
+    <i class="ri-close-line search__close" id="search-close"></i>
+</div>
+
+<!--==================== LOGIN ====================-->
+<div class="login" id="login">
+    <form action="" class="login__form">
+        <h2 class="login__title">Log In</h2>
+
+        <div class="login__group">
+            <div>
+                <label for="email" class="login__label">Email</label>
+                <input type="email" placeholder="Write your email" id="email" class="login__input">
+            </div>
+
+            <div>
+                <label for="password" class="login__label">Password</label>
+                <input type="password" placeholder="Enter your password" id="password" class="login__input">
+            </div>
+        </div>
+
+        <div>
+            <p class="login__signup">
+                You do not have an account? <a href="#">Sign up</a>
+            </p>
+
+            <a href="#" class="login__forgot">
+                You forgot your password
+            </a>
+
+            <button type="submit" class="login__button">Log In</button>
+        </div>
+    </form>
+
+    <i class="ri-close-line login__close" id="login-close"></i>
+</div>
+
+<!--=================================
+=            Home Page             =
+==================================-->
+
+<section class="home">
+    <video class="video-slide active" src="assets/video/1.mp4" autoplay muted loop></video>
+    <video class="video-slide active" src="assets/video/2.mp4" autoplay muted loop></video>
+    <video class="video-slide active" src="assets/video/3.mp4" autoplay muted loop></video>
+    <video class="video-slide active" src="assets/video/4.mp4" autoplay muted loop></video>
+    <video class="video-slide active" src="assets/video/5.mp4" autoplay muted loop></video>
+
+    <div class="content active">
+        <h1 class=" wow slideInLeft" data-wow-delay="00ms" data-wow-duration="1500ms">Wonderful.<br><span>Sri Lanka</span></h1>
+        <p class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo beatae aspernatur assumenda maxime. Eaque voluptatem quidem recusandae veritatis? Tempora sit cupiditate hic voluptatem maxime veritatis possimus rerum officiis aliquam accusantium! Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo beatae aspernatur assumenda maxime.</p>
+        <a href="#" class="main_read wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+            Read More
+            <img src="./assets/images/icon/icons8-right-arrow-48.png" alt="">
+        </a>
+    </div>
+    <div class="content">
+        <h1 class=" wow slideInLeft" data-wow-delay="00ms" data-wow-duration="1500ms">Camping.<br><span>Enjoy</span></h1>
+        <p class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo beatae aspernatur assumenda maxime. Eaque voluptatem quidem recusandae veritatis? Tempora sit cupiditate hic voluptatem maxime veritatis possimus rerum officiis aliquam accusantium! Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo beatae aspernatur assumenda maxime.</p>
+        <a href="#" class="main_read wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+            Read More
+            <img src="./assets/images/icon/icons8-right-arrow-48.png" alt="">
+        </a>
+    </div>
+    <div class="content">
+        <h1 class=" wow slideInLeft" data-wow-delay="00ms" data-wow-duration="1500ms">Adventures.<br><span>Off Road</span></h1>
+        <p class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo beatae aspernatur assumenda maxime. Eaque voluptatem quidem recusandae veritatis? Tempora sit cupiditate hic voluptatem maxime veritatis possimus rerum officiis aliquam accusantium! Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo beatae aspernatur assumenda maxime.</p>
+        <a href="#" class="main_read wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+            Read More
+            <img src="./assets/images/icon/icons8-right-arrow-48.png" alt="">
+        </a>
+    </div>
+    <div class="content">
+        <h1 class=" wow slideInLeft" data-wow-delay="00ms" data-wow-duration="1500ms">Road Trip.<br><span>Together</span></h1>
+        <p class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo beatae aspernatur assumenda maxime. Eaque voluptatem quidem recusandae veritatis? Tempora sit cupiditate hic voluptatem maxime veritatis possimus rerum officiis aliquam accusantium! Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo beatae aspernatur assumenda maxime.</p>
+        <a href="#" class="main_read wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+            Read More
+            <img src="./assets/images/icon/icons8-right-arrow-48.png" alt="">
+        </a>
+    </div>
+    <div class="content">
+        <h1 class=" wow slideInLeft" data-wow-delay="00ms" data-wow-duration="1500ms">Fell Nature.<br><span>Relax</span></h1>
+        <p class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo beatae aspernatur assumenda maxime. Eaque voluptatem quidem recusandae veritatis? Tempora sit cupiditate hic voluptatem maxime veritatis possimus rerum officiis aliquam accusantium! Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo beatae aspernatur assumenda maxime.</p>
+        <a href="#" class="main_read wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+            Read More
+            <img src="./assets/images/icon/icons8-right-arrow-48.png" alt="">
+        </a>
+    </div>
+
+    <div class="media-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+    </div>
+
+    <div class="slider-navigation">
+        <div class="nav-btn active"></div>
+        <div class="nav-btn"></div>
+        <div class="nav-btn"></div>
+        <div class="nav-btn"></div>
+        <div class="nav-btn"></div>
+    </div>
+</section>
+<!--====  End of Home Page  ====-->
+
+<!--=================================
+=            About Page             =
+==================================-->
+<section class="optimization-application elements sec-pad-two boxed_wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12 content-column">
+                <div id="content_block_17">
+                    <div class="content-box">
+                        <h1 class="section-title ff-secondary text-start">About Us</h1>
+                        <h3>Welcome To The Sri Lanka</h3>
+                        <div class="text">
+                            <p>In a world where marketing and advertising is now primarily digital, the term ‘digital agency’ almost seems redundant, doesn’t it?</p>
+                            <p>However, with print, radio, television, and other traditional marketing techniques maintaining some relevance among modern strategic marketing campaigns.</p>
+                        </div>
+                        <ul class="list-item">
+                            <li>Get insights only Google can give</li>
+                            <li>Make your data work for you</li>
+                        </ul>
+                        <a href="#" class="main_btn">
+                            Read More
+                            <img src="./assets/images/icon/next.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 image-column">
+                <div id="image_block_17">
+                    <div class="image-box">
+                        <figure class="image image-1"><img src="assets/images/about/1.png" alt=""></figure>
+                        <figure class="image image-2 wow slideInLeft" data-wow-delay="00ms" data-wow-duration="1500ms"><img src="assets/images/about/2.png" alt=""></figure>
+                        <figure class="image image-3 wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms"><img src="assets/images/about/3.png" alt=""></figure>
+                        <figure class="image image-4 wow slideInRight" data-wow-delay="00ms" data-wow-duration="1500ms"><img src="assets/images/about/4.png" alt=""></figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--====  End of About Page  ====-->
+
+<!--=================================
+=            Services Page          =
+==================================-->
+<section class="service-style-three">
+    <div class="image-layer wow slideInLeft" data-wow-delay="00ms" data-wow-duration="1500ms" style="background-image: url(assets/images/services/shap-12.png);"></div>
+    <div class="container">
+        <div class="inner-container">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 col-sm-12 single-column">
+                    <div class="sec-title">
+                        <h2 class="section-title text-start">Our Services</h2>
+                        <h1>Let’s See Features Digital Business</h1>
+                    </div>
+                    <div class="service-block-three wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
+                        <div class="inner-box">
+                            <div class="icon-box">
+                                <div class="bg-layer" style="background-image: url(assets/images/services/icon-bg-3.png);"></div>
+                                <i class="flaticon-profit-1"></i>
+                            </div>
+                            <h3><a href="#">Marketing Analysis.</a></h3>
+                            <div class="text">Increase web traffic with pay-per click and retargeting advertising for your web pages.</div>
+                            <div class="link-btn"><a href="#"><i class="far fa-arrow-alt-circle-right"></i></a></div>
+                        </div>
+                    </div>
+                    <div class="service-block-three wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
+                        <div class="inner-box">
+                            <div class="icon-box">
+                                <div class="bg-layer" style="background-image: url(assets/images/services/icon-bg-6.png);"></div>
+                                <i class="flaticon-profit-1"></i>
+                            </div>
+                            <h3><a href="#">Marketing Analysis.</a></h3>
+                            <div class="text">Increase web traffic with pay-per click and retargeting advertising for your web pages.</div>
+                            <div class="link-btn"><a href="#"><i class="far fa-arrow-alt-circle-right"></i></a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 single-column">
+                    <div class="service-block-three wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
+                        <div class="inner-box">
+                            <div class="icon-box">
+                                <div class="bg-layer" style="background-image: url(assets/images/services/icon-bg-1.png);"></div>
+                                <i class="flaticon-mail"></i>
+                            </div>
+                            <h3><a href="#">Social Media</a></h3>
+                            <div class="text">Use customers’ preferences to engage in strategic conversations and build brand loyalty.</div>
+                            <div class="link-btn"><a href="#"><i class="far fa-arrow-alt-circle-right"></i></a></div>
+                        </div>
+                    </div>
+                    <div class="service-block-three wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
+                        <div class="inner-box">
+                            <div class="icon-box">
+                                <div class="bg-layer" style="background-image: url(assets/images/services/icon-bg-2.png);"></div>
+                                <i class="flaticon-checkout"></i>
+                            </div>
+                            <h3><a href="#">Ecommerce</a></h3>
+                            <div class="text">Business to business (B2B) or business to consumer (B2C) we have the experience you need to cater to your online consumers.</div>
+                            <div class="link-btn"><a href="#"><i class="far fa-arrow-alt-circle-right"></i></a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 single-column">
+                    <div class="service-block-three wow fadeInUp" data-wow-delay="900ms" data-wow-duration="1500ms">
+                        <div class="inner-box">
+                            <div class="icon-box">
+                                <div class="bg-layer" style="background-image: url(assets/images/services/icon-bg-4.png);"></div>
+                                <i class="flaticon-startup"></i>
+                            </div>
+                            <h3><a href="#">SEO & Backlinks.</a></h3>
+                            <div class="text">Grow and continually improve your website’s visibility and ranking with organic search.</div>
+                            <div class="link-btn"><a href="#"><i class="far fa-arrow-alt-circle-right"></i></a></div>
+                        </div>
+                    </div>
+                    <div class="service-block-three wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
+                        <div class="inner-box">
+                            <div class="icon-box">
+                                <div class="bg-layer" style="background-image: url(assets/images/services/icon-bg-5.png);"></div>
+                                <i class="flaticon-server"></i>
+                            </div>
+                            <h3><a href="#">Hosting & Email</a></h3>
+                            <div class="text">Reliable website hosting with professional grade email services. We can even manage your domain names for you!</div>
+                            <div class="link-btn"><a href="#"><i class="far fa-arrow-alt-circle-right"></i></a></div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--====  End of Service Page  ====-->
+
+<!--=================================
+=         Call To Action Area      =
+==================================-->
+<section class="call-action overlay">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="call-content">
+                    <h3>Consultant Corpress always with you <span class="span2">Are you looking to grow, or even launch, your business?</span></h3>
+                    <a href="#" class="theme-btn btn-style-ten"><span class="txt">Learn More</span></a>
+                    <button type="submit" class="theme-btn-two">Subscribe Now</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--====  End of Call To Action Area  ====-->
+
+
+<!--=================================
+=            Best Place Promo       =
+==================================-->
+<section class="best-section">
+
+    <div class="container">
+
+        <div class="main-header">
+            <h2>Watch Our Promo Video</h2>
+            <p>Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur arcu erat, accumsan id imperdiet et,
+                porttitor at sem. Vivamus </p>
+        </div>
+
+        <div class="img-box">
+            <div class="card-grid">
+
+                <a class="card wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms" href="#">
+                    <div class="card__background" style="background-image: url(assets/images/oliver-sjostrom-gofDws5Y_CU-unsplash.jpg);"></div>
+                    <div class="card__content">
+                        <p class="card__category">Badulla</p>
+                        <h3 class="card__heading">Dunhinda Falls</h3>
+                    </div>
+                </a>
+
+                <a class="card wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms" href="#">
+                    <div class="card__background" style="background-image: url(assets/images/sam-power-doBTcL41bws-unsplash.jpg);"></div>
+                    <div class="card__content">
+                        <p class="card__category">Hambantota</p>
+                        <h3 class="card__heading">Yala National Park</h3>
+                    </div>
+                </a>
+
+                <a class="card wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms" href="#">
+                    <div class="card__background" style="background-image: url(assets/images/pexels-bilakis-19710787.jpg);"></div>
+                    <div class="card__content">
+                        <p class="card__category">Polonnaruwa</p>
+                        <h3 class="card__heading">Lion Rock</h3>
+                    </div>
+                </a>
+
+                <a class="card wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms" href="#">
+                    <div class="card__background" style="background-image: url(assets/images/dinuka-lankaloka-MaYOrZIeuU8-unsplash.jpg);"></div>
+                    <div class="card__content">
+                        <p class="card__category">Mirissa</p>
+                        <h3 class="card__heading">Mirissa Beach</h3>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+    </div>
+
+</section>
+<!--====  End of Best Place Page  ====-->
+
+
+
+<!--=================================
+=            Video Promo            =
+==================================-->
+<section class="video-promo section bg-1" >
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="content-block">
+                    <!-- Heading -->
+                    <h2 class="wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">Watch Our Promo Video</h2>
+                    <!-- Promotional Speech -->
+                    <p class="wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur arcu erat, accumsan id imperdiet et,
+                        porttitor at sem. Vivamus </p>
+
+                    <a
+                            type="button"
+                            class="btn-play wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms"
+                            data-bs-toggle="modal"
+                            data-fancybox href="https://www.youtube.com/watch?v=q0mbKsKG-ng">
+                        <span></span>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--====  End of Video Promo  ====-->
+
+<!--=================================
+=            slider Page             =
+==================================-->
+<section class="testimonials" id="testimonials">
+    <div class="container">
+        <h3 class="heading">Testimonials</h3>
+        <div class="flexslider-info">
+            <section class="slider1">
+                <div class="flexslider">
+                    <ul class="slides">
+                        <li>
+                            <div class="w3l-info1">
+                                <div class="col-md-3 testimonials-grid-1">
+                                    <img src="assets/images/test1.jpg" alt="" />
+                                </div>
+                                <div class="col-md-9 testimonials-grid-2">
+                                    <h4>Jessica</h4>
+                                    <h5>Recent Traveller</h5>
+                                    <p><i class="fa fa-quote-left" aria-hidden="true"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ut risus eget libero finibus facilisis. Phasellus tempus hendrerit sem ut iaculis. Sed sit amet augue sit amet mauris gravida interdum. Donec vulputate tempus sem eget tempus hendrerit sem ut.<i class="fa fa-quote-right" aria-hidden="true"></i></p>
+                                    <div class="special-star">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="w3l-info1">
+                                <div class="col-md-3 testimonials-grid-1">
+                                    <img src="assets/images/test3.jpg" alt="" />
+                                </div>
+                                <div class="col-md-9 testimonials-grid-2">
+                                    <h4>Selena</h4>
+                                    <h5>Recent Traveller</h5>
+                                    <p><i class="fa fa-quote-left" aria-hidden="true"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ut risus eget libero finibus facilisis. Phasellus tempus hendrerit sem ut iaculis. Sed sit amet augue sit amet mauris gravida interdum. Donec vulputate tempus sem eget tempus hendrerit sem ut.<i class="fa fa-quote-right" aria-hidden="true"></i></p>
+                                    <div class="special-star">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="w3l-info1">
+                                <div class="col-md-3 testimonials-grid-1">
+                                    <img src="assets/images/test2.jpg" alt=""  />
+                                </div>
+                                <div class="col-md-9 testimonials-grid-2">
+                                    <h4>Michael</h4>
+                                    <h5>Recent Traveller</h5>
+                                    <p><i class="fa fa-quote-left" aria-hidden="true"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ut risus eget libero finibus facilisis. Phasellus tempus hendrerit sem ut iaculis. Sed sit amet augue sit amet mauris gravida interdum. Donec vulputate tempus sem eget tempus hendrerit sem ut.<i class="fa fa-quote-right" aria-hidden="true"></i></p>
+                                    <div class="special-star">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </div>
+</section>
+<!--====  End of Slider Page  ====-->
+
+<!--=================================
+=            subscribe Page         =
+==================================-->
+<section class="subscribe-section elements sec-pad-two">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12 image-column">
+                <div id="iamge_block_05">
+                    <div class="image-box wow slideInLeft animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                        <figure class="image float-bob-y"><img src="assets/images/icon/Email%20campaign-amico%201.png" alt=""></figure>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 content-column">
+                <div id="content_block_06">
+                    <div class="content-box">
+                        <div class="sec-title"><h2>Subscribe our Newsletter</h2></div>
+                        <div class="text">Lorem ipsum dolor sit amet consectetur adipiscing elit donec tempus pellentesque dui vel tristique purus justo</div>
+                        <form action="#" method="post" class="subscribe-form">
+                            <div class="form-group">
+                                <input type="email" name="email" placeholder="Enter Your Email" required="">
+                                <button type="submit" class="theme-btn-two">Subscribe Now</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--====  End of subscribe Page  ====-->
+
+<!--=================================
+=            footer Page           =
+==================================-->
+<footer class="site-footer style-1" id="footer">
+    <div class="footer-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-3 col-sm-6 wow slideInUp" data-wow-delay="00ms" data-wow-duration="600ms">
+                    <div class="widget widget_about">
+                        <div class="footer-logo logo-white">
+                            <img src="./assets/images/Logo(1).png" alt="">
+                        </div>
+                        <p>Etiam iaculis efficitur magna nec pharetra. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras tincidunt scelerisque eros eget suscipit.</p>
+                        <ul class="social-list">
+                            <li><a target="_blank" href="https://www.facebook.com/" class="btn-facebook"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a target="_blank" href="https://www.instagram.com/" class="btn-instagram"><i class="fab fa-instagram"></i></a></li>
+                            <li><a target="_blank" href="https://twitter.com/" class="btn-twitter"><i class="fab fa-twitter"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-sm-6 wow slideInUp" data-wow-delay="00ms" data-wow-duration="800ms">
+                    <div class="widget widget_categories">
+                        <div class="widget-title">
+                            <h4 class="title">Our Links</h4>
+                            <div class="dz-separator style-1 text-primary mb-0"></div>
+                        </div>
+                        <ul class="list-2">
+                            <li class="cat-item"><a href="index.html">Home</a></li>
+                            <!--                            <li class="cat-item"><a href="team.html">Team</a></li>-->
+                            <li class="cat-item"><a href="about-us.html">About Us</a></li>
+                            <!--                            <li class="cat-item"><a href="contact-us.html">Contact Us</a></li>-->
+                            <li class="cat-item"><a href="services.html">Explore</a></li>
+                            <!--                            <li class="cat-item"><a href="contact-us.html">Support</a></li>-->
+                            <li class="cat-item"><a href="portfolio.html">Gallery</a></li>
+                            <!--                            <li class="cat-item"><a href="about-us.html">FAQ</a></li>-->
+                            <li class="cat-item"><a href="blog-grid-2-sidebar.html">Contact Us</a></li>
+                            <!--                            <li class="cat-item"><a href="about-us.html">Legal</a></li>-->
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-sm-6 wow slideInUp" data-wow-delay="00ms" data-wow-duration="1000ms">
+                    <div class="widget widget_getintuch">
+                        <div class="widget-title">
+                            <h4 class="title">Contact Us</h4>
+                            <div class="dz-separator style-1 text-primary mb-0"></div>
+                        </div>
+                        <ul>
+                            <li>
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Marmora Road City, Demo Address #8901, Vietnam</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-phone"></i>
+                                <span>+94 713 988 628</span><br>
+                                <span>+94 724 077 545</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-envelope"></i>
+                                <span>Lakshan@gmail.com</span><br>
+                                <span>info@supports.com</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-sm-6 wow slideInUp" data-wow-delay="00ms" data-wow-duration="1200ms">
+                    <div class="widget recent-posts-entry">
+                        <div class="widget-title">
+                            <h4 class="title">Latest News</h4>
+                            <div class="dz-separator style-1 text-primary mb-0"></div>
+                        </div>
+                        <div class="widget-post-bx">
+                            <div class="widget-post clearfix">
+                                <div class="dz-media">
+                                    <img src="./assets/images/footer1.png" alt="">
+                                </div>
+                                <div class="dz-info">
+                                    <h6 class="title"><a href="blog-details.html">How Industry Can Increase</a></h6>
+                                    <div class="dz-meta">
+                                        <ul>
+                                            <li class="post-date"> <i class="fas fa-calendar-alt"></i> 12 June, 2021</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="widget-post clearfix">
+                                <div class="dz-media">
+                                    <img src="./assets/images/footer2.png" alt="">
+                                </div>
+                                <div class="dz-info">
+                                    <h6 class="title"><a href="blog-details-2.html">The Shocking Revelation of Industry</a></h6>
+                                    <div class="dz-meta">
+                                        <ul>
+                                            <li class="post-date"> <i class="fas fa-calendar-alt"></i> 11 June, 2021 </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer Bottom -->
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row fb-inner">
+                <div class="col-12 text-center">
+                    <span class="copyright-text">Copyright © 2021 <span class="heart"></span>  <a href="https://lakshan-a.github.io/New-Portfolio/" class="text-link" target="_blank">Lakshan Rashmika</a> All rights reserved.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--====  End of footer Page  ====-->
+
+
+<!-- js-scripts -->
+<script src="assets/js/js.js"></script>
+
+
+<!-- js -->
+<script type="text/javascript" src="assets/js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap.js"></script> <!-- Necessary-JavaScript-File-For-Bootstrap -->
+<!-- //js -->
+
+<!--  Testimonials js-->
+<script defer src="assets/js/jquery.flexslider.js"></script>
+<!--Start-slider-script-->
+<script type="text/javascript">
+
+    $(window).load(function(){
+        $('.flexslider').flexslider({
+            animation: "slide",
+            start: function(slider){
+                $('body').removeClass('loading');
+            }
+        });
+    });
+
+</script>
 </body>
 </html>
