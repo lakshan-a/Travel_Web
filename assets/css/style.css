@@ -2284,6 +2284,25 @@ ul.list-2 li {
 
 }
 
+/*<!--====  About Page   ====-->*/
+/* page title */
+
+.auto-container {
+    position: static;
+    max-width: 1200px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+
+.page-title {
+    position: relative;
+    padding: 320px 0px 160px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
 
 
 
