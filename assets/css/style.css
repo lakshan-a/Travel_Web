@@ -2370,6 +2370,27 @@ ul.list-2 li {
     margin-right: 0px;
 }
 
+.page-breadcrumb li a {
+    color: #ffffff;
+    font-weight: 400;
+    text-transform: capitalize;
+    transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+.page-breadcrumb li a:hover {
+    color: #ff0000;
+}
+
+@media only screen and (max-width: 599px){
+    .page-title .pull-right {
+        width: 100%;
+    }
+}
+
 
 
 
