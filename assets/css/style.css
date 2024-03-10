@@ -2507,6 +2507,31 @@ ul.list-2 li {
 }
 
 
+#content_block_48 .inner-box .single-item:hover h3,
+#content_block_48 .inner-box .single-item:hover h3 a,
+#content_block_48 .inner-box .single-item:hover .text{
+    color: #fff;
+}
+
+#content_block_48 .inner-box .single-column{
+    padding: 0px 35px;
+}
+
+#content_block_48 .inner-box .single-item:before {
+    content: '';
+    width: 493px;
+    height: 493px;
+    background: rgba(113, 231, 198, 0.75);
+    border-radius: 50%;
+    position: absolute;
+    top: -330px;
+    left: -60px;
+    z-index: -1;
+    transform: translate(-50% , -50%);
+    opacity: 0;
+}
+
+
 
 
 
