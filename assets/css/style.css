@@ -67,9 +67,6 @@ header .navigation .navigation-items a{
     transition: 0.3s ease;
 }
 
-:is(.navigation):hover {
-    color: #1abc9c;
-}
 
 header .navigation .navigation-items a:before{
     content: '';
