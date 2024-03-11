@@ -2640,6 +2640,18 @@ html .mt60{
     margin-top: 60px;
 }
 
+.ps-block{
+    padding: 0 25px;
+}
+.ps-block h3 {
+    font-size: 34px;
+    line-height: 46px;
+}
+.ps-block p{
+    font-size: 16px;
+    line-height: 28px;
+}
+
 
 
 
