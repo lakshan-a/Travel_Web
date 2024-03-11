@@ -186,7 +186,7 @@ a {
     position: absolute;
     top: 2rem;
     right: 2rem;
-    font-size: 1.5rem;
+    font-size: 35px;
     color: #1abc9c;
     cursor: pointer;
 }
@@ -2439,7 +2439,7 @@ ul.list-2 li {
 
 .weworks-section{
     position: relative;
-    padding: 80px 0px 20px 0px;
+    padding: 80px 10px 20px;
     overflow-x: hidden;
     overflow-y: hidden;
 }
@@ -2616,6 +2616,13 @@ ul.list-2 li {
     top: 50px;
     right: 0px;
     background-repeat: no-repeat;
+
+}
+
+@media (max-width: 991px) {
+    .weworks-section {
+        padding: 0px 10px 20px
+    }
 
 }
 
