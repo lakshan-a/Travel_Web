@@ -2669,6 +2669,38 @@ html .mt60{
     line-height: 28px;
 }
 
+.common-heading > span {
+    color: #e60072;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 0 15px 0;
+    display: block;
+}
+
+.v-center {
+    align-self: center;
+    align-items: center;
+}
+
+.ps-block span{
+    font-size: 60px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 100%;
+    border: 1px solid #e8e8e8;
+    width: 100px;
+    height: 100px;
+    display: block;
+    text-align: center;
+    line-height: 100px;
+    margin: 0 0 20px 0;
+    color: #6a6a8e;
+    border-radius: 68% 32% 64% 36% / 59% 59% 41% 41%;
+    background: #f5f5ff;
+    animation: border-transform 6s linear infinite;
+}
+
 
 
 
