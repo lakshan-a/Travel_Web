@@ -2713,5 +2713,34 @@ html .mt60{
 
 
 
+@media only screen and (max-width:991px) {
+
+    .order1 {
+        order: 1
+    }
+    .order2 {
+        order: 2
+    }
+    .pad-tb {
+        padding: 60px 10px 60px;
+    }
+
+    .common-heading h2,
+    .common-heading h4,
+    .common-heading>span,
+    .header-heading p
+    .common-heading.ptag p{
+        text-align: center
+    }
+    .ps-block {
+        padding: 0;
+        margin: 30px 0 0
+    }
+
+
+
+}
+
+
 
 
