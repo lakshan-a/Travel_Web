@@ -2632,6 +2632,7 @@ ul.list-2 li {
 .pad-tb {
     padding-top: 100px;
     padding-bottom: 100px;
+    overflow-x: hidden;
 }
 .about-sec-rpb.pad-tb{
     padding-bottom: 200px;
@@ -2670,6 +2671,7 @@ html .mt60{
     font-family: "Nunito", sans-serif;
     font-weight: 800;
     color: #0F172B;
+    text-align: center;
 }
 
 .common-heading.ptag p {
@@ -2687,6 +2689,7 @@ html .mt60{
     font-weight: 700;
     margin: 0 0 15px 0;
     display: block;
+    text-align: center;
 
 }
 
@@ -2706,7 +2709,7 @@ html .mt60{
     text-align: center;
     line-height: 100px;
     margin: 0 0 20px 0;
-    color: #6a6a8e;
+    color: #1abc9c;
     border-radius: 68% 32% 64% 36% / 59% 59% 41% 41%;
     background: #f5f5ff;
     animation: border-transform 6s linear infinite;
