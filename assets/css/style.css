@@ -2652,6 +2652,23 @@ html .mt60{
     line-height: 28px;
 }
 
+.image-block1 img {
+    -webkit-box-shadow: -20px 20px 35px #dcdcdc, 20px -40px 35px #ffffff;
+    box-shadow: -20px 20px 35px #dcdcdc, 20px -40px 35px #ffffff;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.common-heading.ptag h2 {
+    margin-bottom: 15px;
+}
+
+.common-heading.ptag p {
+    font-size: 16px;
+    line-height: 28px;
+}
+
 
 
 
