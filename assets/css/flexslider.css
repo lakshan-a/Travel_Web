@@ -100,9 +100,9 @@ html[xmlns] .slides {display: block;}
 	border:3px solid #f99104;
 }
 .flex-control-paging li a.flex-active {
-   background:#fff;
+   background: #1abc9c;
     cursor: default;
-    border: 3px solid #fff;
+    border: 3px solid #1abc9c;
 }
 .flex-control-paging li a {
     background: #333;

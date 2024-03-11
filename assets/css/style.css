@@ -1407,28 +1407,29 @@ a {
     }
 }
 
-
-
-
-
-/*
-/////////////////////////////////////////////////////////////////////////////////////
-*/
-/* testimonials */
+/*<!--====  testimonials Page  ====-->*/
 .testimonials{
-    padding:5em 0;
-    background: #232323;
+    padding:60px 0px;
+    /*background: #232323;*/
 }
 .testimonials-grid-1 {
     width: 200px;
 }
+.testimonials .heading{
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-weight: 700;
+    color: #1abc9c;
+    font-size: 20px;
+    margin-bottom: 55px;
+}
 .w3-testimonials-head h3 {
-    color: #fff;
+    color: #1abc9c;
 }
 
 .testimonials h5 {
     font-size: 25px;
-    color: #fff;
+    color: #1abc9c;
 }
 .w3l-info1 h1{
     font-size: 3em;
@@ -1440,7 +1441,7 @@ a {
 }
 .w3l-info1 p {
     font-size: 15px;
-    color: #ccc;
+    color: #000;
     letter-spacing: 1px;
     line-height: 1.8em;
     margin-top: 20px;
@@ -1449,11 +1450,11 @@ a {
 }
 .w3l-info1 h3 {
     font-size: 3em;
-    color:#999;
+    color:#1abc9c;
 }
 .testimonials h5 {
     font-size: 16px;
-    color: #eee;
+    color: #282727;
     margin-top: 10px;
     font-weight: 300;
     letter-spacing: 2px;
@@ -1478,7 +1479,7 @@ a {
 }
 
 .special-star{
-    color: #fff;
+    color: #ffe300;
 }
 
 @media(max-width: 1280px){
@@ -1560,7 +1561,7 @@ a {
 /*<!--====  Subscribe Page  ====-->*/
 
 .subscribe-section{
-    padding: 70px 10px 20px;
+    padding: 60px 10px 20px;
 }
 
 .subscribe-section img{
