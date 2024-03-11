@@ -2439,8 +2439,9 @@ ul.list-2 li {
 
 .weworks-section{
     position: relative;
-    padding: 30px 0px 50px 0px;
+    padding: 80px 0px 20px 0px;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .weworks-section .section-title {
