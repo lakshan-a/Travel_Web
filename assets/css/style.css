@@ -749,9 +749,9 @@ a {
     top: 2px;
 }
 
-#content_block_17 .content-box .list-item li:last-chld{
-    margin-bottom: 0px;
-}
+/*#content_block_17 .content-box .list-item li:last-chld{*/
+/*    margin-bottom: 0px;*/
+/*}*/
 
 .optimization-application .section-title{
     line-height: 45px;
@@ -1013,7 +1013,7 @@ a {
     -webkit-filter: grayscale(100%);
     -moz-filter: grayscale(100%);
     -o-filter: grayscale(100%);
-    -ms-filter: grayscale(100%);
+    /*-ms-filter: grayscale(100%);*/
     -webkit-transform: rotateY(180deg);
     -moz-transform: rotateY(180deg);
     -ms-transform: rotateY(180deg);
