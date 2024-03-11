@@ -2009,7 +2009,8 @@ ul.list-2 li {
 .widget_recent_comments ul li a:before,
 .widget_nav_menu ul li a:before,
 .widget_recent_entries ul li a:before,
-.widget_services ul li a:before {
+.widget_services ul li a:before
+{
     content: "\f067";
     font-family: "Font Awesome 5 Free";
     position: absolute;
@@ -2034,7 +2035,10 @@ ul.list-2 li {
 .widget_recent_comments ul li a:hover,
 .widget_nav_menu ul li a:hover,
 .widget_recent_entries ul li a:hover,
-.widget_services ul li a:hover {
+.widget_services ul li a:hover,
+.btn-facebook:hover,
+.btn-instagram:hover,
+.btn-twitter:hover{
     color: #1abc9c;
 }
 
@@ -2114,60 +2118,60 @@ ul.list-2 li {
     border-radius: 5px;
 }
 
-.social-list li a:after {
-    left: -55%;
-}
+/*.social-list li a:after {*/
+/*    left: -55%;*/
+/*}*/
 
-.social-list li a:hover {
-    color: #fff;
-}
+/*.social-list li a:hover {*/
+/*    color: #fff;*/
+/*}*/
 
-.social-list li a:hover:after {
-    left: 120%;
-}
+/*.social-list li a:hover:after {*/
+/*    left: 120%;*/
+/*}*/
 
-.social-list.style-1 li a {
-    background-color: rgba(255, 255, 255, 0.2);
-}
+/*.social-list.style-1 li a {*/
+/*    background-color: rgba(255, 255, 255, 0.2);*/
+/*}*/
 
-.social-list.style-1 li a:hover {
-    background-color: #fff;
-    color: #1abc9c;
-}
+/*.social-list.style-1 li a:hover {*/
+/*    background-color: #fff;*/
+/*    color: #1abc9c;*/
+/*}*/
 
-.social-list.style-2 {
-    margin: 0 -5px;
-    display: flex;
-}
+/*.social-list.style-2 {*/
+/*    margin: 0 -5px;*/
+/*    display: flex;*/
+/*}*/
 
-.social-list.style-2 li {
-    display: inline-block;
-    padding: 0 5px;
-}
+/*.social-list.style-2 li {*/
+/*    display: inline-block;*/
+/*    padding: 0 5px;*/
+/*}*/
 
-.social-list.style-2 li a {
-    height: 40px;
-    width: 40px;
-    background-color: #1abc9c;
-    display: block;
-    text-align: center;
-    line-height: 40px;
-    border-radius: 4px;
-    color: #fff;
-    box-shadow: 0 5px 15px -10px #1abc9c;
-}
+/*.social-list.style-2 li a {*/
+/*    height: 40px;*/
+/*    width: 40px;*/
+/*    background-color: #1abc9c;*/
+/*    display: block;*/
+/*    text-align: center;*/
+/*    line-height: 40px;*/
+/*    border-radius: 4px;*/
+/*    color: #fff;*/
+/*    box-shadow: 0 5px 15px -10px #1abc9c;*/
+/*}*/
 
-.facebook {
-    background-color: #3b5999;
-}
+/*.facebook {*/
+/*    background-color: #3b5999;*/
+/*}*/
 
-.instagram {
-    background-color: #ff1d7d;
-}
+/*.instagram {*/
+/*    background-color: #ff1d7d;*/
+/*}*/
 
-.twitter {
-    background-color: #55acef;
-}
+/*.twitter {*/
+/*    background-color: #55acef;*/
+/*}*/
 
 .heart {
     width: 60px;
