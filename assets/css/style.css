@@ -2661,22 +2661,33 @@ html .mt60{
 }
 
 .common-heading.ptag h2 {
-    margin-bottom: 15px;
+    position: relative;
+    display: block;
+    font-size: 25px;
+    line-height: 36px;
+    font-weight: 500;
+    margin-bottom: 28px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 800;
+    color: #0F172B;
 }
 
 .common-heading.ptag p {
     font-size: 16px;
     line-height: 28px;
+    text-align: center;
 }
 
 .common-heading > span {
-    color: #e60072;
+    color: #1abc9c;
+    font-family: 'Pacifico', cursive;
     text-transform: uppercase;
     letter-spacing: 0.5px;
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 20px;
+    font-weight: 700;
     margin: 0 0 15px 0;
     display: block;
+
 }
 
 .v-center {
