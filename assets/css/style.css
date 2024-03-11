@@ -67,6 +67,10 @@ header .navigation .navigation-items a{
     transition: 0.3s ease;
 }
 
+:is(.navigation):hover {
+    color: #1abc9c;
+}
+
 header .navigation .navigation-items a:before{
     content: '';
     position: absolute;
@@ -690,7 +694,7 @@ a {
 
 .optimization-application{
     position: relative;
-    padding: 95px 0px 100px 0px;
+    padding: 95px 0px 0px 0px;
 }
 
 #content_block_17 .content-box h3{
@@ -930,7 +934,7 @@ a {
 .service-style-three{
     position: relative;
     /*padding-top: 60px;*/
-    padding: 10px 0px 0px 0px;
+    padding: 60px 0px 0px 0px;
 }
 
 .service-style-three .image-layer{
