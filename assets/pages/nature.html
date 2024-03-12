@@ -1,10 +1,429 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+  <title>SL Travels</title>
+  <!-- Meta tag Keywords -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/png" href="../images/Logo.png">
 
+  <!-- Testimonials -->
+  <link rel="stylesheet" href="../css/flexslider.css" type="text/css" media="screen" />
+  <!-- //Testimonials -->
+
+  <!-- css files -->
+  <link rel="stylesheet" href="../css/bootstrap.css"> <!-- Bootstrap-Core-CSS -->
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/font-awesome.css"> <!-- Font-Awesome-Icons-CSS -->
+  <!-- //css files -->
+
+  <!-- web-fonts -->
+  <link href="//fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=cyrillic,cyrillic-ext,latin-ext,vietnamese" rel="stylesheet">
+
+  <link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
+
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css'>
+  <link rel="stylesheet" href="../css/flaticon.css">
+  <!--    <link rel="stylesheet" href="assets/css/font-awesome-all.css">-->
+  <link rel="stylesheet" href="../css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="../animate/animate.css">
+
+  <script src="../js/jquery.fancybox.min.js"></script>
+  <script src="../js/jquery.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+  <script src="../animate/jquery.js"></script>
+  <script src="../animate/wow.js"></script>
+  <script src="../js/tilt.jquery.js"></script>
+  <script src="../js/appear.js"></script>
+
+  <!-- //web-fonts -->
+
+</head>
+
+<body>
+<header>
+  <a href="../../index.html" class="brand" >SL<span> Travel</span> </a>
+
+  <div class="navigation">
+    <div class="navigation-items">
+      <a href="../../index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Service</a>
+      <a href="#">Gallery</a>
+      <a href="#">Contact</a>
+    </div>
+  </div>
+  <div class="header-icon">
+    <!--        <div class="search-btn"></div>-->
+    <!--        <div class="login-btn"></div>-->
+
+    <i class="ri-search-line nav__search" id="search-btn"></i>
+
+    <!-- Login button -->
+    <i class="ri-user-line nav__login" id="login-btn"></i>
+    <div class="menu-btn"></div>
+  </div>
+</header>
+
+
+<!--==================== SEARCH ====================-->
+<div class="search" id="search">
+  <form action="" class="search__form">
+    <i class="ri-search-line search__icon"></i>
+    <input type="search" placeholder="What are you looking for?" class="search__input">
+  </form>
+
+  <i class="ri-close-line search__close" id="search-close"></i>
+</div>
+
+<!--==================== LOGIN ====================-->
+<div class="login" id="login">
+  <form action="" class="login__form">
+    <h2 class="login__title">Log In</h2>
+
+    <div class="login__group">
+      <div>
+        <label for="email" class="login__label">Email</label>
+        <input type="email" placeholder="Write your email" id="email" class="login__input">
+      </div>
+
+      <div>
+        <label for="password" class="login__label">Password</label>
+        <input type="password" placeholder="Enter your password" id="password" class="login__input">
+      </div>
+    </div>
+
+    <div>
+      <p class="login__signup">
+        You do not have an account? <a href="#">Sign up</a>
+      </p>
+
+      <a href="#" class="login__forgot">
+        You forgot your password
+      </a>
+
+      <button type="submit" class="login__button">Log In</button>
+    </div>
+  </form>
+
+  <i class="ri-close-line login__close" id="login-close"></i>
+</div>
+
+
+<!--=================================
+=        Best Place Page Title         =
+==================================-->
+
+<section class="page-title" style="background-image:url(../images/road-trip/road-trip.jpg)">
+  <div class="auto-container">
+    <div class="clearfix">
+      <div class="pull-left">
+        <h2>Road Trip</h2>
+        <div class="text">Fitness is not a destination it is a way of life.</div>
+      </div>
+      <div class="pull-right">
+        <ul class="page-breadcrumb">
+          <li><a href="../../index.html">home</a></li>
+          <li>Road Trip</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<!--====================End Of Best Place Page Title ====================-->
+
+<!--=================================
+=            safari Place Page         =
+==================================-->
+
+<section class="service-block pad-tb">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <div class="common-heading ptag">
+          <span>Road Trip</span>
+          <h2>Road Trip at Sri Lanka</h2>
+          <p>Embark on a mesmerizing road trip through Sri Lanka, where scenic wonders unfold at every turn. Drive along lush tea plantations, explore ancient ruins in Anuradhapura, and relax on pristine beaches. Encounter diverse cultures, visit historic sites like Sigiriya, and savor local cuisine. Sri Lanka's roads weave tales of adventure and discovery, promising an unforgettable journey.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row upset justify-content-center mt60">
+      <div class="col-lg-4 v-center order1 wow slideInLeft" data-wow-delay="100ms" data-wow-duration="1500ms">
+        <div class="image-block1">
+          <img src="../images/road-trip/road-trip-01.png" alt="Process" class="img-fluid"/>
+        </div>
+      </div>
+      <div class="col-lg-7 v-center order2">
+        <div class="ps-block">
+          <span>01</span>
+          <h3>Colombo to Matara</h3>
+          <p>This easy excursion south from Colombo follows the path of the coastal railway, linking historic cities with some of Sri Lanka’s most famous beach resorts. You won’t find too much peace and quiet in peak season, but you will find plenty of sun-smooched sand and good places to stay, eat and catch a wave. </p>
+          <h4>Location: Colombo–Matara; 133 km (83 miles)</h4>
+        </div>
+      </div>
+    </div>
+    <div class="row upset justify-content-center mt60">
+      <div class="col-lg-7 v-center order2">
+        <div class="ps-block">
+          <span>02</span>
+          <h3>Colombo to Badulla</h3>
+          <p>It’s not all about beaches in Sri Lanka. The trip inland from Colombo to the Hill Country is one of Sri Lanka’s most evocative rail journeys, and it’s just as impressive by road. Starting from the capital and taking regular stops to look out over the scenery, trace the A1 highway inland to higher ground and the sacred city of Kandy, home to Sri Lanka’s most revered temple.</p>
+          <h4>Location: Colombo–Ella; 240km (145 miles)</h4>
+        </div>
+      </div>
+      <div class="col-lg-4 v-center order1 wow slideInRight" data-wow-delay="100ms" data-wow-duration="1500ms">
+        <div class="image-block1">
+          <img src="../images/road-trip/road-trip-02.png" alt="Process" class="img-fluid"/>
+        </div>
+      </div>
+    </div>
+    <div class="row upset justify-content-center mt60">
+      <div class="col-lg-4 v-center order1 wow slideInLeft" data-wow-delay="100ms" data-wow-duration="1500ms">
+        <div class="image-block1">
+          <img src="../images/road-trip/road-trip-03.png" alt="Process" class="img-fluid"/>
+        </div>
+      </div>
+      <div class="col-lg-7 v-center order2">
+        <div class="ps-block">
+          <span>03</span>
+          <h3>Negombo to Jaffna</h3>
+          <p>Travelling from Negombo to Jaffna via this scenic route offers a diverse array of attractions along the way. Explore the Dutch ruins in Negombo (Western Province), stroll along the Dutch canal, and then move on to the historic city of Anuradhapura. </p>
+          <h4>Location: Negombo-Anuradhapura-Wilpattu-Mannar-Jaffna</h4>
+        </div>
+      </div>
+    </div>
+    <div class="row upset justify-content-center mt60">
+      <div class="col-lg-7 v-center order2">
+        <div class="ps-block">
+          <span>04</span>
+          <h3>Colombo to Kandy </h3>
+          <p>Drive from Colombo to Nuwara Eliya, and in four hours, you'll move from tropical heat to sweatshirt weather. Make a stop at the tea plantations and visit a tea factory en route to Nuwara Eliya for a taste of Sri Lanka’s tea country.   </p>
+          <h4>Location: Colombo-Nuwara Eliya-Horton Plains-Ella-Kandy</h4>
+        </div>
+      </div>
+      <div class="col-lg-4 v-center order1 wow slideInRight" data-wow-delay="100ms" data-wow-duration="1500ms">
+        <div class="image-block1">
+          <img src="../images/road-trip/road-trip-04.png" alt="Process" class="img-fluid"/>
+        </div>
+      </div>
+    </div>
+    <div class="row upset justify-content-center mt60">
+      <div class="col-lg-4 v-center order1 wow slideInLeft" data-wow-delay="100ms" data-wow-duration="1500ms">
+        <div class="image-block1">
+          <img src="../images/road-trip/road-trip-05.png" alt="Process" class="img-fluid"/>
+        </div>
+      </div>
+      <div class="col-lg-7 v-center order2">
+        <div class="ps-block">
+          <span>05</span>
+          <h3>Udawalawe to Wasgamuwa</h3>
+          <p>The world is well aware of Sri Lanka's exotic wildlife. The southern Sri Lankan wildlife hotspots are a popular destination for safaris. Udawalawe National Park is a place you shouldn't miss if you have a fondness for elephants. One can see herds of elephants in their natural habitat here. Furthermore, one can witness several rare bird species, including the Indian Short-toed Snake Eagle.  </p>
+          <h4>Location: Udawalawe-Sinharaja-Yala-Bundala</h4>
+        </div>
+      </div>
+    </div>
+    <div class="row upset justify-content-center mt60">
+      <div class="col-lg-7 v-center order2">
+        <div class="ps-block">
+          <span>06</span>
+          <h3>Anuradhapura to Kandy</h3>
+          <p>This route offers a remarkable journey through the island’s rich cultural and historical legacy. Start at the ancient city of Anuradhapura, where daily prayers are still held at two-millennia-old brick stupas the size of aeroplane hangars. This ancient capital has several stupas and temples, such as the Ruwanwelisaya and Thuparamaya. The sacred Maha Bodhi tree, the location of the entry of Buddhism into Sri Lanka, can also be found here. </p>
+          <h4>Location: Anuradhapura-Polonnaruwa-Sigiriya-Kandy</h4>
+        </div>
+      </div>
+      <div class="col-lg-4 v-center order1 wow slideInRight" data-wow-delay="100ms" data-wow-duration="1500ms">
+        <div class="image-block1">
+          <img src="../images/road-trip/road-trip-06.png" alt="Process" class="img-fluid"/>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--====================End Of Best Place Page  ====================-->
+
+
+<!--=================================
+=            subscribe Page         =
+==================================-->
+<section class="subscribe-section elements sec-pad-two">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-md-12 col-sm-12 image-column">
+        <div id="iamge_block_05">
+          <div class="image-box wow slideInLeft animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+            <figure class="image float-bob-y"><img src="../images/icon/Email%20campaign-amico%201.png" alt=""></figure>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-12 col-sm-12 content-column">
+        <div id="content_block_06">
+          <div class="content-box">
+            <div class="sec-title"><h2>Subscribe our Newsletter</h2></div>
+            <div class="text">Lorem ipsum dolor sit amet consectetur adipiscing elit donec tempus pellentesque dui vel tristique purus justo</div>
+            <form action="#" method="post" class="subscribe-form">
+              <div class="form-group">
+                <input type="email" name="email" placeholder="Enter Your Email" required="">
+                <button type="submit" class="theme-btn-two">Subscribe Now</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--====  End of subscribe Page  ====-->
+
+<!--=================================
+=            footer Page           =
+==================================-->
+<footer class="site-footer style-1" id="footer">
+  <div class="footer-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-3 col-sm-6 wow slideInUp" data-wow-delay="00ms" data-wow-duration="600ms">
+          <div class="widget widget_about">
+            <div class="footer-logo logo-white">
+              <img src="../images/Logo(1).png" alt="">
+            </div>
+            <p>
+              In Sri Lanka, diverse landscapes and rich culture create a captivating experience. From ancient cities to pristine beaches, the island's charm unfolds in every corner.</p>
+            <ul class="social-list">
+              <li><a target="_blank" href="https://www.facebook.com/" class="btn-facebook"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a target="_blank" href="https://www.instagram.com/" class="btn-instagram"><i class="fab fa-instagram"></i></a></li>
+              <li><a target="_blank" href="https://twitter.com/" class="btn-twitter"><i class="fab fa-twitter"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-xl-3 col-sm-6 wow slideInUp" data-wow-delay="00ms" data-wow-duration="800ms">
+          <div class="widget widget_categories">
+            <div class="widget-title">
+              <h4 class="title">Our Links</h4>
+              <div class="dz-separator style-1 text-primary mb-0"></div>
+            </div>
+            <ul class="list-2">
+              <li class="cat-item"><a href="../../index.html">Home</a></li>
+              <!--                            <li class="cat-item"><a href="team.html">Team</a></li>-->
+              <li class="cat-item"><a href="about.html">About Us</a></li>
+              <!--                            <li class="cat-item"><a href="contact-us.html">Contact Us</a></li>-->
+              <li class="cat-item"><a href="services.html">Service</a></li>
+              <!--                            <li class="cat-item"><a href="contact-us.html">Support</a></li>-->
+              <li class="cat-item"><a href="portfolio.html">Gallery</a></li>
+              <li class="cat-item"><a href="best-place.html">Best Place</a></li>
+              <li class="cat-item"><a href="blog-grid-2-sidebar.html">Contact Us</a></li>
+              <!--                            <li class="cat-item"><a href="about-us.html">Legal</a></li>-->
+            </ul>
+          </div>
+        </div>
+        <div class="col-xl-3 col-sm-6 wow slideInUp" data-wow-delay="00ms" data-wow-duration="1000ms">
+          <div class="widget widget_getintuch">
+            <div class="widget-title">
+              <h4 class="title">Contact Us</h4>
+              <div class="dz-separator style-1 text-primary mb-0"></div>
+            </div>
+            <ul>
+              <li>
+                <i class="fas fa-map-marker-alt"></i>
+                <span>Marmora Road City, Demo Address #8901, Vietnam</span>
+              </li>
+              <li>
+                <i class="fas fa-phone"></i>
+                <span>+94 713 988 628</span><br>
+                <span>+94 724 077 545</span>
+              </li>
+              <li>
+                <i class="fas fa-envelope"></i>
+                <span>Lakshan@gmail.com</span><br>
+                <span>info@supports.com</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-xl-3 col-sm-6 wow slideInUp" data-wow-delay="00ms" data-wow-duration="1200ms">
+          <div class="widget recent-posts-entry">
+            <div class="widget-title">
+              <h4 class="title">Latest News</h4>
+              <div class="dz-separator style-1 text-primary mb-0"></div>
+            </div>
+            <div class="widget-post-bx">
+              <div class="widget-post clearfix">
+                <div class="dz-media">
+                  <img src="../images/footer1.png" alt="">
+                </div>
+                <div class="dz-info">
+                  <h6 class="title"><a href="blog-details.html">How Industry Can Increase</a></h6>
+                  <div class="dz-meta">
+                    <ul>
+                      <li class="post-date"> <i class="fas fa-calendar-alt"></i> 12 June, 2021</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="widget-post clearfix">
+                <div class="dz-media">
+                  <img src="../images/footer2.png" alt="">
+                </div>
+                <div class="dz-info">
+                  <h6 class="title"><a href="blog-details-2.html">The Shocking Revelation of Industry</a></h6>
+                  <div class="dz-meta">
+                    <ul>
+                      <li class="post-date"> <i class="fas fa-calendar-alt"></i> 11 June, 2021 </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Footer Bottom -->
+  <div class="footer-bottom">
+    <div class="container">
+      <div class="row fb-inner">
+        <div class="col-12 text-center">
+          <span class="copyright-text">Copyright © 2021 <span class="heart"></span>  <a href="https://lakshan-a.github.io/New-Portfolio/" class="text-link" target="_blank">Lakshan Rashmika</a> All rights reserved.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!--====  End of footer Page  ====-->
+
+<!--=================================
+=            Back to top           =
+==================================-->
+<a href="#top" class="back-to-top" data-back-to-top>BACK TOP</a>
+<!--====  End of Back to Top  ====-->
+
+
+<!-- js-scripts -->
+<script src="../js/js.js"></script>
+
+
+<!-- js -->
+<script type="text/javascript" src="../js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="../js/bootstrap.js"></script> <!-- Necessary-JavaScript-File-For-Bootstrap -->
+<!-- //js -->
+
+<!--  Testimonials js-->
+<script defer src="../js/jquery.flexslider.js"></script>
+<!--Start-slider-script-->
+<script type="text/javascript">
+
+  $(window).load(function(){
+    $('.flexslider').flexslider({
+      animation: "slide",
+      start: function(slider){
+        $('body').removeClass('loading');
+      }
+    });
+  });
+
+</script>
 </body>
 </html>
