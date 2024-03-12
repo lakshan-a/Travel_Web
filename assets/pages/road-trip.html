@@ -1,10 +1,460 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+  <title>SL Travels</title>
+  <!-- Meta tag Keywords -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/png" href="../images/Logo.png">
 
+  <!-- Testimonials -->
+  <link rel="stylesheet" href="../css/flexslider.css" type="text/css" media="screen" />
+  <!-- //Testimonials -->
+
+  <!-- css files -->
+  <link rel="stylesheet" href="../css/bootstrap.css"> <!-- Bootstrap-Core-CSS -->
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/font-awesome.css"> <!-- Font-Awesome-Icons-CSS -->
+  <!-- //css files -->
+
+  <!-- web-fonts -->
+  <link href="//fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=cyrillic,cyrillic-ext,latin-ext,vietnamese" rel="stylesheet">
+
+  <link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
+
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css'>
+  <link rel="stylesheet" href="../css/flaticon.css">
+  <!--    <link rel="stylesheet" href="assets/css/font-awesome-all.css">-->
+  <link rel="stylesheet" href="../css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="../animate/animate.css">
+
+  <script src="../js/jquery.fancybox.min.js"></script>
+  <script src="../js/jquery.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+  <script src="../animate/jquery.js"></script>
+  <script src="../animate/wow.js"></script>
+  <script src="../js/tilt.jquery.js"></script>
+  <script src="../js/appear.js"></script>
+
+  <!-- //web-fonts -->
+
+</head>
+
+<body>
+<header>
+  <a href="../../index.html" class="brand" >SL<span> Travel</span> </a>
+
+  <div class="navigation">
+    <div class="navigation-items">
+      <a href="../../index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Service</a>
+      <a href="#">Gallery</a>
+      <a href="#">Contact</a>
+    </div>
+  </div>
+  <div class="header-icon">
+    <!--        <div class="search-btn"></div>-->
+    <!--        <div class="login-btn"></div>-->
+
+    <i class="ri-search-line nav__search" id="search-btn"></i>
+
+    <!-- Login button -->
+    <i class="ri-user-line nav__login" id="login-btn"></i>
+    <div class="menu-btn"></div>
+  </div>
+</header>
+
+
+<!--==================== SEARCH ====================-->
+<div class="search" id="search">
+  <form action="" class="search__form">
+    <i class="ri-search-line search__icon"></i>
+    <input type="search" placeholder="What are you looking for?" class="search__input">
+  </form>
+
+  <i class="ri-close-line search__close" id="search-close"></i>
+</div>
+
+<!--==================== LOGIN ====================-->
+<div class="login" id="login">
+  <form action="" class="login__form">
+    <h2 class="login__title">Log In</h2>
+
+    <div class="login__group">
+      <div>
+        <label for="email" class="login__label">Email</label>
+        <input type="email" placeholder="Write your email" id="email" class="login__input">
+      </div>
+
+      <div>
+        <label for="password" class="login__label">Password</label>
+        <input type="password" placeholder="Enter your password" id="password" class="login__input">
+      </div>
+    </div>
+
+    <div>
+      <p class="login__signup">
+        You do not have an account? <a href="#">Sign up</a>
+      </p>
+
+      <a href="#" class="login__forgot">
+        You forgot your password
+      </a>
+
+      <button type="submit" class="login__button">Log In</button>
+    </div>
+  </form>
+
+  <i class="ri-close-line login__close" id="login-close"></i>
+</div>
+
+
+<!--=================================
+=        Best Place Page Title         =
+==================================-->
+
+<section class="page-title" style="background-image:url(../images/road-trip/road-trip.jpg)">
+  <div class="auto-container">
+    <div class="clearfix">
+      <div class="pull-left">
+        <h2>Road Trip</h2>
+        <div class="text">Fitness is not a destination it is a way of life.</div>
+      </div>
+      <div class="pull-right">
+        <ul class="page-breadcrumb">
+          <li><a href="../../index.html">home</a></li>
+          <li>Road Trip</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<!--====================End Of Best Place Page Title ====================-->
+
+<!--=================================
+=            safari Place Page         =
+==================================-->
+
+<section class="service-block pad-tb">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <div class="common-heading ptag">
+          <span>Safari</span>
+          <h2>Safari at Sri Lanka</h2>
+          <p> Sri Lanka offers captivating safaris amidst its diverse landscapes. Encounter majestic elephants, elusive leopards, and colorful birds in national parks like Yala and Udawalawe. The thrill of wildlife, coupled with stunning scenery, makes a Sri Lankan safari an unforgettable adventure, showcasing the island's rich biodiversity and natural beauty. </p>
+        </div>
+      </div>
+    </div>
+    <div class="row upset justify-content-center mt60">
+      <div class="col-lg-4 v-center order1 wow slideInLeft" data-wow-delay="100ms" data-wow-duration="1500ms">
+        <div class="image-block1">
+          <img src="../images/safari/safari-01.png" alt="Process" class="img-fluid"/>
+        </div>
+      </div>
+      <div class="col-lg-7 v-center order2">
+        <div class="ps-block">
+          <span>01</span>
+          <h3>Safari at Yala National Park</h3>
+          <p>Yala National Park is one of Sri Lanka's most visited national parks. This is due to the number of Sri Lankan Leopards living in Yala. Block 1 has a population density of one leopard per square kilometer, making it a wildlife utopia.</p>
+          <h4>Location: Southern and Uva Provinces, Sri Lanka</h4>
+        </div>
+      </div>
+    </div>
+    <div class="row upset justify-content-center mt60">
+      <div class="col-lg-7 v-center order2">
+        <div class="ps-block">
+          <span>02</span>
+          <h3>Safari at Udawalawe National Park</h3>
+          <p>Elephants can be observed annually in Udawalawe, while migrant birds can only be spotted from November to March. The most significant time to visit is during the dry season when elephants congregate at waterholes in enormous numbers.</p>
+          <h4>Location: Sabaragamuwa and Uva Provinces, Sri Lanka</h4>
+        </div>
+      </div>
+      <div class="col-lg-4 v-center order1 wow slideInRight" data-wow-delay="100ms" data-wow-duration="1500ms">
+        <div class="image-block1">
+          <img src="../images/safari/safari-02.png" alt="Process" class="img-fluid"/>
+        </div>
+      </div>
+    </div>
+    <div class="row upset justify-content-center mt60">
+      <div class="col-lg-4 v-center order1 wow slideInLeft" data-wow-delay="100ms" data-wow-duration="1500ms">
+        <div class="image-block1">
+          <img src="../images/safari/safari-03.png" alt="Process" class="img-fluid"/>
+        </div>
+      </div>
+      <div class="col-lg-7 v-center order2">
+        <div class="ps-block">
+          <span>03</span>
+          <h3>Safari at Wilpattu National Park</h3>
+          <p>Wilpattu is located on Sri Lanka’s west coast. In the centre of the Cultural Triangle, the Wilpattu National Park extends inland towards the historical city of Anuradhapura. The Park is in dry zone woodland, with a few floodplain lakes surrounded by majestic white dunes. It has incredible vegetation in vast stretches of forest and diverse animals.</p>
+          <h4>Location: North Western and North Central provinces, Sri Lanka</h4>
+        </div>
+      </div>
+    </div>
+    <div class="row upset justify-content-center mt60">
+      <div class="col-lg-7 v-center order2">
+        <div class="ps-block">
+          <span>04</span>
+          <h3>Safari at Horton Plains National Park </h3>
+          <p>This biodiversity hotspot spans 3,160 hectares, with roughly 60% of the area covered by montane grasslands and the remainder by subtropical montane evergreen forests. Half of the woody plants are only found in Sri Lanka. Frequent cloud cover reduces sun exposure, resulting in a temperature range and flora and animals unique to the Park. </p>
+          <h4>Location: Central province, Sri Lanka</h4>
+        </div>
+      </div>
+      <div class="col-lg-4 v-center order1 wow slideInRight" data-wow-delay="100ms" data-wow-duration="1500ms">
+        <div class="image-block1">
+          <img src="../images/safari/safari-04.png" alt="Process" class="img-fluid"/>
+        </div>
+      </div>
+    </div>
+    <div class="row upset justify-content-center mt60">
+      <div class="col-lg-4 v-center order1 wow slideInLeft" data-wow-delay="100ms" data-wow-duration="1500ms">
+        <div class="image-block1">
+          <img src="../images/safari/safari-05.png" alt="Process" class="img-fluid"/>
+        </div>
+      </div>
+      <div class="col-lg-7 v-center order2">
+        <div class="ps-block">
+          <span>05</span>
+          <h3>Safari at Minneriya National Park</h3>
+          <p>The Park is a significant home for two rare monkeys in Sri Lanka: the purple-faced langur and the toque macaque. The Park is frequented by large herbivorous animals such as Sri Lankan sambar deer and Sri Lankan axis deer. Minneriya is home to rare and endangered animals such as the Sri Lankan leopard and the Sri Lankan sloth bear. Minneriya is one of the regions in Sri Lanka where the slender grey loris is said to be found. </p>
+          <h4>Location: North Central province, Sri Lanka</h4>
+        </div>
+      </div>
+    </div>
+    <div class="row upset justify-content-center mt60">
+      <div class="col-lg-7 v-center order2">
+        <div class="ps-block">
+          <span>06</span>
+          <h3>Safari at Hurulu Eco Park</h3>
+          <p>The Sri Lankan elephant relies heavily on the forest reserve. The species is noted for its migratory behaviour, which occurs mainly during the dry season between the woodlands around the area. There are several additional protected sites surrounding Hurulu Forest Reserve. Nature reserves in Ritigala, Minneriya-Giritale, and Mahaweli flood basins.</p>
+          <h4>Location: Trincomalee Road, Habarana , Sri Lanka</h4>
+        </div>
+      </div>
+      <div class="col-lg-4 v-center order1 wow slideInRight" data-wow-delay="100ms" data-wow-duration="1500ms">
+        <div class="image-block1">
+          <img src="../images/safari/safari-06.png" alt="Process" class="img-fluid"/>
+        </div>
+      </div>
+    </div>
+    <div class="row upset justify-content-center mt60">
+      <div class="col-lg-4 v-center order1 wow slideInLeft" data-wow-delay="100ms" data-wow-duration="1500ms">
+        <div class="image-block1">
+          <img src="../images/safari/safari-07.png" alt="Process" class="img-fluid"/>
+        </div>
+      </div>
+      <div class="col-lg-7 v-center order2">
+        <div class="ps-block">
+          <span>07</span>
+          <h3>Safari at Bundala National Park</h3>
+          <p>The Bundala National Park is the Greater Flamingo’s final known sanctuary, and enormous flocks may be seen throughout the migratory season. Bundala is Sri Lanka’s sole National Park, where visitors may see both types of crocodiles found on the island. There are a lot of Estuarine and Mugger Crocodiles here. The Estuarine Crocodile is the biggest of all reptiles, with males reaching 7m in length and weighing up to 1,200 kilos, while females are much smaller, going a maximum length of just 3m.</p>
+          <h4>Location: Southern Province, Sri Lanka </h4>
+        </div>
+      </div>
+    </div>
+    <div class="row upset justify-content-center mt60">
+      <div class="col-lg-7 v-center order2">
+        <div class="ps-block">
+          <span>08</span>
+          <h3>Safari at Gal Oya National Park</h3>
+          <p>This is different from your typical wildlife trip; game drives and boat safaris allow you to explore your new home in the Gal Oya National Park by land and water. Jeep or boat safaris will enable you to see anything from an elephant grazing the grassland to swimming between islands.</p>
+          <h4>Location: Uva and Eastern provinces, Sri Lanka</h4>
+        </div>
+      </div>
+      <div class="col-lg-4 v-center order1 wow slideInRight" data-wow-delay="100ms" data-wow-duration="1500ms">
+        <div class="image-block1">
+          <img src="../images/safari/safari-08.png" alt="Process" class="img-fluid"/>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+<!--====================End Of Best Place Page  ====================-->
+
+
+<!--=================================
+=            subscribe Page         =
+==================================-->
+<section class="subscribe-section elements sec-pad-two">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-md-12 col-sm-12 image-column">
+        <div id="iamge_block_05">
+          <div class="image-box wow slideInLeft animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+            <figure class="image float-bob-y"><img src="../images/icon/Email%20campaign-amico%201.png" alt=""></figure>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-12 col-sm-12 content-column">
+        <div id="content_block_06">
+          <div class="content-box">
+            <div class="sec-title"><h2>Subscribe our Newsletter</h2></div>
+            <div class="text">Lorem ipsum dolor sit amet consectetur adipiscing elit donec tempus pellentesque dui vel tristique purus justo</div>
+            <form action="#" method="post" class="subscribe-form">
+              <div class="form-group">
+                <input type="email" name="email" placeholder="Enter Your Email" required="">
+                <button type="submit" class="theme-btn-two">Subscribe Now</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--====  End of subscribe Page  ====-->
+
+<!--=================================
+=            footer Page           =
+==================================-->
+<footer class="site-footer style-1" id="footer">
+  <div class="footer-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-3 col-sm-6 wow slideInUp" data-wow-delay="00ms" data-wow-duration="600ms">
+          <div class="widget widget_about">
+            <div class="footer-logo logo-white">
+              <img src="../images/Logo(1).png" alt="">
+            </div>
+            <p>
+              In Sri Lanka, diverse landscapes and rich culture create a captivating experience. From ancient cities to pristine beaches, the island's charm unfolds in every corner.</p>
+            <ul class="social-list">
+              <li><a target="_blank" href="https://www.facebook.com/" class="btn-facebook"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a target="_blank" href="https://www.instagram.com/" class="btn-instagram"><i class="fab fa-instagram"></i></a></li>
+              <li><a target="_blank" href="https://twitter.com/" class="btn-twitter"><i class="fab fa-twitter"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-xl-3 col-sm-6 wow slideInUp" data-wow-delay="00ms" data-wow-duration="800ms">
+          <div class="widget widget_categories">
+            <div class="widget-title">
+              <h4 class="title">Our Links</h4>
+              <div class="dz-separator style-1 text-primary mb-0"></div>
+            </div>
+            <ul class="list-2">
+              <li class="cat-item"><a href="../../index.html">Home</a></li>
+              <!--                            <li class="cat-item"><a href="team.html">Team</a></li>-->
+              <li class="cat-item"><a href="about.html">About Us</a></li>
+              <!--                            <li class="cat-item"><a href="contact-us.html">Contact Us</a></li>-->
+              <li class="cat-item"><a href="services.html">Service</a></li>
+              <!--                            <li class="cat-item"><a href="contact-us.html">Support</a></li>-->
+              <li class="cat-item"><a href="portfolio.html">Gallery</a></li>
+              <li class="cat-item"><a href="best-place.html">Best Place</a></li>
+              <li class="cat-item"><a href="blog-grid-2-sidebar.html">Contact Us</a></li>
+              <!--                            <li class="cat-item"><a href="about-us.html">Legal</a></li>-->
+            </ul>
+          </div>
+        </div>
+        <div class="col-xl-3 col-sm-6 wow slideInUp" data-wow-delay="00ms" data-wow-duration="1000ms">
+          <div class="widget widget_getintuch">
+            <div class="widget-title">
+              <h4 class="title">Contact Us</h4>
+              <div class="dz-separator style-1 text-primary mb-0"></div>
+            </div>
+            <ul>
+              <li>
+                <i class="fas fa-map-marker-alt"></i>
+                <span>Marmora Road City, Demo Address #8901, Vietnam</span>
+              </li>
+              <li>
+                <i class="fas fa-phone"></i>
+                <span>+94 713 988 628</span><br>
+                <span>+94 724 077 545</span>
+              </li>
+              <li>
+                <i class="fas fa-envelope"></i>
+                <span>Lakshan@gmail.com</span><br>
+                <span>info@supports.com</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-xl-3 col-sm-6 wow slideInUp" data-wow-delay="00ms" data-wow-duration="1200ms">
+          <div class="widget recent-posts-entry">
+            <div class="widget-title">
+              <h4 class="title">Latest News</h4>
+              <div class="dz-separator style-1 text-primary mb-0"></div>
+            </div>
+            <div class="widget-post-bx">
+              <div class="widget-post clearfix">
+                <div class="dz-media">
+                  <img src="../images/footer1.png" alt="">
+                </div>
+                <div class="dz-info">
+                  <h6 class="title"><a href="blog-details.html">How Industry Can Increase</a></h6>
+                  <div class="dz-meta">
+                    <ul>
+                      <li class="post-date"> <i class="fas fa-calendar-alt"></i> 12 June, 2021</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="widget-post clearfix">
+                <div class="dz-media">
+                  <img src="../images/footer2.png" alt="">
+                </div>
+                <div class="dz-info">
+                  <h6 class="title"><a href="blog-details-2.html">The Shocking Revelation of Industry</a></h6>
+                  <div class="dz-meta">
+                    <ul>
+                      <li class="post-date"> <i class="fas fa-calendar-alt"></i> 11 June, 2021 </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Footer Bottom -->
+  <div class="footer-bottom">
+    <div class="container">
+      <div class="row fb-inner">
+        <div class="col-12 text-center">
+          <span class="copyright-text">Copyright © 2021 <span class="heart"></span>  <a href="https://lakshan-a.github.io/New-Portfolio/" class="text-link" target="_blank">Lakshan Rashmika</a> All rights reserved.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!--====  End of footer Page  ====-->
+
+<!--=================================
+=            Back to top           =
+==================================-->
+<a href="#top" class="back-to-top" data-back-to-top>BACK TOP</a>
+<!--====  End of Back to Top  ====-->
+
+
+<!-- js-scripts -->
+<script src="../js/js.js"></script>
+
+
+<!-- js -->
+<script type="text/javascript" src="../js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="../js/bootstrap.js"></script> <!-- Necessary-JavaScript-File-For-Bootstrap -->
+<!-- //js -->
+
+<!--  Testimonials js-->
+<script defer src="../js/jquery.flexslider.js"></script>
+<!--Start-slider-script-->
+<script type="text/javascript">
+
+  $(window).load(function(){
+    $('.flexslider').flexslider({
+      animation: "slide",
+      start: function(slider){
+        $('body').removeClass('loading');
+      }
+    });
+  });
+
+</script>
 </body>
 </html>
