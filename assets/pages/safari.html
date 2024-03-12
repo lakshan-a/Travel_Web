@@ -1,10 +1,461 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>SL Travels</title>
+    <!-- Meta tag Keywords -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+    <link rel="icon" type="image/png" href="../images/Logo.png">
 
+    <!-- Testimonials -->
+    <link rel="stylesheet" href="../css/flexslider.css" type="text/css" media="screen" />
+    <!-- //Testimonials -->
+
+    <!-- css files -->
+    <link rel="stylesheet" href="../css/bootstrap.css"> <!-- Bootstrap-Core-CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/font-awesome.css"> <!-- Font-Awesome-Icons-CSS -->
+    <!-- //css files -->
+
+    <!-- web-fonts -->
+    <link href="//fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=cyrillic,cyrillic-ext,latin-ext,vietnamese" rel="stylesheet">
+
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
+
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css'>
+    <link rel="stylesheet" href="../css/flaticon.css">
+    <!--    <link rel="stylesheet" href="assets/css/font-awesome-all.css">-->
+    <link rel="stylesheet" href="../css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="../animate/animate.css">
+
+    <script src="../js/jquery.fancybox.min.js"></script>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../animate/jquery.js"></script>
+    <script src="../animate/wow.js"></script>
+    <script src="../js/tilt.jquery.js"></script>
+    <script src="../js/appear.js"></script>
+
+    <!-- //web-fonts -->
+
+</head>
+
+<body>
+<header>
+    <a href="../../index.html" class="brand" >SL<span> Travel</span> </a>
+
+    <div class="navigation">
+        <div class="navigation-items">
+            <a href="../../index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Service</a>
+            <a href="#">Gallery</a>
+            <a href="#">Contact</a>
+        </div>
+    </div>
+    <div class="header-icon">
+        <!--        <div class="search-btn"></div>-->
+        <!--        <div class="login-btn"></div>-->
+
+        <i class="ri-search-line nav__search" id="search-btn"></i>
+
+        <!-- Login button -->
+        <i class="ri-user-line nav__login" id="login-btn"></i>
+        <div class="menu-btn"></div>
+    </div>
+</header>
+
+
+<!--==================== SEARCH ====================-->
+<div class="search" id="search">
+    <form action="" class="search__form">
+        <i class="ri-search-line search__icon"></i>
+        <input type="search" placeholder="What are you looking for?" class="search__input">
+    </form>
+
+    <i class="ri-close-line search__close" id="search-close"></i>
+</div>
+
+<!--==================== LOGIN ====================-->
+<div class="login" id="login">
+    <form action="" class="login__form">
+        <h2 class="login__title">Log In</h2>
+
+        <div class="login__group">
+            <div>
+                <label for="email" class="login__label">Email</label>
+                <input type="email" placeholder="Write your email" id="email" class="login__input">
+            </div>
+
+            <div>
+                <label for="password" class="login__label">Password</label>
+                <input type="password" placeholder="Enter your password" id="password" class="login__input">
+            </div>
+        </div>
+
+        <div>
+            <p class="login__signup">
+                You do not have an account? <a href="#">Sign up</a>
+            </p>
+
+            <a href="#" class="login__forgot">
+                You forgot your password
+            </a>
+
+            <button type="submit" class="login__button">Log In</button>
+        </div>
+    </form>
+
+    <i class="ri-close-line login__close" id="login-close"></i>
+</div>
+
+
+<!--=================================
+=        Best Place Page Title         =
+==================================-->
+
+<section class="page-title" style="background-image:url(../images/camping/camping.jpg)">
+    <div class="auto-container">
+        <div class="clearfix">
+            <div class="pull-left">
+                <h2>Camping</h2>
+                <div class="text">Fitness is not a destination it is a way of life.</div>
+            </div>
+            <div class="pull-right">
+                <ul class="page-breadcrumb">
+                    <li><a href="../../index.html">home</a></li>
+                    <li>Camping</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<!--====================End Of Best Place Page Title ====================-->
+
+<!--=================================
+=            Best Place Page         =
+==================================-->
+
+<section class="service-block pad-tb">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="common-heading ptag">
+                    <span>Camping</span>
+                    <h2>Sri Lanka Camping</h2>
+                    <p>Camping in Sri Lanka can be the best experience you can have while being close to nature. Amidst the scenic jungle location you have a chance to go for rainforest camping which will allow you to get deeply absorbed in the sound of the water being closer to the fall.
+                        One can couple the camping expedition with other water activities such as water rafting, bird watching and trekking to waterfalls amongst others. You can have the same concept in a jungle safari too which is an equally thrilling experience. And you can hear the sound of the animals clearly since it is located right in heart of the jungle. </p>
+                </div>
+            </div>
+        </div>
+        <div class="row upset justify-content-center mt60">
+            <div class="col-lg-4 v-center order1 wow slideInLeft" data-wow-delay="100ms" data-wow-duration="1500ms">
+                <div class="image-block1">
+                    <img src="../images/camping/camping-01.png" alt="Process" class="img-fluid"/>
+                </div>
+            </div>
+            <div class="col-lg-7 v-center order2">
+                <div class="ps-block">
+                    <span>01</span>
+                    <h3>Meemure Camping</h3>
+                    <p>Camping tents situated in Rural Meemure, where you can fall in love with nature completely. Only for nature lovers not for luxury seekers. Our campsite is located just next to the Heen river and we provide traditional food, Camp fire, BBQ for every guest. Also if you need transport we can arrange transport island wide.</p>
+                    <h4>Location: Meemure , Hunnasgiriya, Sri Lanka</h4>
+                </div>
+            </div>
+        </div>
+        <div class="row upset justify-content-center mt60">
+            <div class="col-lg-7 v-center order2">
+                <div class="ps-block">
+                    <span>02</span>
+                    <h3>Belihuloya Camping</h3>
+                    <p>The Treehouse, which is perched on an old Gliricidia Tree, can be accessed by climbing a massive boulder. Once nestled inside on a comfortable double bed with a bird’s-eye view of the Campground, we guarantee you wouldn’t want to go anywhere. The elevated, private patio of the Treehouse is ideal for a romantic dinner, under the stars!</p>
+                    <h4>Location: Balangoda, Belihul Oya, Sri Lanka</h4>
+                </div>
+            </div>
+            <div class="col-lg-4 v-center order1 wow slideInRight" data-wow-delay="100ms" data-wow-duration="1500ms">
+                <div class="image-block1">
+                    <img src="../images/camping/camping-02.png" alt="Process" class="img-fluid"/>
+                </div>
+            </div>
+        </div>
+        <div class="row upset justify-content-center mt60">
+            <div class="col-lg-4 v-center order1 wow slideInLeft" data-wow-delay="100ms" data-wow-duration="1500ms">
+                <div class="image-block1">
+                    <img src="../images/camping/camping-03.png" alt="Process" class="img-fluid"/>
+                </div>
+            </div>
+            <div class="col-lg-7 v-center order2">
+                <div class="ps-block">
+                    <span>03</span>
+                    <h3>Yala National Park Camping</h3>
+                    <p>The sensational Yala wildlife National Park promises unparallel thrill and excellent adventurous experience with a visual treat of scenic excellence in the exclusive Yala Safari Camping. It is indeed an extra ordinary experience to rise up to a place where for miles there is no soul visible except the caretakers.</p>
+                    <h4>Location: Thalgasmankada, Sri Lanka</h4>
+                </div>
+            </div>
+        </div>
+        <div class="row upset justify-content-center mt60">
+            <div class="col-lg-7 v-center order2">
+                <div class="ps-block">
+                    <span>04</span>
+                    <h3>Kitugala Camping </h3>
+                    <p>Wake up with the melodious chirping of birds all around at the Rainforest Camping in the Kitugala Forest Reserve. The camping in the forest reserve of Kitugala is an experience in itself and will let you have a blend of both adventure and leisure at the same time. </p>
+                    <h4>Location: The camping base is approximately 2hrs 30 minutes’ drive from Colombo.</h4>
+                </div>
+            </div>
+            <div class="col-lg-4 v-center order1 wow slideInRight" data-wow-delay="100ms" data-wow-duration="1500ms">
+                <div class="image-block1">
+                    <img src="../images/camping/camping-04.png" alt="Process" class="img-fluid"/>
+                </div>
+            </div>
+        </div>
+        <div class="row upset justify-content-center mt60">
+            <div class="col-lg-4 v-center order1 wow slideInLeft" data-wow-delay="100ms" data-wow-duration="1500ms">
+                <div class="image-block1">
+                    <img src="../images/camping/camping-05.png" alt="Process" class="img-fluid"/>
+                </div>
+            </div>
+            <div class="col-lg-7 v-center order2">
+                <div class="ps-block">
+                    <span>05</span>
+                    <h3>Knuckles Mountain Camping</h3>
+                    <p>Based near Matale and Kandy districts of Sri Lanka, the Knuckles mountain range is famous for its beautiful scenic expedition and the salubrious and harmonious air that provides rejuvenation to the human soul in every way possible. Getting close to the exceptional beauty of Nature, one can truly seek a peace of mind here. </p>
+                    <h4>Location: Central Sri Lanka close to Kandy</h4>
+                </div>
+            </div>
+        </div>
+        <div class="row upset justify-content-center mt60">
+            <div class="col-lg-7 v-center order2">
+                <div class="ps-block">
+                    <span>06</span>
+                    <h3>Udawalawe National Park Camping</h3>
+                    <p>Spreading over an area of 31,000 hectares of land, Udawalawe National Park is famed for its huge elephant population marking to a figure of 600-700 in total. So catching a glimpse of elephants herds is not very unusual in this park. This also serves as a transit home where orphaned or injured elephants are kept for treatment and after few days again released in the park.</p>
+                    <h4>Location: Monaragala, Uva Province, Sri Lanka</h4>
+                </div>
+            </div>
+            <div class="col-lg-4 v-center order1 wow slideInRight" data-wow-delay="100ms" data-wow-duration="1500ms">
+                <div class="image-block1">
+                    <img src="../images/camping/camping-06.png" alt="Process" class="img-fluid"/>
+                </div>
+            </div>
+        </div>
+        <div class="row upset justify-content-center mt60">
+            <div class="col-lg-4 v-center order1 wow slideInLeft" data-wow-delay="100ms" data-wow-duration="1500ms">
+                <div class="image-block1">
+                    <img src="../images/camping/camping-07.png" alt="Process" class="img-fluid"/>
+                </div>
+            </div>
+            <div class="col-lg-7 v-center order2">
+                <div class="ps-block">
+                    <span>07</span>
+                    <h3>Vaddha Village Camping</h3>
+                    <p>They believe they are the descendants of them. A camping in this place can turn out to be a pretty interesting experience as one can meet the people of this clan up close and know more about their living styles and their culture</p>
+                    <h4>Location: Uva Province, Sri Lanka </h4>
+                </div>
+            </div>
+        </div>
+        <div class="row upset justify-content-center mt60">
+            <div class="col-lg-7 v-center order2">
+                <div class="ps-block">
+                    <span>08</span>
+                    <h3>Narangala camping</h3>
+                    <p>A hike follows camping in Narangala to the upper section of the mountain where one gets to witness the most breathtaking sceneries. If one could reach there in the early morning, they will be able to catch a glimpse of the beautiful sunrise. Kinakale is a nearby small town where people can park vehicles near an old tea factory and start hiking Narangala.</p>
+                    <h4>Location: Badulla District, Uva Province, Sri Lanka</h4>
+                </div>
+            </div>
+            <div class="col-lg-4 v-center order1 wow slideInRight" data-wow-delay="100ms" data-wow-duration="1500ms">
+                <div class="image-block1">
+                    <img src="../images/camping/camping-08.png" alt="Process" class="img-fluid"/>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!--====================End Of Best Place Page  ====================-->
+
+
+<!--=================================
+=            subscribe Page         =
+==================================-->
+<section class="subscribe-section elements sec-pad-two">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12 image-column">
+                <div id="iamge_block_05">
+                    <div class="image-box wow slideInLeft animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                        <figure class="image float-bob-y"><img src="../images/icon/Email%20campaign-amico%201.png" alt=""></figure>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 content-column">
+                <div id="content_block_06">
+                    <div class="content-box">
+                        <div class="sec-title"><h2>Subscribe our Newsletter</h2></div>
+                        <div class="text">Lorem ipsum dolor sit amet consectetur adipiscing elit donec tempus pellentesque dui vel tristique purus justo</div>
+                        <form action="#" method="post" class="subscribe-form">
+                            <div class="form-group">
+                                <input type="email" name="email" placeholder="Enter Your Email" required="">
+                                <button type="submit" class="theme-btn-two">Subscribe Now</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--====  End of subscribe Page  ====-->
+
+<!--=================================
+=            footer Page           =
+==================================-->
+<footer class="site-footer style-1" id="footer">
+    <div class="footer-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-3 col-sm-6 wow slideInUp" data-wow-delay="00ms" data-wow-duration="600ms">
+                    <div class="widget widget_about">
+                        <div class="footer-logo logo-white">
+                            <img src="../images/Logo(1).png" alt="">
+                        </div>
+                        <p>
+                            In Sri Lanka, diverse landscapes and rich culture create a captivating experience. From ancient cities to pristine beaches, the island's charm unfolds in every corner.</p>
+                        <ul class="social-list">
+                            <li><a target="_blank" href="https://www.facebook.com/" class="btn-facebook"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a target="_blank" href="https://www.instagram.com/" class="btn-instagram"><i class="fab fa-instagram"></i></a></li>
+                            <li><a target="_blank" href="https://twitter.com/" class="btn-twitter"><i class="fab fa-twitter"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-sm-6 wow slideInUp" data-wow-delay="00ms" data-wow-duration="800ms">
+                    <div class="widget widget_categories">
+                        <div class="widget-title">
+                            <h4 class="title">Our Links</h4>
+                            <div class="dz-separator style-1 text-primary mb-0"></div>
+                        </div>
+                        <ul class="list-2">
+                            <li class="cat-item"><a href="../../index.html">Home</a></li>
+                            <!--                            <li class="cat-item"><a href="team.html">Team</a></li>-->
+                            <li class="cat-item"><a href="about.html">About Us</a></li>
+                            <!--                            <li class="cat-item"><a href="contact-us.html">Contact Us</a></li>-->
+                            <li class="cat-item"><a href="services.html">Service</a></li>
+                            <!--                            <li class="cat-item"><a href="contact-us.html">Support</a></li>-->
+                            <li class="cat-item"><a href="portfolio.html">Gallery</a></li>
+                            <li class="cat-item"><a href="best-place.html">Best Place</a></li>
+                            <li class="cat-item"><a href="blog-grid-2-sidebar.html">Contact Us</a></li>
+                            <!--                            <li class="cat-item"><a href="about-us.html">Legal</a></li>-->
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-sm-6 wow slideInUp" data-wow-delay="00ms" data-wow-duration="1000ms">
+                    <div class="widget widget_getintuch">
+                        <div class="widget-title">
+                            <h4 class="title">Contact Us</h4>
+                            <div class="dz-separator style-1 text-primary mb-0"></div>
+                        </div>
+                        <ul>
+                            <li>
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Marmora Road City, Demo Address #8901, Vietnam</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-phone"></i>
+                                <span>+94 713 988 628</span><br>
+                                <span>+94 724 077 545</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-envelope"></i>
+                                <span>Lakshan@gmail.com</span><br>
+                                <span>info@supports.com</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-sm-6 wow slideInUp" data-wow-delay="00ms" data-wow-duration="1200ms">
+                    <div class="widget recent-posts-entry">
+                        <div class="widget-title">
+                            <h4 class="title">Latest News</h4>
+                            <div class="dz-separator style-1 text-primary mb-0"></div>
+                        </div>
+                        <div class="widget-post-bx">
+                            <div class="widget-post clearfix">
+                                <div class="dz-media">
+                                    <img src="../images/footer1.png" alt="">
+                                </div>
+                                <div class="dz-info">
+                                    <h6 class="title"><a href="blog-details.html">How Industry Can Increase</a></h6>
+                                    <div class="dz-meta">
+                                        <ul>
+                                            <li class="post-date"> <i class="fas fa-calendar-alt"></i> 12 June, 2021</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="widget-post clearfix">
+                                <div class="dz-media">
+                                    <img src="../images/footer2.png" alt="">
+                                </div>
+                                <div class="dz-info">
+                                    <h6 class="title"><a href="blog-details-2.html">The Shocking Revelation of Industry</a></h6>
+                                    <div class="dz-meta">
+                                        <ul>
+                                            <li class="post-date"> <i class="fas fa-calendar-alt"></i> 11 June, 2021 </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer Bottom -->
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row fb-inner">
+                <div class="col-12 text-center">
+                    <span class="copyright-text">Copyright © 2021 <span class="heart"></span>  <a href="https://lakshan-a.github.io/New-Portfolio/" class="text-link" target="_blank">Lakshan Rashmika</a> All rights reserved.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--====  End of footer Page  ====-->
+
+<!--=================================
+=            Back to top           =
+==================================-->
+<a href="#top" class="back-to-top" data-back-to-top>BACK TOP</a>
+<!--====  End of Back to Top  ====-->
+
+
+<!-- js-scripts -->
+<script src="../js/js.js"></script>
+
+
+<!-- js -->
+<script type="text/javascript" src="../js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="../js/bootstrap.js"></script> <!-- Necessary-JavaScript-File-For-Bootstrap -->
+<!-- //js -->
+
+<!--  Testimonials js-->
+<script defer src="../js/jquery.flexslider.js"></script>
+<!--Start-slider-script-->
+<script type="text/javascript">
+
+    $(window).load(function(){
+        $('.flexslider').flexslider({
+            animation: "slide",
+            start: function(slider){
+                $('body').removeClass('loading');
+            }
+        });
+    });
+
+</script>
 </body>
 </html>
