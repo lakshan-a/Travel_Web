@@ -2837,4 +2837,25 @@ html .mt60{
     z-index: 1;
 }
 
+.contact-section .contact-form-area .form-inner .form-group input[type='text'],
+.contact-section .contact-form-area .form-inner .form-group input[type='email'],
+.contact-section .contact-form-area .form-inner .form-group textarea{
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background: #fff;
+    padding: 10px 60px 10px 30px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 30px;
+    border: 3px solid #fff;
+    box-shadow: 0 0px 20px 0px rgba(0, 0, 0, 0.1);
+    transition: all 500ms ease;
+}
+
+.contact-section .contact-form-area .form-inner .form-group textarea{
+    height: 200px;
+    resize: none;
+    border-radius: 20px;
+}
 
