@@ -2773,5 +2773,19 @@ html .mt60{
     font-family: 'Ubuntu', sans-serif;
 }
 
+.contact-section .info-content .single-info-box .icon-box{
+    position: relative;
+    display: inline-block;
+    margin-bottom: 25px;
+}
 
+.contact-section .info-content .single-info-box .icon-box img{
+    position: relative;
+    width: auto;
+    transition: all 500ms ease;
+}
+
+.contact-section .info-content .single-info-box:hover .icon-box img{
+    transform: scale(1.05);
+}
 
