@@ -3104,3 +3104,39 @@ textarea:focus{
 .latest-works .single-work:hover .works-hover h4{
     transform: translateY(0px);
 }
+
+.latest-works .single-work .works-hover p{
+    color:#fff;
+    font-size:15px;
+    transform: translateY(-20px);
+    -webkit-transition:all 0.3s ease;
+    -moz-transition:all 0.3s ease;
+    transition:all 0.3s ease;
+}
+.latest-works .single-work:hover .works-hover p{
+    transform: translateY(0px);
+}
+.latest-works .single-work .works-hover .link {
+    font-size: 13px;
+    color: #fff;
+    background: transparent;
+    text-align: center;
+    position: absolute;
+    display: block;
+    z-index: 9999;
+    border-radius: 100%;
+    border: 1px solid #fff;
+    height: 40px;
+    width: 40px;
+    line-height: 39px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    right: 35px;
+    bottom: 35px;
+}
+.latest-works .single-work .works-hover .link:hover{
+    background:#fff;
+    color:#3353ea;
+    border-color:transparent;
+}
