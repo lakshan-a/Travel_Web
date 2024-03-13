@@ -2859,3 +2859,20 @@ html .mt60{
     border-radius: 20px;
 }
 
+input:focus,
+textarea:focus{
+    outline: none;
+    box-shadow: none;
+    transition: all 500ms ease;
+}
+
+.contact-section .contact-form-area .form-inner .form-group input:focus,
+.contact-section .contact-form-area .form-inner .form-group textarea:focus{
+    border-color: #4527a4;
+}
+
+.contact-section .contact-form-area .form-inner .message-btn{
+    margin: 0px;
+    text-align: center;
+}
+
