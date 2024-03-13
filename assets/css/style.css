@@ -2899,13 +2899,34 @@ textarea:focus{
     position: relative;
 }
 
-/*.map-section .google-map{*/
-/*    position: relative;*/
-/*    margin-bottom: -150px;*/
-/*}*/
 
 .map-section #contact-google-map {
     position: relative;
     width: 100%;
     height: 575px;
 }
+
+@media (max-width: 1200px) {
+    .contact-section .info-content .single-info-box{
+        padding: 0px 30px;
+    }
+
+}
+
+@media only screen and (max-width: 991px){
+    .contact-section .info-content .single-info-box {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .contact-section{
+        padding: 70px 0px;
+    }
+
+    .contact-section .info-content, .contact-section .image-container{
+        margin-bottom: 30px;
+    }
+
+}
+
