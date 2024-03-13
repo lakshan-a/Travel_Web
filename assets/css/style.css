@@ -2805,3 +2805,20 @@ html .mt60{
     margin-bottom: 14px;
 }
 
+.contact-section .info-content .single-info-box a{
+    position: relative;
+    display: inline-block;
+    font-size: 18px;
+    color: #4527a4;
+}
+
+.contact-section .info-content .single-info-box a:hover{
+    text-decoration: underline;
+}
+
+.contact-section .info-content,
+.contact-section .image-container{
+    position: relative;
+    margin-bottom: 110px;
+}
+
