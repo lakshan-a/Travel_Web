@@ -2930,3 +2930,25 @@ textarea:focus{
 
 }
 
+/*<!--====  Gallery Page   ====-->*/
+
+.latest-works{
+    background:#f4f7fc;
+}
+.latest-works .section-title {
+    text-align:left;
+    margin-bottom:30px;
+}
+.latest-works .section-title h2:after{
+    left:0;
+    margin-left:0px;
+}
+/* works-menu */
+.latest-works .works-menu {
+    text-align: left;
+    padding-bottom: 15px;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-right: 24px;
+}
