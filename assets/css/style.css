@@ -3020,3 +3020,41 @@ textarea:focus{
     background:#3353ea;
     border-color:#3353ea;
 }
+
+/* single-work */
+.latest-works .single-work{
+    position:relative;
+    margin-bottom:30px;
+    overflow:hidden;
+    z-index:9;
+}
+.latest-works .single-work:before{
+    background:#3353ea;
+    top:0px;
+    left:0;
+    content: "";
+    height: 100%;
+    width:100%;
+    left:0px;
+    position: absolute;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    opacity:0;
+    visibility:hidden;
+    z-index:5;
+}
+.latest-works .single-work:hover:before{
+    opacity:0.9;
+    visibility:visible;
+}
+.latest-works .single-work img{
+    width:100%;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    z-index:-1;
+}
+.latest-works .single-work:hover img{
+    transform:scale(1.2);
+}
