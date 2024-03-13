@@ -2751,10 +2751,27 @@ html .mt60{
         margin: 30px 0 0
     }
 
-
-
 }
 
+
+/*<!--====  Contact Page   ====-->*/
+
+
+.contact-section{
+    position: relative;
+    padding: 160px 0px 100px 0px;
+}
+
+.contact-section .info-content .single-info-box{
+    position: relative;
+    padding: 0px 30px;
+    text-align: center;
+    color: #777777;
+    line-height: 30px;
+    font-weight: 400;
+    background: #ffffff;
+    font-family: 'Ubuntu', sans-serif;
+}
 
 
 
