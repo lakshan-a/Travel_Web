@@ -2894,3 +2894,18 @@ textarea:focus{
     font-family: 'Ubuntu', sans-serif;
 }
 
+/*<!--====  Map Section   ====-->*/
+.map-section{
+    position: relative;
+}
+
+/*.map-section .google-map{*/
+/*    position: relative;*/
+/*    margin-bottom: -150px;*/
+/*}*/
+
+.map-section #contact-google-map {
+    position: relative;
+    width: 100%;
+    height: 575px;
+}
