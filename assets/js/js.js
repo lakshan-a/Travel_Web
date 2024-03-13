@@ -236,4 +236,33 @@ window.addEventListener("scroll", function () {
 
 
 
+(function($) {
+    "use strict";
+    $(document).on('ready', function() {
 
+        // Portfolio Single Slider JS  //
+        $('.single-p-slider').owlCarousel({
+            autoplay:false,
+            autoplayTimeout:4500,
+            smartSpeed: 500,
+            autoplayHoverPause:true,
+            loop:true,
+            merge:true,
+            nav:true,
+            dots:false,
+            navText: ['<i class="fas fa-chevron-left"></i>', '<i class="fas fa-chevron-right"></i>'],
+            responsive:{
+                300: {
+                    items:1,
+                },
+                480: {
+                    items:2,
+                },
+                1170: {
+                    items:3,
+                }
+            }
+        });
+
+    });
+})(jQuery);
