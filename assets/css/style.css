@@ -2951,7 +2951,7 @@ textarea:focus{
 	Latest Works
 ================================*/
 .latest-works{
-    background:#f4f7fc;
+    padding: 70px 0px;
 }
 .latest-works .section-title {
     text-align:left;
@@ -2992,6 +2992,12 @@ textarea:focus{
 .latest-works .works-menu ul li:last-child{
     margin-right:0;
 }
+
+.gallery{
+    margin-top: 100px;
+}
+
+
 .latest-works .works-menu ul li span {
     display: block;
     color: #fff;
@@ -3179,14 +3185,21 @@ textarea:focus{
     }
 
     .latest-works .works-menu {
-        /*text-align: left;*/
+        text-align: right;
         margin-bottom: 30px;
-        margin-top: 35px;
+        margin-top: 0;
 
     }
     .latest-works .works-menu ul li {
         padding: 5px 18px;
         margin-bottom:10px;
+    }
+
+}
+
+@media (max-width: 559px) {
+    .gallery {
+        margin-top: 257px;
     }
 
 }
