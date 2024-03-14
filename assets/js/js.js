@@ -240,6 +240,7 @@ window.addEventListener("scroll", function () {
     "use strict";
     $(document).on('ready', function() {
 
+
         // Portfolio Single Slider JS  //
         $('.single-p-slider').owlCarousel({
             autoplay:false,
@@ -264,14 +265,14 @@ window.addEventListener("scroll", function () {
             }
         });
 
-    });
+        // Magnific Popup JS  //
+        $('.work-popup').magnificPopup({
+            type: 'image',
+            gallery:{
+                enabled:true
+            }
+        });
 
-    $('.work-popup').magnificPopup({
-        type: 'image',
-        gallery:{
-            enabled:true
-        }
     });
 
 })(jQuery);
-
