@@ -2931,20 +2931,27 @@ textarea:focus{
 }
 
 /*<!--====  Gallery Page   ====-->*/
-/*.section-title h2 .first {*/
-/*    display: block;*/
-/*    text-transform: uppercase;*/
-/*    font-size: 14px;*/
-/*    font-weight: 500;*/
-/*    color: #3353ea;*/
-/*    margin-bottom: 10px;*/
-/*}*/
-/*.section-title h2 .second {*/
-/*    display: block;*/
-/*    font-size: 20px;*/
-/*    font-weight: 500;*/
-/*    margin-top: 5px;*/
-/*}*/
+
+.section-title h1{
+    /*line-height: 45px;*/
+    margin-bottom: 8px;
+    font-family: 'Pacifico', cursive;
+    font-weight: 700;
+    color: #1abc9c;
+    font-size: 20px;
+}
+
+.section-title h2{
+    position: relative;
+    display: block;
+    font-size: 25px;
+    /*line-height: 36px;*/
+    /*font-weight: 500;*/
+    /*margin-bottom: 28px;*/
+    font-family: "Nunito", sans-serif;
+    font-weight: 800;
+    color: #0F172B;
+}
 
 
 /*===============================
@@ -2955,7 +2962,7 @@ textarea:focus{
 }
 .latest-works .section-title {
     text-align:left;
-    margin-bottom:30px;
+    /*margin-bottom:30px;*/
 }
 .latest-works .section-title h2:after{
     left:0;
@@ -2967,7 +2974,7 @@ textarea:focus{
     padding-bottom: 15px;
     text-align: center;
     margin-bottom: 50px;
-    margin-top: 50px;
+    margin-top: 35px;
     margin-right: 24px;
 }
 /*.latest-works .works-menu ul{*/
@@ -3187,7 +3194,7 @@ textarea:focus{
     .latest-works .works-menu {
         text-align: right;
         margin-bottom: 30px;
-        margin-top: 0;
+        /*margin-top: 0;*/
 
     }
     .latest-works .works-menu ul li {
@@ -3200,6 +3207,10 @@ textarea:focus{
 @media (max-width: 559px) {
     .gallery {
         margin-top: 257px;
+    }
+
+    .latest-works .works-menu {
+        margin-top: 30px;
     }
 
 }
