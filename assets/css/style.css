@@ -3009,7 +3009,7 @@ textarea:focus{
     display: block;
     color: #fff;
     font-size: 13px;
-    background: #3353ea;
+    background: #1abc9c;
     height: 27px;
     width: 34px;
     line-height: 30px;
@@ -3032,7 +3032,7 @@ textarea:focus{
     content: "";
     left: 50%;
     bottom: -10px;
-    border: 5px solid #3353ea;
+    border: 5px solid #1abc9c;
     border-bottom: 5px solid transparent;
     border-left: 5px solid transparent;
     border-right: 5px solid transparent;
@@ -3049,8 +3049,8 @@ textarea:focus{
 .latest-works .works-menu ul li.active{
     color:#fff;
     cursor:pointer;
-    background:#3353ea;
-    border-color:#3353ea;
+    background:#1abc9c;
+    border-color:#1abc9c;
 }
 /* single-work */
 .latest-works .single-work{
@@ -3060,7 +3060,7 @@ textarea:focus{
     z-index:9;
 }
 .latest-works .single-work:before{
-    background:#3353ea;
+    background: rgba(26, 188, 156, 0.5);
     top:0px;
     left:0;
     content: "";
@@ -3123,12 +3123,12 @@ textarea:focus{
     -webkit-transition: all 0.4s ease;
     -moz-transition: all 0.4s ease;
     transition: all 0.4s ease;
-    background: #fff;
-    color: #3353ea;
+    /*background: #fff;*/
+    color: #ffffff;
     display: inline-block;
 }
 .latest-works .single-work .works-hover h4 a{
-    color:#3353ea;
+    color:#1abc9c;
     padding: 5px 10px;
 }
 .latest-works .single-work:hover .works-hover h4{
@@ -3166,7 +3166,7 @@ textarea:focus{
 }
 .latest-works .single-work .works-hover .link:hover{
     background:#fff;
-    color:#3353ea;
+    color:#1abc9c;
     border-color:transparent;
 }
 
