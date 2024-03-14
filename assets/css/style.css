@@ -2932,12 +2932,17 @@ textarea:focus{
 
 /*<!--====  Gallery Page   ====-->*/
 
+/*===============================
+	Latest Works
+================================*/
 .latest-works{
     background:#f4f7fc;
 }
 .latest-works .section-title {
     text-align:left;
     margin-bottom:30px;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 .latest-works .section-title h2:after{
     left:0;
@@ -2952,7 +2957,9 @@ textarea:focus{
     margin-top: 50px;
     margin-right: 24px;
 }
-
+/*.latest-works .works-menu ul{*/
+/*    margin-left: -27px;*/
+/*}*/
 .latest-works .works-menu ul li {
     position: relative;
     font-size: 13px;
@@ -2994,7 +3001,6 @@ textarea:focus{
     opacity:0;
     visibility:hidden;
 }
-
 .latest-works .works-menu ul li span::before {
     position: absolute;
     content: "";
@@ -3020,7 +3026,6 @@ textarea:focus{
     background:#3353ea;
     border-color:#3353ea;
 }
-
 /* single-work */
 .latest-works .single-work{
     position:relative;
@@ -3058,7 +3063,6 @@ textarea:focus{
 .latest-works .single-work:hover img{
     transform:scale(1.2);
 }
-
 .latest-works .single-work .works-hover{
     position:absolute;
     top:0;
@@ -3104,7 +3108,6 @@ textarea:focus{
 .latest-works .single-work:hover .works-hover h4{
     transform: translateY(0px);
 }
-
 .latest-works .single-work .works-hover p{
     color:#fff;
     font-size:15px;
@@ -3141,7 +3144,6 @@ textarea:focus{
     border-color:transparent;
 }
 
-
 @media only screen and (max-width: 767px){
     .latest-works .works-menu ul li {
         padding: 5px 18px;
@@ -3164,7 +3166,7 @@ textarea:focus{
     }
 
     .latest-works .works-menu {
-        text-align: left;
+        /*text-align: left;*/
         margin-bottom: 30px;
         margin-top: 35px;
 
@@ -3175,3 +3177,4 @@ textarea:focus{
     }
 
 }
+
