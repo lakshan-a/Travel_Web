@@ -3216,118 +3216,7 @@ textarea:focus{
 
 }
 
-.loader {
-    width: 100vw;
-    height: 100vh;
-    /*border: 1px solid white;*/
-    background: #2d2d32;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 100000;
-}
-
-.loader{
-    position: absolute;
-    border-radius: 50%;
-    border: 5px solid #1abc9c;
-    border-bottom: 5px solid transparent;
-    aspect-ratio: 1;
-    animation: load 4s ease-in-out infinite;
-}
-
-@keyframes load {
-    0%{
-        transform: rotate(0deg);
-    }
-    100%{
-        transform: rotate(720deg);
-    }
-}
-
-.loader-1{
-    width: 250px;
-    animation-direction: normal;
-}
-.loader-2{
-    width: 200px;
-    animation-direction: reverse;
-}
-.loader-3{
-    width: 150px;
-    animation-direction: normal;
-}
-
-.loader-4{
-    width: 100px;
-    animation-direction: reverse;
-}
-
-.loader-5{
-    width: 50px;
-    animation-direction: normal;
-}
-
-
-
-/*.pl {*/
-/*    display: block;*/
-/*    width: 6.25em;*/
-/*    height: 6.25em;*/
-/*}*/
-/*.pl__ring, .pl__ball {*/
-/*    animation: ring 2s ease-out infinite;*/
-/*}*/
-/*.pl__ball {*/
-/*    animation-name: ball;*/
-/*}*/
-
-/*!* Dark theme  *!*/
-/*!*@media (prefers-color-scheme: dark) {*!*/
-/*!*    :root {*!*/
-/*!*        --bg: hsl(var(--hue),10%,10%);*!*/
-/*!*        --fg: hsl(var(--hue),10%,90%);*!*/
-/*!*    }*!*/
-/*!*}*!*/
-
-/*!* Animation *!*/
-/*@keyframes ring {*/
-/*    from {*/
-/*        stroke-dasharray: 0 257 0 0 1 0 0 258;*/
-/*    }*/
-/*    25% {*/
-/*        stroke-dasharray: 0 0 0 0 257 0 258 0;*/
-/*    }*/
-/*    50%, to {*/
-/*        stroke-dasharray: 0 0 0 0 0 515 0 0;*/
-/*    }*/
-/*}*/
-/*@keyframes ball {*/
-/*    from, 50% {*/
-/*        animation-timing-function: ease-in;*/
-/*        stroke-dashoffset: 1;*/
-/*    }*/
-/*    64% {*/
-/*        animation-timing-function: ease-in;*/
-/*        stroke-dashoffset: -109;*/
-/*    }*/
-/*    78% {*/
-/*        animation-timing-function: ease-in;*/
-/*        stroke-dashoffset: -145;*/
-/*    }*/
-/*    92% {*/
-/*        animation-timing-function: ease-in;*/
-/*        stroke-dashoffset: -157;*/
-/*    }*/
-/*    57%, 71%, 85%, 99%, to {*/
-/*        animation-timing-function: ease-out;*/
-/*        stroke-dashoffset: -163;*/
-/*    }*/
-/*}*/
-
-/*.loading {*/
+/*.loader {*/
 /*    width: 100vw;*/
 /*    height: 100vh;*/
 /*    !*border: 1px solid white;*!*/
@@ -3340,15 +3229,199 @@ textarea:focus{
 /*    z-index: 100000;*/
 /*}*/
 
-/*.loading > svg {*/
-/*    width: 100px;*/
-/*    height: 100px;*/
-/*    background-size: cover;*/
-/*    background-position: center;*/
-/*    position: absolute;*/
-/*    top: 0;*/
-/*    left: 0;*/
-/*    right: 0;*/
-/*    bottom: 0;*/
-/*    margin: auto;*/
-/*}*/
+.wifi-loader {
+    --background: #62abff;
+    --front-color: #4f29f0;
+    --back-color: #c3c8de;
+    --text-color: #414856;
+    width: 64px;
+    height: 64px;
+    border-radius: 50px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wifi-loader svg {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wifi-loader svg circle {
+    position: absolute;
+    fill: none;
+    stroke-width: 6px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    transform: rotate(-100deg);
+    transform-origin: center;
+}
+
+.wifi-loader svg circle.back {
+    stroke: var(--back-color);
+}
+
+.wifi-loader svg circle.front {
+    stroke: var(--front-color);
+}
+
+.wifi-loader svg.circle-outer {
+    height: 86px;
+    width: 86px;
+}
+
+.wifi-loader svg.circle-outer circle {
+    stroke-dasharray: 62.75 188.25;
+}
+
+.wifi-loader svg.circle-outer circle.back {
+    animation: circle-outer135 1.8s ease infinite 0.3s;
+}
+
+.wifi-loader svg.circle-outer circle.front {
+    animation: circle-outer135 1.8s ease infinite 0.15s;
+}
+
+.wifi-loader svg.circle-middle {
+    height: 60px;
+    width: 60px;
+}
+
+.wifi-loader svg.circle-middle circle {
+    stroke-dasharray: 42.5 127.5;
+}
+
+.wifi-loader svg.circle-middle circle.back {
+    animation: circle-middle6123 1.8s ease infinite 0.25s;
+}
+
+.wifi-loader svg.circle-middle circle.front {
+    animation: circle-middle6123 1.8s ease infinite 0.1s;
+}
+
+.wifi-loader svg.circle-inner {
+    height: 34px;
+    width: 34px;
+}
+
+.wifi-loader svg.circle-inner circle {
+    stroke-dasharray: 22 66;
+}
+
+#wifi-loader svg.circle-inner circle.back {
+    animation: circle-inner162 1.8s ease infinite 0.2s;
+}
+
+.wifi-loader svg.circle-inner circle.front {
+    animation: circle-inner162 1.8s ease infinite 0.05s;
+}
+
+.wifi-loader .text {
+    position: absolute;
+    bottom: -40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: lowercase;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+}
+
+.wifi-loader .text::before, .wifi-loader .text::after {
+    content: attr(data-text);
+}
+
+.wifi-loader .text::before {
+    color: var(--text-color);
+}
+
+.wifi-loader .text::after {
+    color: var(--front-color);
+    animation: text-animation76 3.6s ease infinite;
+    position: absolute;
+    left: 0;
+}
+
+@keyframes circle-outer135 {
+    0% {
+        stroke-dashoffset: 25;
+    }
+
+    25% {
+        stroke-dashoffset: 0;
+    }
+
+    65% {
+        stroke-dashoffset: 301;
+    }
+
+    80% {
+        stroke-dashoffset: 276;
+    }
+
+    100% {
+        stroke-dashoffset: 276;
+    }
+}
+
+@keyframes circle-middle6123 {
+    0% {
+        stroke-dashoffset: 17;
+    }
+
+    25% {
+        stroke-dashoffset: 0;
+    }
+
+    65% {
+        stroke-dashoffset: 204;
+    }
+
+    80% {
+        stroke-dashoffset: 187;
+    }
+
+    100% {
+        stroke-dashoffset: 187;
+    }
+}
+
+@keyframes circle-inner162 {
+    0% {
+        stroke-dashoffset: 9;
+    }
+
+    25% {
+        stroke-dashoffset: 0;
+    }
+
+    65% {
+        stroke-dashoffset: 106;
+    }
+
+    80% {
+        stroke-dashoffset: 97;
+    }
+
+    100% {
+        stroke-dashoffset: 97;
+    }
+}
+
+@keyframes text-animation76 {
+    0% {
+        clip-path: inset(0 100% 0 0);
+    }
+
+    50% {
+        clip-path: inset(0);
+    }
+
+    100% {
+        clip-path: inset(0 0 0 100%);
+    }
+}
