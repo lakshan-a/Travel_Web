@@ -27,8 +27,12 @@
   font-family: Flaticon;
   font-style: normal;
 }
-/*.flaticon-transportation:before{ content: "\f87f"}*/
-.flaticon-target:before { content: "\f100"; }
+
+    .flaticon-qrcode:before {
+        content: "\f029";
+    }
+
+    .flaticon-target:before { content: "\f100"; }
 .flaticon-shipping:before { content: "\f101"; }
 .flaticon-dashboard:before { content: "\f102"; }
 .flaticon-smartphone:before { content: "\f103"; }
