@@ -3216,6 +3216,7 @@ textarea:focus{
 
 }
 
+/*<!--====  Loader   ====-->*/
 #preloader {
     background-color: #2c3034;
     position: fixed;
