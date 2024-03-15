@@ -437,6 +437,12 @@
 <!--Start-slider-script-->
 <script type="text/javascript">
 
+  // loading
+  $(window).on('load',function (){
+    $("#preloader").fadeOut(1000);
+    console.log("Window is fully loaded");
+  });
+
   $(window).load(function(){
     $('.flexslider').flexslider({
       animation: "slide",
