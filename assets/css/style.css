@@ -3216,212 +3216,79 @@ textarea:focus{
 
 }
 
-/*.loader {*/
-/*    width: 100vw;*/
-/*    height: 100vh;*/
-/*    !*border: 1px solid white;*!*/
-/*    background: #2d2d32;*/
-/*    position: fixed;*/
-/*    top: 0;*/
-/*    left: 0;*/
-/*    right: 0;*/
-/*    bottom: 0;*/
-/*    z-index: 100000;*/
+/*body {*/
+/*    background-color: #222;*/
 /*}*/
-
-.wifi-loader {
-    --background: #62abff;
-    --front-color: #4f29f0;
-    --back-color: #c3c8de;
-    --text-color: #414856;
-    width: 64px;
-    height: 64px;
-    border-radius: 50px;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.wifi-loader svg {
+#preloader {
+    background-color: #2c3034;
     position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.wifi-loader svg circle {
-    position: absolute;
-    fill: none;
-    stroke-width: 6px;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    transform: rotate(-100deg);
-    transform-origin: center;
-}
-
-.wifi-loader svg circle.back {
-    stroke: var(--back-color);
-}
-
-.wifi-loader svg circle.front {
-    stroke: var(--front-color);
-}
-
-.wifi-loader svg.circle-outer {
-    height: 86px;
-    width: 86px;
-}
-
-.wifi-loader svg.circle-outer circle {
-    stroke-dasharray: 62.75 188.25;
-}
-
-.wifi-loader svg.circle-outer circle.back {
-    animation: circle-outer135 1.8s ease infinite 0.3s;
-}
-
-.wifi-loader svg.circle-outer circle.front {
-    animation: circle-outer135 1.8s ease infinite 0.15s;
-}
-
-.wifi-loader svg.circle-middle {
-    height: 60px;
-    width: 60px;
-}
-
-.wifi-loader svg.circle-middle circle {
-    stroke-dasharray: 42.5 127.5;
-}
-
-.wifi-loader svg.circle-middle circle.back {
-    animation: circle-middle6123 1.8s ease infinite 0.25s;
-}
-
-.wifi-loader svg.circle-middle circle.front {
-    animation: circle-middle6123 1.8s ease infinite 0.1s;
-}
-
-.wifi-loader svg.circle-inner {
-    height: 34px;
-    width: 34px;
-}
-
-.wifi-loader svg.circle-inner circle {
-    stroke-dasharray: 22 66;
-}
-
-#wifi-loader svg.circle-inner circle.back {
-    animation: circle-inner162 1.8s ease infinite 0.2s;
-}
-
-.wifi-loader svg.circle-inner circle.front {
-    animation: circle-inner162 1.8s ease infinite 0.05s;
-}
-
-.wifi-loader .text {
-    position: absolute;
-    bottom: -40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-transform: lowercase;
-    font-weight: 500;
-    font-size: 14px;
-    letter-spacing: 0.2px;
-}
-
-.wifi-loader .text::before, .wifi-loader .text::after {
-    content: attr(data-text);
-}
-
-.wifi-loader .text::before {
-    color: var(--text-color);
-}
-
-.wifi-loader .text::after {
-    color: var(--front-color);
-    animation: text-animation76 3.6s ease infinite;
-    position: absolute;
+    top: 0;
     left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10000;
 }
-
-@keyframes circle-outer135 {
-    0% {
-        stroke-dashoffset: 25;
-    }
-
-    25% {
-        stroke-dashoffset: 0;
-    }
-
-    65% {
-        stroke-dashoffset: 301;
-    }
-
-    80% {
-        stroke-dashoffset: 276;
-    }
-
-    100% {
-        stroke-dashoffset: 276;
-    }
+#loader {
+    display: block;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    width: 150px;
+    height: 150px;
+    margin: -75px 0 0 -75px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #1abc9c;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
 }
-
-@keyframes circle-middle6123 {
-    0% {
-        stroke-dashoffset: 17;
-    }
-
-    25% {
-        stroke-dashoffset: 0;
-    }
-
-    65% {
-        stroke-dashoffset: 204;
-    }
-
-    80% {
-        stroke-dashoffset: 187;
-    }
-
-    100% {
-        stroke-dashoffset: 187;
-    }
+#loader:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #1abc9c;
+    -webkit-animation: spin 3s linear infinite;
+    animation: spin 3s linear infinite;
 }
-
-@keyframes circle-inner162 {
-    0% {
-        stroke-dashoffset: 9;
+#loader:after {
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #1abc9c;
+    -webkit-animation: spin 1.5s linear infinite;
+    animation: spin 1.5s linear infinite;
+}
+@-webkit-keyframes spin {
+    0%   {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
     }
-
-    25% {
-        stroke-dashoffset: 0;
-    }
-
-    65% {
-        stroke-dashoffset: 106;
-    }
-
-    80% {
-        stroke-dashoffset: 97;
-    }
-
     100% {
-        stroke-dashoffset: 97;
+        -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
     }
 }
-
-@keyframes text-animation76 {
-    0% {
-        clip-path: inset(0 100% 0 0);
+@keyframes spin {
+    0%   {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
     }
-
-    50% {
-        clip-path: inset(0);
-    }
-
     100% {
-        clip-path: inset(0 0 0 100%);
+        -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
     }
 }
