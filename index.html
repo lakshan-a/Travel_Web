@@ -42,6 +42,8 @@
 </head>
 
 <body>
+
+
 <header>
     <a href="#" class="brand" >SL<span> Travel</span> </a>
 
@@ -648,6 +650,34 @@
 <a href="#top" class="back-to-top" data-back-to-top>BACK TOP</a>
 <!--====  End of Back to Top  ====-->
 
+<!--=================================
+=            Loader                =
+==================================-->
+<!--<div class="loader loader-1"></div>-->
+<!--<div class="loader loader-2"></div>-->
+<!--<div class="loader loader-3"></div>-->
+<!--<div class="loader loader-4"></div>-->
+<!--<div class="loader loader-5"></div>-->
+
+
+<section class="loading">
+    <svg class="pl" viewBox="0 0 200 200" width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+            <linearGradient id="pl-grad1" x1="1" y1="0.5" x2="0" y2="0.5">
+                <stop offset="0%" stop-color="#FAC921" />
+                <stop offset="100%" stop-color="#FAC921" />
+            </linearGradient>
+            <linearGradient id="pl-grad2" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#FAC921" />
+                <stop offset="100%" stop-color="#FAC921" />
+            </linearGradient>
+        </defs>
+        <circle class="pl__ring" cx="100" cy="100" r="82" fill="none" stroke="url(#pl-grad1)" stroke-width="36" stroke-dasharray="0 257 1 257" stroke-dashoffset="0.01" stroke-linecap="round" transform="rotate(-90,100,100)" />
+        <line class="pl__ball" stroke="url(#pl-grad2)" x1="100" y1="18" x2="100.01" y2="182" stroke-width="36" stroke-dasharray="1 165" stroke-linecap="round" />
+    </svg>
+</section>
+<!--====  End of Loader ====-->
+
 
 <!-- js-scripts -->
 <script src="assets/js/js.js"></script>
@@ -662,6 +692,12 @@
 <script defer src="assets/js/jquery.flexslider.js"></script>
 <!--Start-slider-script-->
 <script type="text/javascript">
+
+    // loading
+    $(window).on('load',function (){
+        $(".loading").fadeOut(1000);
+        console.log("Window is fully loaded");
+    });
 
     $(window).load(function(){
         $('.flexslider').flexslider({
