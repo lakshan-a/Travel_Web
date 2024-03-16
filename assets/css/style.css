@@ -3090,7 +3090,20 @@ textarea:focus{
     transition: all 0.4s ease;
     z-index:-1;
 }
+
+.latest-works .single-work video {
+    width: 100%;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    z-index: -1;
+}
+
 .latest-works .single-work:hover img{
+    transform:scale(1.2);
+}
+
+.latest-works .single-work:hover video{
     transform:scale(1.2);
 }
 .latest-works .single-work .works-hover{
