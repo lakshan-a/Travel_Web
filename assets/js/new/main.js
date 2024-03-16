@@ -226,9 +226,9 @@ Version:	1.1
 	/*====================================
 			Preloader JS
 		======================================*/
-		$(window).load(function(){
-				$('.preloader').fadeOut('slow', function(){
-				$(this).remove();
-			});
-		});
+		// $(window).load(function(){
+		// 		$('.preloader').fadeOut('slow', function(){
+		// 		$(this).remove();
+		// 	});
+		// });
 })(jQuery);
