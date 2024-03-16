@@ -2934,6 +2934,12 @@ textarea:focus{
 
 }
 
+@media (max-width: 575px) {
+    .contact-section .default-form{
+        padding: 10px;
+    }
+}
+
 /*<!--====  Gallery Page   ====-->*/
 
 .section-title h1{
