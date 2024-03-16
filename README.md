@@ -14,7 +14,7 @@
 
 Sl Travel is a fully responsive Travel website, <br />Responsive for all devices, build using HTML, CSS, and JavaScript.
 
-<a href="https://lakshan-a.github.io/Travel_Web/" target="_blank"><strong>➥ Live Demo</strong></a>
+<a href="https://lakshan-a.github.io/Travel_Web/" ><strong target="_blank">➥ Live Demo</strong></a>
 
 </div>
 
