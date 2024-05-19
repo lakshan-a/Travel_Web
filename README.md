@@ -20,8 +20,6 @@ Sl Travel is a fully responsive Travel website, <br />Responsive for all devices
 
 <br />
 
-### Demo Screeshots
-
 ![Fasteat Desktop Demo](./readme-images/desktop.png "Desktop Demo")
 
 ### Prerequisites
